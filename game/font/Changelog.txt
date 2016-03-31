@@ -1,0 +1,23 @@
+Bêta 0.25
+- Ajout des lettres majuscules
+- Ajout des signes de ponctuations principaux
+- Ajout de certains symboles importants
+- Ajout du pied de mouche et du tilde
+- Ajout des quelques glyphes facultatifs
+- Ajout du kerning entres toutes les lettres majuscules
+
+Bêta 0.5
+- Ajout des lettres minuscules
+- Ajout d'autres symboles variés
+
+Bêta 0.75
+- Ajout des glyphes accentués
+- Ajout du kerning entres tous les glyphes
+
+First Release 1.0
+- Ajout des chiffres
+- Ajout du kerning entres les chiffres
+- Ajout de quelques ligatures historiques
+- Ajout des signes de ponctuations manquants
+- Ajout de quelques symboles lettrés faculatifs
+- Ajout de l'italique
