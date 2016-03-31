@@ -22,7 +22,7 @@ init -1 python hide:
     # These control the name and version of the game, that are reported
     # with tracebacks and other debugging logs.
     config.name = "Fare Thee Well"
-    config.version = "0.0.1"
+    config.version = "0.0.2"
 
     #########################################
     # Themes
@@ -41,7 +41,7 @@ init -1 python hide:
         widget = "#A89E7D",
 
         ## The color of a focused widget face.
-        widget_hover = "#8DB6B9",
+        widget_hover = "#DCD8CB",
 
         ## The color of the text in a widget.
         widget_text = "#49403E",
@@ -65,12 +65,12 @@ init -1 python hide:
         ## The background of the main menu. This can be a color
         ## beginning with '#', or an image filename. The latter
         ## should take up the full height and width of the screen.
-        mm_root = "#A84A3E",
+        mm_root = "ui/mm.jpg",
 
         ## The background of the game menu. This can be a color
         ## beginning with '#', or an image filename. The latter
         ## should take up the full height and width of the screen.
-        gm_root = "#A84A3E",
+        gm_root = "#DCD8CB",
 
         ## If this is True, the in-game window is rounded. If False,
         ## the in-game window is square.
@@ -139,7 +139,7 @@ init -1 python hide:
 
     ## The file containing the default font.
 
-    # style.default.font = "DejaVuSans.ttf"
+    style.default.font = "font/Zorus_Serif.otf"
 
     ## The default size of text.
 
@@ -167,12 +167,12 @@ init -1 python hide:
 
     ## Sounds that are used when button and imagemaps are clicked.
 
-    # style.button.activate_sound = "click.wav"
+    style.button.activate_sound = "sfx/pageflip.mp3"
     # style.imagemap.activate_sound = "click.wav"
 
     ## Sounds that are used when entering and exiting the game menu.
 
-    # config.enter_sound = "click.wav"
+    config.enter_sound = "sfx/pageflip.mp3"
     # config.exit_sound = "click.wav"
 
     ## A sample sound that can be played to check the sound volume.
@@ -181,7 +181,7 @@ init -1 python hide:
 
     ## Music that is played while the user is at the main menu.
 
-    # config.main_menu_music = "main_menu_theme.ogg"
+    config.main_menu_music = "music/Departure.ogg"
 
 
     #########################################
@@ -201,34 +201,34 @@ init -1 python hide:
     ## Transitions.
 
     ## Used when entering the game menu from the game.
-    config.enter_transition = None
+    config.enter_transition = dissolve
 
     ## Used when exiting the game menu to the game.
-    config.exit_transition = None
+    config.exit_transition = dissolve
 
     ## Used between screens of the game menu.
-    config.intra_transition = None
+    config.intra_transition = dissolve
 
     ## Used when entering the game menu from the main menu.
-    config.main_game_transition = None
+    config.main_game_transition = dissolve
 
     ## Used when returning to the main menu from the game.
-    config.game_main_transition = None
+    config.game_main_transition = dissolve
 
     ## Used when entering the main menu from the splashscreen.
-    config.end_splash_transition = None
+    config.end_splash_transition = dissolve
 
     ## Used when entering the main menu after the game has ended.
-    config.end_game_transition = None
+    config.end_game_transition = dissolve
 
     ## Used when a game is loaded.
-    config.after_load_transition = None
+    config.after_load_transition = dissolve
 
     ## Used when the window is shown.
-    config.window_show_transition = None
+    config.window_show_transition = dissolve
 
     ## Used when the window is hidden.
-    config.window_hide_transition = None
+    config.window_hide_transition = dissolve
 
     ## Used when showing NVL-mode text directly after ADV-mode text.
     config.adv_nvl_transition = dissolve
@@ -237,19 +237,19 @@ init -1 python hide:
     config.nvl_adv_transition = dissolve
 
     ## Used when yesno is shown.
-    config.enter_yesno_transition = None
+    config.enter_yesno_transition = dissolve
 
     ## Used when the yesno is hidden.
-    config.exit_yesno_transition = None
+    config.exit_yesno_transition = dissolve
 
     ## Used when entering a replay
-    config.enter_replay_transition = None
+    config.enter_replay_transition = dissolve
 
     ## Used when exiting a replay
-    config.exit_replay_transition = None
+    config.exit_replay_transition = dissolve
 
     ## Used when the image is changed by a say statement with image attributes.
-    config.say_attribute_transition = None
+    config.say_attribute_transition = dissolve
 
     #########################################
     ## This is the name of the directory where the game's data is
@@ -268,7 +268,7 @@ init -1 python hide:
 
     ## Should we start in fullscreen mode?
 
-    config.default_fullscreen = False
+    config.default_fullscreen = True
 
     ## The default text speed in characters per second. 0 is infinite.
 

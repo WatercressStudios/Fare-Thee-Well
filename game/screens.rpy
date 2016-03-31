@@ -202,6 +202,10 @@ init -2:
     # Make all the main menu buttons be the same size.
     style mm_button:
         size_group "mm"
+        xminimum int(config.screen_width * .4)
+        xmaximum int(config.screen_width * .4)
+        yminimum int(config.screen_height * .08)
+        ymaximum int(config.screen_height * .08)  
 
 
 
