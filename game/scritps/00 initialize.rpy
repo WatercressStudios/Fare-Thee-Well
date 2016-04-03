@@ -4,12 +4,15 @@
 define n = Character(None, kind=nvl)
 define wan = Character('Wayfarer', color="#c8ffc8")
 define ten = Character('Bartender', color="#d5567f")
-
+define gir = Character('Whoever the Hell it is', color="#c7ffc7")
+define nvlgir = Character('Whoever the Hell it is', color="#c7ffc7", kind=nvl)
 ######################
 # Sprite Declaration #
 ######################
 image bartender_young = "sprites/Young Bartender/young bartender.png"
 image emmeline_young_happy = "sprites/Young Emmeline/young emmeline happy.png"
+image emmeline_young_surprise = "sprites/Young Emmeline/young emmeline surprise.png"
+image emmeline_young_sad = "sprites/Young Emmeline/young emmeline sad.png"
 
 ##################
 # BG Declaration #
@@ -19,6 +22,7 @@ image white = "#FFF"
 image winterwoods = "bg/winter_path_filter_final.png"
 image cedar_night = "bg/town_filter_final.png"
 image bar_night = "bg/bar_filter_night_final.png"
+image stage = "bg/stage_filter_final.png"
 
 ###################
 # CGs #
