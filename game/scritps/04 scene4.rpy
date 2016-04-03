@@ -226,4 +226,4 @@ label scene4:
     
     scene black
     
-    return
+    jump scene5

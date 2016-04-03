@@ -27,6 +27,7 @@ image winterwoods = "bg/winter_path_filter_final.png"
 image cedar_night = "bg/town_filter_final.png"
 image bar_night = "bg/bar_filter_night_final.png"
 image stage = "bg/stage_filter_final.png"
+image nighttown = "bg/nighttown_final.png"
 
 ###################
 # CGs #
