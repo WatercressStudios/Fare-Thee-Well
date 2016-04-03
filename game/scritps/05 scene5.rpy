@@ -76,7 +76,7 @@ label scene5:
 
     "We talk all the way to Emmeline's motel, despite having done nothing but for hours already at the bar."
 
-    # scene nighttown with fade
+    scene cedar_night with fade
 
     wan "By the way, Emmeline..."
 
@@ -168,7 +168,7 @@ label scene5:
 
     emm " You know, maybe not."
 
-    # scene nighttown with fade
+    scene cedar_night with fade
     
     "Just before we reach the motel, Emmeline stops me in my tracks. She points off to the side of the path, where a small park lies unlit in the snow."
 
@@ -226,4 +226,4 @@ label scene5:
 
     emm "Just a little bit."
     
-    return
+    jump scene6
