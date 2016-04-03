@@ -1,3 +1,5 @@
+# test comment
+
 label scene6:
     
     scene cedar_night with fade
