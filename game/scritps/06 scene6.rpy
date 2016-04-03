@@ -184,4 +184,4 @@ label scene6:
 
     "All I leave behind are footprints in the snow that are soon swept away by winter wind."
 
-    return
+    jump scene7

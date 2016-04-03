@@ -7,6 +7,9 @@ define ten = Character('Bartender', color="#d5567f")
 define gir = Character('Girl', color="#c7ffc7")
 define nvlgir = Character('Girl', color="#c7ffc7", kind=nvl)
 define emm = Character('Emmeline', color="#c7ffc7")
+define can = Character('Candace', color="#c7ffc7")
+define ros = Character('Rosa', color="#c7ffc7")
+define mic = Character('Michael', color="#c7ffc7")
 
 ######################
 # Sprite Declaration #
@@ -17,6 +20,10 @@ image emmeline_young_surprise = "sprites/Young Emmeline/young emmeline surprise.
 image emmeline_young_sad = "sprites/Young Emmeline/young emmeline sad.png"
 image emmeline_young_angry = "sprites/Young Emmeline/young emmeline angry.png"
 image emmeline_young_disgust = "sprites/Young Emmeline/young emmeline disgust.png"
+image candace_std_happy = "sprites/Candace/candace standard happy.png"
+image candace_std_sad = "sprites/Candace/candace standard sad.png"
+image michael_older_happy = "sprites/Older Micheal/older micheal happy.png"
+image rosa_happy = "sprites/Rosa/rosa happy.png"
 
 ##################
 # BG Declaration #
