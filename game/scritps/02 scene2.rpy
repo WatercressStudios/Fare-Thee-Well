@@ -188,6 +188,6 @@ label scene2:
 
     # scene bar
     
-    return
+    jump scene3
     
     
