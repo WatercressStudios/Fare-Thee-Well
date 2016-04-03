@@ -15,7 +15,7 @@ image bartender_young = "sprites/Young Bartender/young bartender.png"
 image emmeline_young_happy = "sprites/Young Emmeline/young emmeline happy.png"
 image emmeline_young_surprise = "sprites/Young Emmeline/young emmeline surprise.png"
 image emmeline_young_sad = "sprites/Young Emmeline/young emmeline sad.png"
-image emmeline_young_angry = "sprites/Young Emmeline/young emmeline sad.png"
+image emmeline_young_angry = "sprites/Young Emmeline/young emmeline angry.png"
 image emmeline_young_disgust = "sprites/Young Emmeline/young emmeline disgust.png"
 
 ##################

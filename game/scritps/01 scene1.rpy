@@ -176,5 +176,4 @@ label scene1:
 
     "A girl in a green dress is about to sing."
     
-    
     jump scene2

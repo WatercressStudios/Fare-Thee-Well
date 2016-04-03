@@ -196,4 +196,4 @@ label scene3:
     
     "We stop to sip our drinks. I mull over in my mind what next to say."
     
-    return
+    jump scene4
