@@ -23,12 +23,16 @@ image emmeline_young_disgust = "sprites/Young Emmeline/young emmeline disgust.pn
 ##################
 image black = "#000"
 image white = "#FFF"
-image winterwoods = "bg/winter_path_filter_final.png"
+image winter_path = "bg/winter_path_filter_final.png"
 image cedar_night = "bg/town_filter_final.png"
 image bar_night = "bg/bar_filter_night_final.png"
 image stage = "bg/stage_filter_final.png"
 image snow_bench = "bg/snow_bench.png"
-
+image winter_woods = "bg/winter forest night revised.png"
+image summer_woods = "bg/summer forest.png"
+image winter_park = "bg/winter park night.png"
+image highway = "bg/mainehighway_1.png"
+image closet = "bg/winecloset.png"
 
 ###################
 # CGs #
