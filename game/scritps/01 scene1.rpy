@@ -7,6 +7,7 @@
 label scene1:
 
     stop music
+    play music "Rain_Background-Mike_Koenig-1681389445.mp3"
     
     scene black with dissolve
 
@@ -23,7 +24,9 @@ label scene1:
     n "December — 1967"
 
     nvl clear
-
+    
+    music stop
+    
     scene winterwoods with dissolve
 
     n "I am a lone, wayfaring stranger,"
