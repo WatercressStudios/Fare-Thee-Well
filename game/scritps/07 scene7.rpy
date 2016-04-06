@@ -268,4 +268,4 @@ label scene7:
 
     "I nod to the bartender, and make my way to a local motel to rest up for the night."
 
-    return
+    jump scene8

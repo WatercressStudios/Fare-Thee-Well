@@ -62,11 +62,11 @@ label scene2:
 
     show emmeline_young_sad
     
-    "When finally she is finished with her set, the girl in the green dress takes a fateful step back from the microphone."
+    "When she finally finishes her set, the girl in the green dress takes a fateful step back from the microphone."
 
     "Her skin beads with sweat. Her chest heaves up and down to the rhythmic beat of her exhausted heart."
 
-    "Her posture is tired, but proud. Her breath short, but steady. Her eyes somber, but bright, incensed with fire."
+    "Her posture is tired, but proud. Her breath short, but steady. Her eyes somber, but bright, vibrant with fire."
 
     "And as I watch her, in this precious little moment of silence, it seems all time stops."
 

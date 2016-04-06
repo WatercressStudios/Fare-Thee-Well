@@ -7,6 +7,7 @@
 label scene1:
 
     stop music
+    play music "Wind-Mark_DiAngelo-1940285615.wav"
     
     scene black with dissolve
 
@@ -14,7 +15,7 @@ label scene1:
 
     n "A wanderer, a wayfarer, a stranger,"
 
-    n "And the sleepy town he found in the snow"
+    n "And the sleepy town he found in the snow,"
 
     n "One winter night."
 
@@ -23,7 +24,9 @@ label scene1:
     n "December — 1967"
 
     nvl clear
-
+    
+    music stop
+    
     scene winterwoods with dissolve
 
     n "I am a lone, wayfaring stranger,"
@@ -100,7 +103,7 @@ label scene1:
 
     "Once inside I take off my gloves and rub my hands together for warmth. It takes too long to feel my fingers again."
 
-    "I close my tired eyes and take in the sounds of the bar. It's not busy, but for a town like this it's filled up enough."
+    "I close my tired eyes and take in the sounds of the bar. It's busier than I'd expect in a town like this."
 
     "There's a low murmur dispersed in the air. Some people are here in groups and many are, like me, alone."
 
@@ -128,7 +131,7 @@ label scene1:
 
     ten "Can't say I know what business brought you here."
 
-    wan "How do you know it's not for pleasure?"
+    wan "How do you know I'm not traveling for pleasure?"
 
     ten "Pleasure doesn't come this far north this time of year."
 
@@ -146,7 +149,7 @@ label scene1:
 
     "Cedar, Maine. Population... a little over two thousand. I was able to make out the sign off the highway exit before the storm got too bad."
 
-    "Originally I'd meant to make it all the way to the other side. Hitchhiking got harder after sunset. When it got too cold to be outside, I headed off the road nearest place I could."
+    "Originally I'd meant to make it all the way to the other side. Hitchhiking got harder after sunset. When it got too cold to be outside, I headed off the road to the nearest place I could find."
 
     "This place wasn't too bad. Reminded me of simpler times. I'll stay here for the night. Not that I have a choice."
 
