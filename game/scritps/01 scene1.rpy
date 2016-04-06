@@ -7,7 +7,7 @@
 label scene1:
 
     stop music
-    play music "Rain_Background-Mike_Koenig-1681389445.mp3"
+    play music "Wind-Mark_DiAngelo-1940285615.wav"
     
     scene black with dissolve
 
