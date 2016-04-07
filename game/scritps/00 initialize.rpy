@@ -2,16 +2,16 @@
 # Character Declaration #
 #########################
 define n = Character(None, kind=nvl)
-define wan = Character('Wayfarer', color="#c8ffc8")
-define ten = Character('Bartender', color="#d5567f")
-define gir = Character('Girl', color="#c7ffc7")
+define wan = Character('Wayfarer', color="#c8ffc8", show_two_window=True)
+define ten = Character('Bartender', color="#d5567f", show_two_window=True)
+define gir = Character('Girl', color="#c7ffc7", show_two_window=True)
 define nvlgir = Character(None, kind=nvl)
-define emm = Character('Emmeline', color="#c7ffc7")
-define tru = Character('Trucker', color="#C75df7")
-define mic = Character('Micheal', color="#f45dd3")
-define can = Character('Candace', color="#c7ffc7")
-define ros = Character('Rosa', color="#c7ffc7")
-define mic = Character('Michael', color="#c7ffc7")
+define emm = Character('Emmeline', color="#c7ffc7", show_two_window=True)
+define tru = Character('Trucker', color="#C75df7", show_two_window=True)
+define mic = Character('Micheal', color="#f45dd3", show_two_window=True)
+define can = Character('Candace', color="#c7ffc7", show_two_window=True)
+define ros = Character('Rosa', color="#c7ffc7", show_two_window=True)
+define mic = Character('Michael', color="#c7ffc7", show_two_window=True)
 
 ######################
 # Sprite Declaration #
