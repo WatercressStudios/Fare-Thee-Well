@@ -258,4 +258,4 @@ label scene10:
 
     wan "Tell me, Michael, how is Emmeline doing these days?"
     
-    return
+    jump scene11

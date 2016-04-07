@@ -42,6 +42,8 @@ label scene2:
 
     nvlgir "On the bonnie, bonnie banks of Loch Lomond."
     
+    nvl clear
+    
     "After her rendition of Loch Lomond, the girl continues to perform, singing various other folk songs. The audience continues to be mesmerized by every movement of her parted lips — the bar is eerily silent, and not a single person dare move."
 
     "Her voice is magical. The most beautiful I've heard in all my life."
