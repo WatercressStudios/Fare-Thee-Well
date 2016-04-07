@@ -90,7 +90,8 @@ init -1 python hide:
     ## are the size of the left/right and top/bottom borders,
     ## respectively.
 
-    # style.window.background = Frame("ui/frame.png")
+    style.window.background = Frame("ui/frame.png")
+    style.say_who_window.background = Frame("ui/sayframe.png")
 
     ## Margin is space surrounding the window, where the background
     ## is not drawn.
@@ -103,10 +104,15 @@ init -1 python hide:
     ## Padding is space inside the window, where the background is
     ## drawn.
 
-    # style.window.left_padding = 6
-    # style.window.right_padding = 6
-    # style.window.top_padding = 6
-    # style.window.bottom_padding = 6
+    style.window.left_padding = 10
+    style.window.right_padding = 10
+    style.window.top_padding = 20
+    style.window.bottom_padding = 20
+
+    style.say_who_window.left_padding = 10
+    style.say_who_window.right_padding = 10
+    style.say_who_window.top_padding = 20
+    style.say_who_window.bottom_padding = 20
 
     ## This is the minimum height of the window, including the margins
     ## and padding.
@@ -148,6 +154,7 @@ init -1 python hide:
     ## Note that these only change the size of some of the text. Other
     ## buttons have their own styles.
 
+    style.default.color = "#000000"
 
     #########################################
     ## These settings let you change some of the sounds that are used by

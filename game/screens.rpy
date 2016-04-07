@@ -543,8 +543,8 @@ init -2:
     style quick_button_text:
         is default
         size 18
-        idle_color "#8888"
-        hover_color "#ccc"
+        idle_color "#888888"
+        hover_color "#000000"
         selected_idle_color "#cc08"
         selected_hover_color "#cc0"
         insensitive_color "#4448"
