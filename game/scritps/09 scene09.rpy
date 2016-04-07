@@ -4,7 +4,6 @@
     
 label scene9:
     scene black 
-    with Pause(2)
     
     nvl clear
     
@@ -13,9 +12,9 @@ label scene9:
     nvl clear
     
     scene black 
-    with Pause(1)
     
     scene stage 
+    with Pause(.5)
     show rosa_happy at center 
 
     "A lone vocalist in a blue dress takes the stage at The Hearth and Home."
@@ -26,6 +25,9 @@ label scene9:
 
     ros "If I had wings like Noah's dove, I'd fly the river to the one I love. Fare thee well, my honey, fare thee well."
 
+    hide rosa_happy
+    with Pause(.5)
+    
     scene bar_night with fade
     # Sprites - Candace, Michael
     show candace_std_happy at right
@@ -86,6 +88,11 @@ label scene9:
     "Candace laughs the way her father used to sometimes laugh - with her entire body, hands on her stomach and leaning back."
 
     "Michael turns away from his boss, and back to the singer."
+    
+    hide michael_older_happy    
+    
+    hide candace_std_happy
+    with Pause(.5)
 
     # BG - Bar Stage
     # Sprite - Rosa
@@ -97,6 +104,11 @@ label scene9:
     ros "I remember one night, in the drizzling rain, around my heart I felt an aching pain, fare thee well, my honey, fare thee well."
 
     "The song's end is met with a quiet, yet suitable applause."
+    
+
+    
+    hide rosa_happy
+    with Pause(.5)
 
     # BG - Bar Proper
     # Sprites - Candace, Michael
@@ -132,4 +144,8 @@ label scene9:
 
     "Candace and I share a laugh while Michael looks on, terrified at the prospect of whatever scheme Candace has in store."
    
+    hide candace_std_happy
+    hide michael_older_happy
+    with Pause(.5)
+    
     jump scene10

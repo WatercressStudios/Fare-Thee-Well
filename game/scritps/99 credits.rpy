@@ -6,4 +6,13 @@ label credits:
 
     $ renpy.movie_cutscene("vfx/credits.webm") # Loads the credit video
 
+    scene black 
+    with Pause(1)
+
+    show watercress with dissolve
+    with Pause(2)
+
+    scene black with dissolve
+    with Pause(1)
+
     return

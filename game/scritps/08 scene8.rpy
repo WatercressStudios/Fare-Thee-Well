@@ -73,6 +73,18 @@ label scene8:
 
     "Emmeline nods and gestures for Michael to follow her to the stage."
 
+    hide young_micheal_happy
+    
+    hide middle_aged_emmeline_happy
+    
+    hide old_bartender_happy_cleaning_glass
+    
+    hide old_bartender_standard_cleaning_glass
+    
+    hide old_bartender_sad_cleaning_glass
+    
+    with Pause(.5)
+
     #BG - Bar stage
 
     #Sprites - Michael (Young), Emmeline (Middle Aged)
@@ -132,6 +144,11 @@ label scene8:
     #BG - Bar Proper
 
     #Sprites - Young Michael, Middle aged Emmeline, Old man
+    
+    hide young_micheal_happy
+    
+    hide middle_aged_emmeline_happy
+    with Pause(.5)
     
     scene bar_day with fade
 
@@ -199,6 +216,8 @@ label scene8:
 
     ten "That I do. If you want to settle in for a few years, I’d love to have you around. But you know what happens if you stay, wanderer. You sure you want to deal with that?"
 
+    hide old_bartender_standard
+
     show old_bartender_sad
 
     "I ran a hand through my hair and looked outside, wondering what it would be like to stay in this town for a few years."
@@ -210,12 +229,17 @@ label scene8:
     ten "Actually, if you wouldn't mind, I think I need a break for today. If it's okay with you…"
 
     wan "Yeah, I'll close up shop. I'll keep everything straight, don't worry."
+    
+    hide old_bartender_sad
 
     show old_bartender_happy
 
     "The bartender nods, wipes a few more surfaces, and heads out. He gives me one last fleeting smile before the door closes with an odd sense of finality."
 
     #Wolf's scene 3
+    
+    hide old_bartender_happy
+    with Pause(.5)
 
     scene bar_day with fade
 

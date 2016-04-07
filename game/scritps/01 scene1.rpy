@@ -160,6 +160,9 @@ label scene1:
     "Like you're drifting."
 
     "Sometimes, though, it's fine. When I can just stop and let things pass me by."
+    
+    hide bartender_young
+    with Pause(.5)
 
     scene black with fade
 

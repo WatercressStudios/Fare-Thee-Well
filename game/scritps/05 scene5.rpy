@@ -35,6 +35,11 @@ label scene5:
     "The bartender turns to me and gives me a wise, slow nod."
 
     wan "I'll get her home safe."
+    
+    hide bartender_young  
+    
+    hide emmeline_young_happy
+    with Pause(.5)
 
     scene black with fade
     
@@ -67,6 +72,9 @@ label scene5:
     emm "My castle is, yes."
 
     wan "Right. Let's go on ahead."
+    
+    hide emmeline_young_disgust
+    with Pause(.5)
 
     scene black with fade
 
@@ -155,6 +163,9 @@ label scene5:
     show emmeline_young_happy
 
     emm "Yeah, I suppose you're right."
+    
+    hide emmeline_young_happy
+    with Pause(.5)
 
     scene black with fade
 
