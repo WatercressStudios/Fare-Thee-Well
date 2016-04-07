@@ -168,27 +168,181 @@ label scene7:
 
     #Wolf's part of scene 1
 
-    "I happen upon a journal entry, worn and ragged, that I've read many times since it had been written: Winter, 1967. I close the journal, quickly, a pained expression on my face."
+    "Let’s see..."
 
-    "I shouldn't be tempting fate like this. I've read it enough over the years, always a strange, new feeling growing with each and every recalled memory."
+    "There was the period of about six years that I spent as a performer in the Ringling Bros. and Barnum and Bailey travelling circus. This was back during the Great Depression, when I would have been lucky to find any work at all."
 
-    "We once again begin to move towards my destination. Traffic seems to have given way to open fields and rolling hills. Despite this, my mind is yet again drawn back to that journal entry."
+    "I started out as an animal trainer’s assistant—basically the schmuck that had to feed the animals and clean the shit out of their cages—and from there, moved on to a variety of jobs: from clown, to juggler, to tightrope walker, to trapeze artist, to sword swallower, to you name it. I did it all."
 
-    "That fateful winter night, I had met a most wondrous woman. She's plagued my dreams for decades at this point, and yet I always told myself that I could never go back."
+    "I mastered every skillset and performed every role that existed under the big top, until finally, one day, I was promoted to ringmaster by an old friend of mine, none other John Nicholas Ringling himself."
 
-    "My one fear, though, had been clear to be true: I regret everything."
+    "Sadly, he died the year afterward, and in my opinion the old circus was never the same. Once his nephew assumed ownership of the business is when everything started going south for me."
 
-    "I regret meeting her. I regret talking to her. I regret taking her out, into the snow, like young children exploring their fleeting youth."
+    "I didn’t so much mind that ticket prices went up, or that we were asked to make everything bigger and more dangerous for less pay; but when our standard two-week engagements became month-long, then two-months long engagements, I knew I had to leave."
 
-    "I regret leaving her, despite the impossibility of it all."
+    "With a heavy heart, I bid a silent farewell to my old flames: Carla, the acrobat, Regina, the animal tamer, and Catherine, the knife-thrower, along with all the hearts I’d broken along the old B&B circuit, and I never looked back."
 
-    "I still remember her face, her voice, every bit about her. Despite my old age, my mind is and always will be sharp as ever."
+    "Skipping ahead a few dozen pages…  ah, my affair with Lillian Hellman, the playwright. Lilly was accused of being a Communist sympathizer during the Second Red Scare of the early 50s and was under constant surveillance by FBI and Department of State. In addition to being spied on, she was being harassed by Anti-Soviet groups and had begun to fear for her safety."
 
-    "I wonder… will she remember me?"
+    "Through a series of odd jobs and acquaintances, I became her bodyguard in March of 1951, when she went on a media tour of New York state to promote her newest play, The Autumn Garden. I would accompany her into every ritzy hotel room along the itinerary, where we’d often stay up till 2 AM or later sipping cognac and discussing politics."
 
-    "The truck takes a detour down a long and green path. In the distance, the familiar sign stares back at me, welcoming me: CEDAR, MAINE: POPULATION 2,501."
+    "Lilly’s political sympathies were very similar to mine, and I commiserated with her on her plight. It wasn’t long before she counted me among her many lovers."
 
-    "I let the trucker know that he can drop me off here. I need to hike the rest of the way on my own. With a proper nod, I depart, and he drives back, along his own path."
+    "Of course, the press tour eventually ended, and she returned to her home on Long Island. She invited me to come live with her. As always, the offer of having a place to call home and a friendly face to share it with was tempting beyond words."
+
+    "I spent a few nights with her there, slept on a cot because I didn’t want to fall in too deep with her, then made up some bullshit story about having to go break things off with a girl in Queens; I never went back to the Island, never even saw Lillian Hellman again."
+
+    "If someone were to ask me if she is writing plays or if she’s even still alive, I would have to say that I really don’t know."
+
+    "As the traffic jam slowly diminishes, I read stories of peace and stories of protest; stories of love and stories of war; stories of freedom and stories of bondage. In all my life’s stories there’s a sick recurring theme: my own selfishness."
+
+    "During high times and low times alike, I ingrained myself in the hearts of those around me. Though fate dictated that I should always keep moving, I always stuck around long enough to leave a lasting impression on one person or another."
+
+    "In some ways I can’t help it. I’m not so much of an asshole that I would go out of my way to make everyone dislike me. I can’t simply abort that everyday mental process which keeps me trying to please others. I want to please others. I figured out a long time ago that what I want more than anything in this world is to be loved by everyone I meet."
+
+    "So I keep travelling across this land, from one friend to another, from one lover to the next; like a merry-go-round, round and round I go, in perpetual motion, leaving a blur of discarded relationships behind me as I spin."
+
+    "Though I’ve tried to slow things down since that fateful night, that holy night of repentance when I finally decided that I wasn’t going to hurt another loved one, that I was sick of vanishing from their lives with no explanation given… Christ, it’s 1987 and I’m still spinning."
+
+    "This increasingly hellish ride I’ve spent the past several decades on is never going to end. Never. Not until I finally work up the courage to jump."
+
+    "..."
+
+    "I feel sick."
+
+    "Looking up, I see we’re finally back en route to St. Leonard. A feeling of relief should be washing over me, but the opposite is true: instead, a sense of dread has befallen me."
+
+    "Nothing good ever comes from reading my travelogue."
+
+    "Someday, I hope, someone will find it and find inspiration and meaning in my collective experiences; for me, though, they only seem to bring pain. It is a book of painful truths, from cover to cover; I knew this yet decided to read it anyway."
+
+    tru "Hey, man… you alright? You’re lookin’ kind of pale there."
+
+    wan "Y… yeah. I guess… I guess that danish didn’t agree with me, heh."
+
+    "I’ve got to get my mind on something else."
+
+    tru "Oh, yeah. Those shitty little truck stop snacks’ll do that to ya, for sure."
+
+    "I have to get it off of her."
+
+    tru "Luckily for both of us, our stop is comin’ soon."
+
+    "Stop, huh?"
+
+    "Stop..."
+
+    "...Of course. This truck is going to stop in St. Leonard, where I will settle into a motel for the night. I will look for employment the next day, and I will find it. I will stay in St. Leonard as long as I am able to, then I will move onto the next town."
+
+    "I have all of Quebec to explore. It will be fun, and before I know it, these tormentous feelings will have passed."
+
+    "..."
+
+    "I reopen the book, this time not to a sad old story, but to my most recent, unfinished entry. I record that my visit to Spanish Harlem was fruitless, that the old gypsy palm reader that been my friend for so many decades had finally passed away; now no one knows my secret."
+
+    "From Harlem I hitched a ride that took me all the way to Bangor, where I began to walk."
+
+    nvl clear
+
+    n "June 12-13"
+
+    n "After about a week of walking US 1 and sleeping under the stars, I stopped in Caribou. Spent the night at a cheap motel, then went to barber for a shave and a haircut in the morning."
+
+    n "Continued northward until I was picked up by a friendly truck driver."
+    
+    n "Headed for a town near the Canadian border called St. Emmeline."
+
+    "..."
+
+    "...Am I losing my mind?"
+
+    "Was it madness that drove me to this specific part of Maine, or am I just a victim of fate?"
+
+    "No, something tells me that it was more than just a simple twist of fate that brought me here. My feet have a mind of their own, and took me to this part of Maine of their own accord. They’ve tried to tell me for some time now that it’s time to settle down one last time, but I haven’t been listening."
+
+    "Am I really going to do this? Am I really going to go back there after all these years?"
+
+    "What would even be the point?"
+
+    "No one will remember me."
+
+    "She won’t remember me."
+
+    "While I’ve been frittering away the past two decades, time has marched on for the good folks in Cedar, Maine. There’s just no point in going back there. I’m not ready to settle down."
+
+    "I still have places I need to see, things I’ve got to do. For all my talk of being weary of my life on the road, I’m not ready to grow old and lose it."
+
+    "Why can’t anyone understand that?"
+
+    "I have to keep going."
+
+    "I can’t stop for anything or anyone."
+
+    "This dreadful feeling will pass once I’m in Canada, and everything will continue as it always had."
+
+    tru "Talk about your jerkwater towns, man. Folks would forget that place existed if it weren’t on the map."
+
+    "I look up to see what he’s referring to, and in the near distance there is a sign rapidly approaching: Cedar, 5 miles."
+
+    "..."
+    
+    "I must be out of my mind."
+
+    scene highway with fade
+
+    tru "You sure you don’t wanna continue on to Canada?"
+
+    wan "No, here’s fine. I… I sort of have some unfinished business in Cedar."
+
+    "The trucker laughs and says that, from the way I had been acting ever since we were caught in that traffic jam, he figured I had changed my mind about St. Leonard."
+
+    wan "I’m really grateful to for you for bring me this far. So, uh, so what do I owe you for the ride?"
+
+    "I reach into my back to remove my wallet, but the trucker just shakes his head."
+
+    tru "You’re just a wayfaring stranger like me. If the only difference between us is that I’ve got a vehicle and you don’t… God, what kind of person would I have been to pass you up? That’s why I never pass up hitch-hikers and will never charge one for a ride."
+
+    wan "Are you sure?"
+
+    "I really hate taking advantage of people’s kindness. The trucker smiles and offers me one last hearty laugh."
+
+    tru "Man, don’t think twice, it’s alright."
+
+    "..."
+
+    # engine start, driving off sound effect
+
+    "I turn to face a sign I thought I’d never see again; it reads ‘Cedar, Maine. Population: 2,501’. "
+
+    "I think for a moment about what it might mean for me to venture beyond that sign—about all the risks involved in trying to see her again. Now that I’m finally here, I want nothing more than to just turn around and run back to the highway, where I’ve always belonged."
+
+    "But I can’t. It was the spectre of her memory which drew me here, and it won’t let me run away again. For better or worse, it’s time to face Cedar; it’s time to face Emmeline."
+
+    wan "Here goes nothing…"
+
+    #fade out
+    
+    #"I happen upon a journal entry, worn and ragged, that I've read many times since it had been written: Winter, 1967. I close the journal, quickly, a pained expression on my face."
+
+    #"I shouldn't be tempting fate like this. I've read it enough over the years, always a strange, new feeling growing with each and every recalled memory."
+
+    #"We once again begin to move towards my destination. Traffic seems to have given way to open fields and rolling hills. Despite this, my mind is yet again drawn back to that journal entry."
+
+    #"That fateful winter night, I had met a most wondrous woman. She's plagued my dreams for decades at this point, and yet I always told myself that I could never go back."
+
+    #"My one fear, though, had been clear to be true: I regret everything."
+
+    #"I regret meeting her. I regret talking to her. I regret taking her out, into the snow, like young children exploring their fleeting youth."
+
+    #"I regret leaving her, despite the impossibility of it all."
+
+    #"I still remember her face, her voice, every bit about her. Despite my old age, my mind is and always will be sharp as ever."
+
+    #"I wonder… will she remember me?"
+
+    #"The truck takes a detour down a long and green path. In the distance, the familiar sign stares back at me, welcoming me: CEDAR, MAINE: POPULATION 2,501."
+
+    #"I let the trucker know that he can drop me off here. I need to hike the rest of the way on my own. With a proper nod, I depart, and he drives back, along his own path."
 
     "With a deep breath and a sigh, I walk towards the bar that I had come to love. Nature makes way to buildings, denser and closer, until I'm nearly in the heart of the small town, a familiar entrance in front of me."
 
