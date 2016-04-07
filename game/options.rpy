@@ -90,7 +90,7 @@ init -1 python hide:
     ## are the size of the left/right and top/bottom borders,
     ## respectively.
 
-    # style.window.background = Frame("frame.png", 12, 12)
+    # style.window.background = Frame("ui/frame.png")
 
     ## Margin is space surrounding the window, where the background
     ## is not drawn.
@@ -177,7 +177,7 @@ init -1 python hide:
 
     ## A sample sound that can be played to check the sound volume.
 
-    # config.sample_sound = "click.wav"
+    config.sample_sound = "sfx/pageflip.mp3"
 
     ## Music that is played while the user is at the main menu.
 

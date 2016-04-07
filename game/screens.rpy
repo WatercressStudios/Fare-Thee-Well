@@ -229,7 +229,7 @@ screen navigation():
 
         has vbox
 
-        textbutton _("Return") action Return()
+        textbutton _("Return") action Return()      
         textbutton _("Preferences") action ShowMenu("preferences")
         textbutton _("Save Game") action ShowMenu("save")
         textbutton _("Load Game") action ShowMenu("load")
@@ -242,7 +242,6 @@ init -2:
     # Make all game menu navigation buttons the same size.
     style gm_nav_button:
         size_group "gm_nav"
-
 
 ##############################################################################
 # Save, Load
@@ -283,8 +282,8 @@ screen file_picker():
             textbutton _("Next"):
                 action FilePageNext()
 
-        $ columns = 2
-        $ rows = 5
+        $ columns = 1
+        $ rows = 10
 
         # Display a grid of file slots.
         grid columns rows:
@@ -335,7 +334,9 @@ init -2:
     style file_picker_nav_button is small_button
     style file_picker_nav_button_text is small_button_text
     style file_picker_button is large_button
-    style file_picker_text is large_button_text
+    style file_picker_text is small_button_text
+    style file_picker_frame:
+        xsize 660
 
 
 ##############################################################################
@@ -352,7 +353,7 @@ screen preferences():
     use navigation
 
     # Put the navigation columns in a three-wide grid.
-    grid 3 1:
+    grid 1 1:
         style_group "prefs"
         xfill True
 
@@ -385,10 +386,9 @@ screen preferences():
                 style_group "pref"
                 has vbox
 
+                label _("Controls")
                 textbutton _("Joystick...") action Preference("joystick")
 
-
-        vbox:
             frame:
                 style_group "pref"
                 has vbox
@@ -396,11 +396,6 @@ screen preferences():
                 label _("Skip")
                 textbutton _("Seen Messages") action Preference("skip", "seen")
                 textbutton _("All Messages") action Preference("skip", "all")
-
-            frame:
-                style_group "pref"
-                has vbox
-
                 textbutton _("Begin Skipping") action Skip()
 
             frame:
@@ -421,7 +416,6 @@ screen preferences():
                 if config.has_voice:
                     textbutton _("Wait for Voice") action Preference("wait for voice", "toggle")
 
-        vbox:
             frame:
                 style_group "pref"
                 has vbox
@@ -457,7 +451,7 @@ screen preferences():
 
 init -2:
     style pref_frame:
-        xfill True
+        xsize 500
         xmargin 5
         top_margin 5
 
@@ -466,14 +460,6 @@ init -2:
 
     style pref_button:
         size_group "pref"
-        xalign 1.0
-
-    style pref_slider:
-        xmaximum 192
-        xalign 1.0
-
-    style soundtest_button:
-        xalign 1.0
 
 
 ##############################################################################
@@ -556,7 +542,7 @@ init -2:
 
     style quick_button_text:
         is default
-        size 12
+        size 18
         idle_color "#8888"
         hover_color "#ccc"
         selected_idle_color "#cc08"
