@@ -1,11 +1,11 @@
 ﻿######################### 
 # Character Declaration #
 #########################
-define n = Character(None, kind=nvl)
+define n = Character(None, what_color="#FFFFFF", kind=nvl)
 define wan = Character('Wayfarer', color="#800000", show_two_window=True)
 define ten = Character('Bartender', color="#993399", show_two_window=True)
 define gir = Character('Girl', color="#333399", show_two_window=True)
-define nvlgir = Character(None, kind=nvl)
+define nvlgir = Character(None, what_color="#FFFFFF", kind=nvl)
 define emm = Character('Emmeline', color="#333399", show_two_window=True)
 define tru = Character('Trucker', color="#666666", show_two_window=True)
 define mic = Character('Micheal', color="#006600", show_two_window=True)
