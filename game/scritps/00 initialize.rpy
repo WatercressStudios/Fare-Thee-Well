@@ -9,6 +9,9 @@ define nvlgir = Character('Girl', color="#c7ffc7", kind=nvl)
 define emm = Character('Emmeline', color="#c7ffc7")
 define tru = Character('Trucker', color="#C75df7")
 define mic = Character('Micheal', color="#f45dd3")
+define can = Character('Candace', color="#c7ffc7")
+define ros = Character('Rosa', color="#c7ffc7")
+define mic = Character('Michael', color="#c7ffc7")
 
 ######################
 # Sprite Declaration #
@@ -31,7 +34,11 @@ image middle_aged_emmeline_happy = "sprites/Middle Aged Emmeline/middle aged emm
 image young_micheal_happy = "sprites/Young Micheal/young micheal happy.png"
 image young_micheal_fear = "sprites/Young Micheal/young micheal fear.png"
 image young_micheal_surprised = "sprites/Young Micheal/young micheal surprise.png"
-                            
+image candace_std_happy = "sprites/Candace/candace standard happy.png"
+image candace_std_sad = "sprites/Candace/candace standard sad.png"
+image michael_older_happy = "sprites/Older Micheal/older micheal happy.png"
+image rosa_happy = "sprites/Rosa/rosa happy.png"
+
 ##################
 # BG Declaration #
 ##################
