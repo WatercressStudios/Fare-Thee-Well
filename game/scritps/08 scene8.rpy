@@ -325,4 +325,4 @@ label scene8:
 
     "I enter my home, the heat helping warm my clothes and my skin. I look at the things around me in appreciation, wiping the bar, cleaning it as if it were my own."
 
-    return
+    jump scene9

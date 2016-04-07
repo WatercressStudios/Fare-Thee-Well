@@ -2,7 +2,7 @@
 # Act Three — Fare Thee Well
 # Written by OptionalSauce and DarkEndless
     
-label scene10:
+label scene9:
     scene stage with dissolve
     show rosa_happy at center with dissolve
 
@@ -115,4 +115,5 @@ label scene10:
     can "Let's talk strategy!"
 
     "Candace and I share a laugh while Michael looks on, terrified at the prospect of whatever scheme Candace has in store."
+   
     return
