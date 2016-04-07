@@ -25,7 +25,7 @@ label scene1:
 
     nvl clear
     
-    music stop
+    stop music
     
     scene winterwoods with dissolve
 

@@ -26,10 +26,12 @@ label scene8:
     #Sound - door opens?
     
     #Emmeline (Middle Aged) and Young Michael enter
+    
+    hide old_bartender_standard_cleaning_glass
 
-    show middle_aged_emmeline_sad
+    show middle_aged_emmeline_sad at right
 
-    show young_michael_happy
+    show young_micheal_happy at left
 
     "Emmeline glances around the bar and seems mildly disappointed. Her gaze flits over me as it would one of the tables. She approaches the old man."
 
@@ -37,17 +39,21 @@ label scene8:
 
     show old_bartender_sad_cleaning_glass
 
-    old "Sorry, Em. I should’ve mentioned earlier that I have a new employee in training - he helped me this morning. We still have the stage to set up, though. I’ll get you some work yet."
+    ten "Sorry, Em. I should’ve mentioned earlier that I have a new employee in training - he helped me this morning. We still have the stage to set up, though. I’ll get you some work yet."
 
     "She looks at me directly for the first time, but there is no spark of memory in her eyes - only the casual friendliness of someone greeting a new acquaintance."
 
-    show middle_aged_emmeline_happy
+    hide middle_aged_emmeline_sad
+   
+    show middle_aged_emmeline_happy at right
     
     show old_bartender_happy_cleaning_glass
 
     emm "Oh. Nice to meet you! I’m Emmeline, and this is my son Michael."
 
-    show young_michael_fear
+    hide young_micheal_happy
+
+    show young_micheal_fear at left
 
     "Michael plays with the collar of his shirt and averts his eyes."
 
@@ -56,12 +62,14 @@ label scene8:
     "I give him a smile and a wave, and then extend my hand to Emmeline. She shakes it. I take a page out of Michael’s book - I’m too nervous to meet her gaze directly for too long."
 
     wan "It’s nice to meet you both."
+    
+    hide young_micheal_fear
 
-    show young_michael_happy
+    show young_micheal_happy at left
 
     ten "Right, well. That stage isn’t going to set up itself. Em, why don’t you and Michael teach this greenie here the ropes. I’ve got a few more glasses to clean."
 
-    show old_bartender_cleaning_glass_standard
+    show old_bartender_standard_cleaning_glass
 
     "Emmeline nods and gestures for Michael to follow her to the stage."
 
@@ -69,16 +77,20 @@ label scene8:
 
     #Sprites - Michael (Young), Emmeline (Middle Aged)
 
-    show stage with fade
+    scene stage with fade
 
-    show middle_aged_emmeline_happy
+    show middle_aged_emmeline_happy 
 
     emm "Have you ever worked in a bar before?"
 
     wan "I know my way around one."
 
-    show young_michael_happy
+    hide middle_aged_emmeline_happy
+    
+    show middle_aged_emmeline_happy at right
 
+    show young_micheal_happy at left
+ 
     "Michael climbs up the front of the stage and seemed to be opening a bin that contained the cables."
 
     emm "How old are you? Twenty five?"
@@ -95,7 +107,9 @@ label scene8:
 
     wan "Oh. Thanks. What kind of music do you enjoy, Michael?"
 
-    show young_michael_surprised
+    hide young_micheal_happy
+
+    show young_micheal_surprised at left
 
     "I take the cable he offered me and hook it up. Surely enough, the audio jack and ports are the correct sizes, and the cable is long enough to walk around the stage with if necessary."
 
@@ -105,23 +119,25 @@ label scene8:
 
     emm "You remember. Depeche Mode, sometimes you listen to Michael Jackson. I’m more of a Simon and Garfunkel gal myself. The new stuff isn’t bad, but there’s something about the acoustic guitars…"
 
-    show young_michael_happy
+    hide young_micheal_surprised
+
+    show young_micheal_happy at left
 
     wan "It brings to mind the open road, and people singing in new bars. Soft atmospheres and a good crowd."
 
     "Emmeline looks back at me and gives me a genuine smile - not the practiced friendliness of polite greeting, but something with altogether more substance. Michael and I finish setting up all of the relevant cords."
 
-    emm “Yeah. You took the words right out of my mouth. Well, it’s about time - I have to get Michael to school.”
+    emm "Yeah. You took the words right out of my mouth. Well, it’s about time - I have to get Michael to school."
 
     #BG - Bar Proper
 
     #Sprites - Young Michael, Middle aged Emmeline, Old man
+    
+    scene bar_day with fade
 
-    scene bar with fade
+    show young_micheal_happy at left
 
-    show young_michael_happy
-
-    show middle_aged_emmeline_happy
+    show middle_aged_emmeline_happy at right
 
     show old_bartender_happy
 
@@ -141,7 +157,7 @@ label scene8:
 
     hide middle_aged_emmeline_happy
 
-    hide young_michael_happy
+    hide young_micheal_happy
 
     "I sigh and lean against the worn mahogany of the bar, and I can hear the bartender pouring a glass of something. I didn’t bother to turn around - my eyes were fixed on the road, watching them drive away."
 
@@ -181,7 +197,7 @@ label scene8:
 
     show old_bartender_standard
 
-    old "That I do. If you want to settle in for a few years, I’d love to have you around. But you know what happens if you stay, wanderer. You sure you want to deal with that?"
+    ten "That I do. If you want to settle in for a few years, I’d love to have you around. But you know what happens if you stay, wanderer. You sure you want to deal with that?"
 
     show old_bartender_sad
 
@@ -286,7 +302,7 @@ label scene8:
     "I cannot see the world beyond the sign, my vision entirely blocked."
 
     "I've made my decision. Please, please, get out of my way."
-
+ 
     "The sign remains, quiet as it always was."
 
     "I beg, I plead. I can't watch them die! I can't be here! Only pain will come from this. Once again, I will be alone. Once again, I will be held down by my regrets."
@@ -305,7 +321,7 @@ label scene8:
 
     "I pass that, as the buildings become less sparse and the nature recedes, the Bar enters my vision."
 
-    Scene bar with fade
+    scene bar_day with fade
 
     "I enter my home, the heat helping warm my clothes and my skin. I look at the things around me in appreciation, wiping the bar, cleaning it as if it were my own."
 

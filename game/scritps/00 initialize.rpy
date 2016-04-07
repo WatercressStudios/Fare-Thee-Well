@@ -8,6 +8,7 @@ define gir = Character('Girl', color="#c7ffc7")
 define nvlgir = Character('Girl', color="#c7ffc7", kind=nvl)
 define emm = Character('Emmeline', color="#c7ffc7")
 define tru = Character('Trucker', color="#C75df7")
+define mic = Character('Micheal', color="#f45dd3")
 
 ######################
 # Sprite Declaration #
@@ -21,7 +22,16 @@ image emmeline_young_disgust = "sprites/Young Emmeline/young emmeline disgust.pn
 image old_bartender_standard = "sprites/Old Bartender/Old Bartender - Standard Pose - Standard.png"
 image old_bartender_sad = "sprites/Old Bartender/Old Bartender - Standard Pose - Sad.png"
 image old_bartender_surprised = "sprites/Old Bartender/Old Bartender - Standard Pose - Surprised.png"
-
+image old_bartender_happy = "sprites/Old Bartender/Old Bartender - Standard Pose - Happy.png"
+image old_bartender_standard_cleaning_glass = "sprites/Old Bartender/Old Bartender - Cleaning Glass - Standard.png"
+image old_bartender_sad_cleaning_glass = "sprites/Old Bartender/Old Bartender - Cleaning Glass - Sad.png"
+image old_bartender_happy_cleaning_glass = "sprites/Old Bartender/Old Bartender - Cleaning Glass - Happy.png"
+image middle_aged_emmeline_sad = "sprites/Middle Aged Emmeline/middle aged emmeline sad.png"
+image middle_aged_emmeline_happy = "sprites/Middle Aged Emmeline/middle aged emmeline happy.png"
+image young_micheal_happy = "sprites/Young Micheal/young micheal happy.png"
+image young_micheal_fear = "sprites/Young Micheal/young micheal fear.png"
+image young_micheal_surprised = "sprites/Young Micheal/young micheal surprise.png"
+                            
 ##################
 # BG Declaration #
 ##################
@@ -33,7 +43,7 @@ image bar_night = "bg/bar_filter_night_final.png"
 image stage = "bg/stage_filter_final.png"
 image snow_bench = "bg/snow_bench.png"
 image highway = "bg/mainehighway_1.png"
-
+image bar_day = "bg/bar_filter_day_final.png"
 
 ###################
 # CGs #
