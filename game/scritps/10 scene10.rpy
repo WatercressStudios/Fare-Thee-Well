@@ -1,6 +1,6 @@
 label scene10:
     
-    scene bar_night with dissolve
+    scene bar_night 
     
     show candace_std_happy at right
     

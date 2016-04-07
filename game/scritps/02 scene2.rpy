@@ -6,7 +6,7 @@ label scene2:
     
     "Like she's somewhere else, remembering better times, preparing to sing to herself in a world that stood still to hang off her every word."
     
-    show emmeline_young_surprise at center with dissolve
+    show emmeline_young_surprise at center 
     
     "She begins softly, her voice barely above a whisper."
     

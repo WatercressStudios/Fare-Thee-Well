@@ -3,8 +3,8 @@
 # Written by OptionalSauce and DarkEndless
     
 label scene9:
-    scene stage with dissolve
-    show rosa_happy at center with dissolve
+    scene stage 
+    show rosa_happy at center 
 
     "A lone vocalist in a blue dress takes the stage at The Hearth and Home."
 
@@ -77,7 +77,7 @@ label scene9:
 
     # BG - Bar Stage
     # Sprite - Rosa
-    scene stage with dissolve
+    scene stage 
     show rosa_happy
 
     "The young performer begins the last verse of her song."
@@ -88,7 +88,7 @@ label scene9:
 
     # BG - Bar Proper
     # Sprites - Candace, Michael
-    scene bar_night with dissolve
+    scene bar_night 
     show candace_std_happy at right
     show michael_older_happy at left
 

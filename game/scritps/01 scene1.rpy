@@ -9,7 +9,7 @@ label scene1:
     stop music
     # play music "Wind-Mark_DiAngelo-1940285615.wav"
     
-    scene black with dissolve
+    scene black 
 
     n "Fare Thee Well — The story of a lonely man."
 
@@ -27,7 +27,7 @@ label scene1:
     
     # stop music
     
-    scene winterwoods with dissolve
+    scene winterwoods 
 
     n "I am a lone, wayfaring stranger,"
 
@@ -81,7 +81,7 @@ label scene1:
 
     nvl clear
 
-    scene cedar_night with dissolve
+    scene cedar_night 
 
     "Suddenly, I see light in the bleak midwinter."
 
@@ -99,7 +99,7 @@ label scene1:
 
     "I push past the door and enter in out of the snowy night."
 
-    scene bar_night with dissolve
+    scene bar_night 
 
     "Once inside I take off my gloves and rub my hands together for warmth. It takes too long to feel my fingers again."
 
@@ -111,7 +111,7 @@ label scene1:
 
     "I slip my gloves into my coat and take a seat. A bartender spots me from behind a row of drying glasses and approaches."
 
-    show bartender_young at center with dissolve
+    show bartender_young at center 
 
     ten "Evening."
 
@@ -161,7 +161,7 @@ label scene1:
 
     scene black with fade
 
-    scene bar_night with dissolve
+    scene bar_night 
 
     "After a while I notice a change in the air. The curtain of small talk lowers into silence — the clinking of plates and glasses melts away."
 
@@ -173,9 +173,9 @@ label scene1:
 
     "A girl."
 
-    scene stage with dissolve
+    scene stage 
 
-    show emmeline_young_happy at center with dissolve
+    show emmeline_young_happy at center 
 
     "A girl in a green dress is about to sing."
     

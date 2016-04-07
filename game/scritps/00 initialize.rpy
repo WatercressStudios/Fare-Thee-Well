@@ -77,6 +77,13 @@ label splashscreen:
 
     return
 
+init python:
+    def callback_transition(event, interact=True, **kwargs):
+        if event == "begin":
+            renpy.transition(dissolve, layer="master")
+        
+    config.all_character_callbacks = [callback_transition] 
+
 # Game starts here
 label start:
     

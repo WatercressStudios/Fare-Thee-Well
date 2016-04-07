@@ -139,11 +139,11 @@ init -1 python hide:
 
     ## The file containing the default font.
 
-    style.default.font = "font/Zorus_Serif.otf"
+    style.default.font = "font/FairfaxStationNF.otf"
 
     ## The default size of text.
 
-    # style.default.size = 22
+    style.default.size = 28
 
     ## Note that these only change the size of some of the text. Other
     ## buttons have their own styles.
