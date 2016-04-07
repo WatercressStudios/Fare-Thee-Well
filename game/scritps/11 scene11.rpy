@@ -217,5 +217,7 @@ label scene11:
     nvl clear
     
     # End Letter 2002
+
+    scene black with fade
     
-    return
+    jump credits
