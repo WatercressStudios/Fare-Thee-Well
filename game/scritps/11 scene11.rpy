@@ -144,7 +144,7 @@ label scene11:
 
     "Carefully, I tear open the envelope at its seal."
 
-    "Inside are two smaller envelopes, each marked with a date, 1967 and 2002."
+    "Inside are three smaller envelopes, each marked with a date, 1967, 1987, and 2002."
 
     "I start with the envelope labeled 1967. Inside is a letter, handwritten."
 
@@ -181,7 +181,47 @@ label scene11:
     # End letter 1967
 
     # Letter 1987
+    
+    nvl clear
+    
+    "It took me a few moments, but eventually I was able to reach for the second letter, dated 1987."
 
+    "I trace a finger over the now familiar script of Emmeline’s handwriting before reading her words."
+
+    n "Dear Stranger,"
+    
+    n "I didn’t want to believe it was you. Why would you return, after just leaving me there? But your face was unmistakeable."
+
+    n "I’m sure you’ve heard the expression about not having aged a day. We usually reserve this for women too vain for the truth, or people who’ve recently had plastic surgery."
+
+    n "But in your case, you actually haven’t. You looked exactly the same as you had all those years ago. I hadn’t expected you to return at all, after you’d left me. For a while, I was left to theorize, and I let my imagination run wild. What are you?"
+
+    n "Some kind of alien in human skin? A super advanced machine? A Vampire? And then I remembered one of the things you had talked about: The legend of an eternal wanderer. At the time, I dismissed it as drunken rambling."
+
+    n "Then I saw you, just yesterday. It had been two decades since I’d seen you. Memories fade, but I had my first suspicions when I saw you with Michael. You were helping each other with the audio cables. You might not have even recognized it, but I saw- "
+
+    n "-clear admiration in your eyes. Admiration and more. Envy? I guess if you really are to live forever, you could never again know childlike wonder and curiosity like Michael could. And then I saw your reflection in the window as I was leaving."
+
+    n "I recalled that time when we frolicked around the city in the snow in that moment, and I knew it was you. And now there’s the matter of your cover. If you truly intend to work at the Hearth and Home, then I’ll see you again. Believe me, the-"
+
+    n "- temptation is very real. To reveal you; what you are. But what exactly would that solve? No, it’s better to let bygones be bygones.I’d gain nothing by revealing you, and it would just cause you to leave again. I’m sure you’re used to that process by now."
+
+    n "I considered asking you what occurred in your past travels. Who else did you meet? Anyone famous? How long have you been around? The things usual people would ask someone like you. But honestly, the numbers and faces of the past matter less that what you’ve felt."
+
+    n "I’ve been on the other side of it. Your emotions. I know what you’ve felt. I’ll admit that I hated you for a while, after leaving me on that bench. But now I understand. I forgive you. I hope one day you find a place - or, more likely, a time - that you can flourish in."
+
+    n "With as much loss as I’ve experienced, yours could only be worse. I wish you the best, stranger."
+
+    n "Sincerely, "
+
+    n "Emmeline"
+    
+    nvl clear
+
+    "She signed her name in that familiar script. I could feel the pressure of tears welling in my eyes now, wishing I could’ve spoken to her. If she knew who I was, then I could have apologized for leaving her all alone on that frosty bench decades ago."
+
+    "Clearly, she had cared for me enough to not reveal who I was to everyone. At the very least, I had the privilege of making that kind of connection - the only kind of connection I could truly ever establish."
+    
     # End Letter 1987
 
     # Letter 2002
