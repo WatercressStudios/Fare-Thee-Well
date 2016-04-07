@@ -1,4 +1,6 @@
 label scene3:
+    
+    hide bartender_young
 
     "Out of the darkness and the crowd, I spot the girl in the green dress making her way toward the door. She's tugging the sides of her coat tight around her, like she's trying to make herself look as small as she can."
 
@@ -10,7 +12,7 @@ label scene3:
 
     "God, she's beautiful. I can't take my eyes off her."
 
-    "She's absolutely breathtaking..."
+    "She's absolutely breathtaking..."  
 
     "...but she's not saying a word."
 
