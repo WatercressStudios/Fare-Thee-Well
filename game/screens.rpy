@@ -509,6 +509,7 @@ init -2:
     style yesno_label_text:
         text_align 0.5
         layout "subtitle"
+        size 35
 
 
 ##############################################################################
