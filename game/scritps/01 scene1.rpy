@@ -7,7 +7,7 @@
 label scene1:
 
     stop music
-    play music "Wind-Mark_DiAngelo-1940285615.wav"
+    # play music "Wind-Mark_DiAngelo-1940285615.wav"
     
     scene black with dissolve
 
@@ -25,7 +25,7 @@ label scene1:
 
     nvl clear
     
-    stop music
+    # stop music
     
     scene winterwoods with dissolve
 
