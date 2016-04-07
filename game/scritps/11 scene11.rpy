@@ -144,7 +144,7 @@ label scene11:
 
     "Carefully, I tear open the envelope at its seal."
 
-    "Inside are three smaller envelopes, each marked with a date, 1967, 1987, and 2002."
+    "Inside are two smaller envelopes, each marked with a date, 1967 and 2002."
 
     "I start with the envelope labeled 1967. Inside is a letter, handwritten."
 
