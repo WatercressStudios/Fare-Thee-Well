@@ -16,8 +16,8 @@ label scene9:
 
     scene bar_night with fade
     # Sprites - Candace, Michael
-    show candace_std_happy at left
-    show michael_older_happy at right
+    show candace_std_happy at right
+    show michael_older_happy at left
 
     "Across the bar stand the current employees of The Hearth and Home, Candace and Michael, who has taken the job his mother once held to help pay for his education."
 
@@ -59,7 +59,11 @@ label scene9:
     wan "No, it's alright."
 
     # Michael Returns
-    show michael_older_happy
+    show michael_older_happy at left
+    
+    hide candace_std_happy
+    
+    show candace_std_happy at right
 
     "Michael returns from his waiting duties. Candace gives him a good long stare, and he blushes again."
 
@@ -85,8 +89,8 @@ label scene9:
     # BG - Bar Proper
     # Sprites - Candace, Michael
     scene bar_night with dissolve
-    show candace_std_happy at left
-    show michael_older_happy at right
+    show candace_std_happy at right
+    show michael_older_happy at left
 
     "I feel reminiscent about my similar experience in the very same bar thirty-five years prior, and smile in spite of myself. I propose an idea to the young man across the bar."
 
@@ -116,4 +120,4 @@ label scene9:
 
     "Candace and I share a laugh while Michael looks on, terrified at the prospect of whatever scheme Candace has in store."
    
-    return
+    jump scene10

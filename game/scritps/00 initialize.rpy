@@ -37,6 +37,7 @@ image young_micheal_surprised = "sprites/Young Micheal/young micheal surprise.pn
 image candace_std_happy = "sprites/Candace/candace standard happy.png"
 image candace_std_sad = "sprites/Candace/candace standard sad.png"
 image michael_older_happy = "sprites/Older Micheal/older micheal happy.png"
+image michael_older_surprise = "sprites/Older Micheal/older micheal surprise.png"
 image rosa_happy = "sprites/Rosa/rosa happy.png"
 
 ##################
