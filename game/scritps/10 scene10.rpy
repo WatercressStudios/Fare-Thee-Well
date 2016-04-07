@@ -258,4 +258,7 @@ label scene10:
 
     wan "Tell me, Michael, how is Emmeline doing these days?"
     
+    scene black 
+    with Pause(2)
+    
     jump scene11

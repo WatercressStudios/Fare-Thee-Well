@@ -10,6 +10,8 @@ label scene1:
     # play music "Wind-Mark_DiAngelo-1940285615.wav"
     
     scene black 
+    
+    nvl clear
 
     n "Fare Thee Well — The story of a lonely man."
 

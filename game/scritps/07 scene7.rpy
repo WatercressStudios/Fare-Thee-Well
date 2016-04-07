@@ -251,6 +251,8 @@ label scene7:
     n "Continued northward until I was picked up by a friendly truck driver."
     
     n "Headed for a town near the Canadian border called St. Emmeline."
+    
+    nvl clear
 
     "..."
 
@@ -417,6 +419,8 @@ label scene7:
     wan "Yeah, I'll be here. Thanks, really. It means a lot."
 
     ten "Don't mention it. Anything for an old friend."
+    
+    hide old_bartender_standard
 
     "With that, I sip my beer and think of the coming events. The fear that she won't recognize me once again crosses my mind, but I push it off in search of a bed to lay my head."
 

@@ -25,6 +25,8 @@ label scene2:
     gir "On the bonnie, bonnie banks of Loch Lomond."
     
     "Of course I know this song."
+    
+    nvl clear
 
     nvlgir "The small birds they sing and the wildflowers spring,"
 
@@ -76,7 +78,7 @@ label scene2:
 
     "I am washed in fascination, and in that moment, the passage of time resumes. It flows unhindered, ignorant that so much change had just taken place in my inner self in that brief window of frozen time."
 
-    "Of that change in my heart that has just set forth in motion a long, long story."
+    "That change in my heart has just set forth in motion a long, long story."
 
     "One that will not end for a very long time."
 

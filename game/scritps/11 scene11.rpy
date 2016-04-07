@@ -151,6 +151,8 @@ label scene11:
     "The handwriting is excellent and unmistakably feminine."
 
     # Letter 1967
+    
+    nvl clear
 
     n "To my dearest stranger,"
 
@@ -183,6 +185,8 @@ label scene11:
     # End Letter 1987
 
     # Letter 2002
+    
+    nvl clear
 
     n "My dear Wanderer,"
 

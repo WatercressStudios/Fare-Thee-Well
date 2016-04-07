@@ -3,6 +3,18 @@
 # Written by OptionalSauce and DarkEndless
     
 label scene9:
+    scene black 
+    with Pause(2)
+    
+    nvl clear
+    
+    n "Many years later..."
+    
+    nvl clear
+    
+    scene black 
+    with Pause(1)
+    
     scene stage 
     show rosa_happy at center 
 
