@@ -102,7 +102,7 @@ label scene9:
 
     mic "I'm nothing more than a stranger to her though…"
 
-    can "Ha! Now /that/ is ridiculous. As my father would say, strangers are just friends you haven't met yet."
+    can "Ha! Now {i}that{/i} is ridiculous. As my father would say, strangers are just friends you haven't met yet."
 
     mic "But what if-"
 

@@ -136,7 +136,7 @@ label scene3:
 
     scene black
 
-    "Silently, we drink our healths."
+    "Silently, we drink to our healths."
 
     "Afterward follow brief introductions. I learn Emmeline is 22, and I tell her I'm 25."
 

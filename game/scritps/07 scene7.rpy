@@ -98,7 +98,7 @@ label scene7:
 
     "{i}General Secretary Gorbachev, if you seek peace, if you seek prosperity for the Soviet Union and eastern Europe, if you seek liberalization, come here to this gate.{/i}"
 
-    "{i}Mr. Gorbachev, open this gate. Mr. Gorbachev, tear down this wall {/i}"
+    "{i}Mr. Gorbachev, open this gate. Mr. Gorbachev, tear down this wall! {/i}"
 
     "Old Gipper couldn’t outact a chimp, but he can sure put an end to communism, yessirree."
 

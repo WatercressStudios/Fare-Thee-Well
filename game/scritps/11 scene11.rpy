@@ -12,9 +12,9 @@ label scene11:
     
     show michael_older_happy at left
     
-    "Hours pass, and it's clear that we've all reached our limit. The clock behind the bar reads three thirty­six."
+    "Hours pass, and it's clear that we've all reached our limit. The clock behind the bar reads three-thirty­six."
 
-    ros "My goodness, I hadn't realized how late ­ well, early ­ it's gotten. I really should be going."
+    ros "My goodness, I hadn't realized how late — well, early — it's gotten. I really should be going."
 
     "Rosa stands and puts on her coat."
 

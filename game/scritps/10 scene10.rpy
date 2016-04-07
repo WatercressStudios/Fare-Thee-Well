@@ -24,7 +24,7 @@ label scene10:
 
     can "This oughta be good. We should be able to hear them from here."
 
-    can "Well, /you/ should be able to hear them from here. Senses of a damn hawk, I tell ya."
+    can "Well, {i}you{/i} should be able to hear them from here. Senses of a damn hawk, I tell ya."
 
     wan "You flatter me."
 

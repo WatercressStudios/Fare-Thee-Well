@@ -220,9 +220,7 @@ label scene4:
 
     "I laughed."
 
-    wan "Well, I did say."
-
-    wan "You have a beautiful voice."
+    wan "Well, I did say you have a beautiful voice."
     
     scene black
     
