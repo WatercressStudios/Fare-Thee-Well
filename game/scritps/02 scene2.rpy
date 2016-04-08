@@ -8,6 +8,8 @@ label scene2:
     
     show emmeline_young_surprise at center 
     
+    play music "Emmeline's Ballad - Loop.ogg" fadein 1.0 loop
+    
     "She begins softly, her voice barely above a whisper."
     
     gir "By yon bonnie banks..."
@@ -66,6 +68,8 @@ label scene2:
 
     show emmeline_young_sad
     
+    stop music fadeout 1.0
+    
     "When she finally finishes her set, the girl in the green dress takes a fateful step back from the microphone."
 
     "Her skin beads with sweat. Her chest heaves up and down to the rhythmic beat of her exhausted heart."
@@ -93,7 +97,9 @@ label scene2:
     "I sit alone for a while, taking this all in."
 
     scene bar_night with fade
-
+    
+    play music "Written To Memory - Loop.ogg" fadein 1.0 loop
+    
     "After I regain my senses, I shake myself off and return to my seat at the bar."
 
     "I see someone's cleared my glass from the counter."
@@ -189,7 +195,9 @@ label scene2:
     "I take out some money and tuck it under my glass as payment and stand up from my seat."
 
     ten "Your sacrifice will be remembered throughout all northern Maine."
-
+    
+    stone music
+    
     # scene bar
     
     jump scene3
