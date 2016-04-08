@@ -8,7 +8,9 @@
 # Sprite - Old Man/Bartender
 
 label scene8:
-
+    
+    play music "music/Friends Old and New Loop.ogg" fadein 1.0
+    
     scene bar_day with fade
 
     "The next morning, I arrive early enough to help the bartender with the tables, stools, and chairs. The worn wood seems to embody the place as a whole - well worn with time and filled with warmth."
@@ -24,6 +26,8 @@ label scene8:
     "The old man met my eyes and inclined his head toward the door. Making my best effort to keep my door, I notice Emmeline and her son - probably around seven years old. An inquisitive blue-eyed boy with brown hair."
 
     #Sound - door opens?
+    
+    stop music fadeout 1.0
     
     #Emmeline (Middle Aged) and Young Michael enter
     
