@@ -27,6 +27,8 @@ label scene8:
     
     #Emmeline (Middle Aged) and Young Michael enter
     
+    play music "music/Snowy Night - Loop.ogg" fadein 1.0
+    
     hide old_bartender_standard_cleaning_glass
 
     show middle_aged_emmeline_sad at right
@@ -66,6 +68,8 @@ label scene8:
     hide young_micheal_fear
 
     show young_micheal_happy at left
+    
+    stop music fadeout 1.0
 
     ten "Right, well. That stage isn’t going to set up itself. Em, why don’t you and Michael teach this greenie here the ropes. I’ve got a few more glasses to clean."
 
@@ -88,7 +92,9 @@ label scene8:
     #BG - Bar stage
 
     #Sprites - Michael (Young), Emmeline (Middle Aged)
-
+    
+    play music "music/Written to Memory - Loop.ogg" fadein 1.0
+    
     scene stage with fade
 
     show middle_aged_emmeline_happy 
@@ -100,6 +106,8 @@ label scene8:
     hide middle_aged_emmeline_happy
     
     show middle_aged_emmeline_happy at right
+    
+    emm "Don't we all."
 
     show young_micheal_happy at left
  
@@ -161,6 +169,8 @@ label scene8:
     "Emmeline waves goodbye to the bartender and takes Michael’s hand, walking toward the door."
 
     ten "Same time tomorrow. Have a good day."
+    
+    stop music fadeout 1.0
 
     "Emmeline pauses before she reaches the door and freezes in place. At first I wonder if she had forgotten something, but then she turns, and I see it."
 
@@ -179,7 +189,9 @@ label scene8:
     "I sigh and lean against the worn mahogany of the bar, and I can hear the bartender pouring a glass of something. I didn’t bother to turn around - my eyes were fixed on the road, watching them drive away."
 
     ten "Well, you couldn’t have been expecting anything else, could you?"
-
+    
+    play music "music/Departure.ogg" fadein 1.0
+    
     wan "No, I couldn’t have. Do you want to hear the story of that winter night?"
 
     ten "Yeah, why not. This is for you, by the way. Looks like you could use it. On the house."
@@ -242,11 +254,15 @@ label scene8:
     with Pause(.5)
 
     scene bar_day with fade
+    
+    stop music fadeout 1.0
 
     "With that, I am left alone. The emptiness of the bar fills the air, silence keeping me company as it has the past hundred years." 
 
     "The familiar smells of drafts, the familiar atmosphere of the community, made of vagabonds and travelers, friends and families, of those with homes and of those who have yet to find theirs... the familiar sense of loneliness."
-
+    
+    play music "music/Age of Transition - Loop.ogg" fadein 1.0
+    
     "Have I found my home? Is this my final resting place? Is this where I will eak out the rest of my existence, however long into infinity that it may take me?"
 
     "I honestly don't know."
@@ -260,7 +276,7 @@ label scene8:
     "I turn and make my way down the street. Buildings, both new and old, guide me, gradually giving way to more and more nature, as I continue my journey."
 
     "I find myself in front of a large, somewhat young tree. It's appearance does little to betray the true age of the form, being perhaps only a hundred years old or so."
-
+    
     "This is as good a place as any, and I sit against it, allowing the trunk to support my back."
 
     "I ache."
@@ -286,6 +302,12 @@ label scene8:
     "Maybe she just… did what I never could."
 
     "The air turns frigid, humid. Someone shakes me out of my lull, my trance, my thoughts and memories."
+    
+    play music "music/Rain_Background-Mike_Koenig-1681389445.mp3"
+    
+    "Rain."
+    
+    "It's raining."
 
     "The rain continues to shake me, spreading through my clothes, across my cold skin."
 
@@ -332,11 +354,13 @@ label scene8:
     "I beg, I plead. I can't watch them die! I can't be here! Only pain will come from this. Once again, I will be alone. Once again, I will be held down by my regrets."
 
     "It remains."
+    
+    stop music fadeout 1.0
 
     "The clouds begin to dissipate, the cold rain gone, the warm air flooding down, back into me."
     
     "The crickets begin to chirp, frogs ever so loud, life filling the air."
-
+    
     "So. The decision has been made for me."
 
     "I turn back from the sign, the town of Cedar, Maine staring right back at me, expecting me to return as if it never had a second thought."
