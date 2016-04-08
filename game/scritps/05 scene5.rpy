@@ -1,5 +1,7 @@
 label scene5:
     
+    stop music
+    
     "We talk on and on, long into the night."
 
     "We tell stories. Learn about each other. Come to understand everything there is to understand."
@@ -17,6 +19,8 @@ label scene5:
     "Under the cover of the winter storm, under the dim bar lights, under the drowsy spell of insomnia, we talk, and talk, and talk until we can talk no more."
     
     scene bar_night with fade
+    
+    play music "music/Written To Memory - Loop.ogg" fadein 1.0 loop
     
     show emmeline_young_happy at right
     
@@ -41,7 +45,11 @@ label scene5:
     hide emmeline_young_happy
     with Pause(.5)
 
+    stop music fadeout 1.0
+
     scene black with fade
+    
+    play music "music/Snowy Night - Loop.ogg" fadein 1.0 loop
     
     "The snow has finally stopped, leaving behind a sleepy town draped in white. The snow is thick, cold, soft like the stuff of dreams."
 
@@ -220,7 +228,9 @@ label scene5:
     "She laughs softly."
 
     emm "It looks like we just did, anyway."
-
+    
+    stop music fadeout 1.0
+    
     "She's right. It had completely gone unnoticed, but we really have spent the whole night together. A new day was about to dawn."
 
     "I had forgotten how quickly time could pass when you're with a certain kind of person."
