@@ -58,9 +58,10 @@ label scene9:
     "Like her voice is an endless flowing spring, and to listen to it is to drink, and drink, and drink again."
     "It's nice to feel this way one more time... even if it's not as strongly."
     "The girl in the blue dress continues to sing."
-    "When she finally finishes her set, she takes a fateful step back from the microphone."
+    "While she finishes Red is the Rose and prepares for her next song, she takes a fateful step back from the microphone."
     "Her skin beads with sweat. Her chest heaves up and down to the rhythmic beat of her exhausted heart."
     "Her posture is tired, but proud. Her breath short, but steady. Her eyes somber, but bright, vibrant with fire."
+    "She steps back up to the mic and keeps on singing."
 
     hide rosa_happy
     
