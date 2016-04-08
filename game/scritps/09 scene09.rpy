@@ -36,8 +36,8 @@ label scene9:
     
     "She begins softly, her voice barely above a whisper."
     
-    play music "music/Emmeline's Balad - Loop.ogg" fadein 1.0
-    
+    play music "music/Emmeline's Ballad - Loop.ogg" fadein 1.0
+        
     ros "Come over the hills, my bonnie Irish lass..."
     ros "Come over the hills to your darling..."
     ros "You choose the road, love, and I'll make the vow..."
