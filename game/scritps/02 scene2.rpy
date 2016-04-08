@@ -8,7 +8,7 @@ label scene2:
     
     show emmeline_young_surprise at center 
     
-    play music "Emmeline's Ballad - Loop.ogg" fadein 1.0 loop
+    play music "music/Emmeline's Ballad - Loop.ogg" fadein 1.0 loop
     
     "She begins softly, her voice barely above a whisper."
     
@@ -98,7 +98,7 @@ label scene2:
 
     scene bar_night with fade
     
-    play music "Written To Memory - Loop.ogg" fadein 1.0 loop
+    play music "music/Written To Memory - Loop.ogg" fadein 1.0 loop
     
     "After I regain my senses, I shake myself off and return to my seat at the bar."
 
@@ -196,7 +196,7 @@ label scene2:
 
     ten "Your sacrifice will be remembered throughout all northern Maine."
     
-    stone music
+    stop music
     
     # scene bar
     
