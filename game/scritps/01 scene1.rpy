@@ -7,7 +7,7 @@
 label scene1:
 
     stop music
-    play music "Wind-Mark_DiAngelo-1940285615.wav"
+    play music "music/Wind-Mark_DiAngelo-1940285615.wav"
     
     scene black 
     
@@ -28,7 +28,7 @@ label scene1:
     nvl clear
     
     stop music
-    play music "Theme for a Wanderer - Loop.ogg" fadein 1.0 loop
+    play music "music/Theme for a Wanderer - Loop.ogg" fadein 1.0 loop
     
     scene winterwoods 
 
@@ -103,7 +103,7 @@ label scene1:
     "I push past the door and enter in out of the snowy night."
     
     stop music
-    play music "Written To Memory" fadein 1.0 loop
+    play music "music/Written To Memory" fadein 1.0 loop
     
     scene bar_night 
 
