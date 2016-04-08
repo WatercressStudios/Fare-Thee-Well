@@ -370,8 +370,6 @@ label scene11:
     
     wan "Okay."
     
-    stop music fadeout 1.0
-    
     play music "music/Wind-Mark_DiAngelo-1940285615.wav"
     
     scene cedar_night with dissolve
