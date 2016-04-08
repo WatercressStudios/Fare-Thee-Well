@@ -97,7 +97,8 @@ label scene8:
 
     #Sprites - Michael (Young), Emmeline (Middle Aged)
     
-    play music "music/Written to Memory - Loop.ogg" fadein 1.0
+    play music "music/Written to Memory - Intro.ogg" fadein 1.0
+    queue music "music/Written to Memory - Loop.ogg"
     
     scene stage with fade
 
@@ -265,7 +266,8 @@ label scene8:
 
     "The familiar smells of drafts, the familiar atmosphere of the community, made of vagabonds and travelers, friends and families, of those with homes and of those who have yet to find theirs... the familiar sense of loneliness."
     
-    play music "music/Age of Transition - Loop.ogg" fadein 1.0
+    play music "music/Age of Transition - Intro.ogg" fadein 1.0
+    queue music "music/Age of Transition - Loop.ogg"
     
     "Have I found my home? Is this my final resting place? Is this where I will eak out the rest of my existence, however long into infinity that it may take me?"
 

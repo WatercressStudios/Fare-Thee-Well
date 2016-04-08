@@ -28,7 +28,8 @@ label scene1:
     nvl clear
     
     stop music
-    play music "music/Theme for a Wanderer - Loop.ogg" fadein 1.0 loop
+    play music "music/Theme for a Wanderer - Intro.ogg" fadein 1.0 loop
+    queue music "music/Theme for a Wanderer - Loop.ogg"
     
     scene winterwoods 
 
@@ -103,7 +104,8 @@ label scene1:
     "I push past the door and enter in out of the snowy night."
     
     stop music
-    play music "music/Written To Memory - Loop.ogg" fadein 1.0 loop
+    play music "music/Written To Memory - Intro.ogg" fadein 1.0 loop
+    queue music "music/Written To Memory - Loop.ogg"
     
     scene bar_night 
 

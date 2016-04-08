@@ -164,7 +164,8 @@ label scene11:
     
     nvl clear
     
-    play music "music/Lullaby for Cedar, Maine - Loop.ogg" fadein 1.0
+    play music "music/Lullaby for Cedar, Maine - Intro.ogg" fadein 1.0
+    queue music "music/Lullaby for Cedar, Maine - Loop.ogg"
     
     n "Hello, stranger,"
 
@@ -202,7 +203,8 @@ label scene11:
 
     "I trace a finger over the now familiar script of Emmeline’s handwriting before reading her words."
     
-    play music "music/Snowy Night - Loop.ogg" fadein 1.0
+    play music "music/Snowy Night - Intro.ogg" fadein 1.0
+    queue music "music/Snowy Night - Loop.ogg"
 
     n "Dear Young Man,"
     
@@ -244,7 +246,8 @@ label scene11:
 
     # Letter 2002
     
-    play music "music/Theme for a Wanderer - Loop.ogg" fadein 1.0
+    play music "music/Theme for a Wanderer - Intro.ogg" fadein 1.0
+    queue music "music/Theme for a Wanderer - Loop.ogg"
     
     nvl clear
     

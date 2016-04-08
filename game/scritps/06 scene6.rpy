@@ -4,7 +4,8 @@ label scene6:
     
     scene cedar_night with fade
     
-    play music "music/Lullaby for Cedar, Maine - Loop.ogg" fadein 1.0
+    play music "music/Lullaby for Cedar, Maine - Intro.ogg" fadein 1.0
+    queue music "music/Lullaby for Cedar, Maine - Loop.ogg"
     
     "We find a bench overlooking the hillside. I wipe the snow off it with the sleeve of my coat. We sit down close to each other for warmth."
 
@@ -128,7 +129,7 @@ label scene6:
 
     scene snow_bench with fade
     
-    play music "music/Departure - Loop.ogg" fadein 1.0
+    play music "music/Departure.ogg" fadein 1.0
     
     "I open my eyes."
 

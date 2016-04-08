@@ -20,7 +20,8 @@ label scene4:
 
     wan "I figured."
     
-    play music "music/Age of Transition - Loop.ogg" fadein 1.0 loop
+    play music "music/Age of Transition - Intro.ogg" fadein 1.0 loop
+    queue music "music/Age of Transition - Loop.ogg"
 
     emm "They were livid. Engorged with rage. You'd think they were going to eat me, they were so angry."
 
@@ -174,7 +175,8 @@ label scene4:
 
     emm "...If any of that makes sense to you."
 
-    play music "music/Theme for a Wanderer - Loop.ogg" fadein 1.0 loop
+    play music "music/Theme for a Wanderer - Intro.ogg" fadein 1.0 loop
+    queue music "music/Theme for a Wanderer - Loop.ogg"
 
     "I try to assure her."
 

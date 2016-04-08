@@ -36,7 +36,8 @@ label scene9:
     
     "She begins softly, her voice barely above a whisper."
     
-    play music "music/Emmeline's Ballad - Loop.ogg" fadein 1.0
+    play music "music/Emmeline's Ballad - Intro.ogg" fadein 1.0
+    queue music "music/Emmeline's Ballad - Loop.ogg"
         
     ros "Come over the hills, my bonnie Irish lass..."
     ros "Come over the hills to your darling..."
@@ -91,7 +92,8 @@ label scene9:
     
     show candace_std_sad
     
-    play music "music/Written to Memory - Loop.ogg" fadein 1.0
+    play music "music/Written to Memory - Intro.ogg" fadein 1.0
+    queue music "music/Written to Memory - Loop.ogg"
     
     "Candace gives a defeated sigh, and waves a hand in front of Michael's face, jolting him back to reality."
 

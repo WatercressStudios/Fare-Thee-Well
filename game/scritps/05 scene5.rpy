@@ -20,7 +20,8 @@ label scene5:
     
     scene bar_night with fade
     
-    play music "music/Written To Memory - Loop.ogg" fadein 1.0 loop
+    play music "music/Written To Memory - Intro.ogg" fadein 1.0 loop
+    queue music "music/Written To Memory - Loop.ogg"
     
     show emmeline_young_happy at right
     
@@ -49,7 +50,8 @@ label scene5:
 
     scene black with fade
     
-    play music "music/Snowy Night - Loop.ogg" fadein 1.0 loop
+    play music "music/Snowy Night - Intro.ogg" fadein 1.0 loop
+    queue music "music/Snowy Night - Loop.ogg"
     
     "The snow has finally stopped, leaving behind a sleepy town draped in white. The snow is thick, cold, soft like the stuff of dreams."
 

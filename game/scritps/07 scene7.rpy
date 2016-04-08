@@ -8,7 +8,8 @@ label scene7:
 
     scene highway with fade
     
-    play music "music/Theme for a Wanderer - Loop.ogg" fadein 1.0
+    play music "music/Theme for a Wanderer - Intro.ogg" fadein 1.0
+    queue music "music/Theme for a Wanderer - Loop.ogg"
 
     "June 13, 1987"
 
@@ -180,7 +181,8 @@ label scene7:
 
     "There was the period of about six years that I spent as a performer in the Ringling Bros. and Barnum and Bailey travelling circus. This was back during the Great Depression, when I would have been lucky to find any work at all."
     
-    play music "music/Written to Memory - Loop.ogg." fadeout 1.0
+    play music "music/Written to Memory - Intro.ogg." fadeout 1.0
+    queue music "music/Written to Memory - Loop.ogg"
     
     "I started out as an animal trainer’s assistant—basically the schmuck that had to feed the animals and clean the shit out of their cages—and from there, moved on to a variety of jobs: from clown, to juggler, to tightrope walker, to trapeze artist, to sword swallower, to you name it. I did it all."
 
@@ -268,7 +270,8 @@ label scene7:
 
     "..."
     
-    play music "music/Emmeline's Ballad - Loop.ogg" fadein 1.0
+    play music "music/Emmeline's Ballad - Intro.ogg" fadein 1.0
+    queue music "music/Emmeline's Ballad - Loop.ogg"
     
     "...Am I losing my mind?"
 
@@ -362,7 +365,8 @@ label scene7:
 
     scene bar_night with fade
     
-    play music "music/Lullaby for Cedar, Maine - Loop.ogg" fadein 1.0
+    play music "music/Lullaby for Cedar, Maine - Intro.ogg" fadein 1.0
+    queue music "music/Lullaby for Cedar, Maine - Loop.ogg"
     
     "The same bartender from all those years ago - albeit with a tired look about him - turns towards me as I enter."
 
