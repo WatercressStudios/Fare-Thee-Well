@@ -3,7 +3,9 @@
 label scene6:
     
     scene cedar_night with fade
-
+    
+    play music "music/Lullaby for Cedar, Maine - Loop.ogg" fadein 1.0
+    
     "We find a bench overlooking the hillside. I wipe the snow off it with the sleeve of my coat. We sit down close to each other for warmth."
 
     "Emmeline pulls herself even closer to me, tugging at my arm. She leans her head on my shoulder and shuts her eyes."
@@ -103,9 +105,11 @@ label scene6:
     wan "Does he stay, or does he leave?"
 
     wan "Does he chase that chance at true emotion, even if the knows in the end it will cause only despair?"
-
+    
+    stop music fadeout 1.0
+    
     wan "Tell me, what choice does he make?"
-
+    
     wan "..."
 
     wan "..."
@@ -123,7 +127,9 @@ label scene6:
     wan "Emmeline?"
 
     scene snow_bench with fade
-
+    
+    play music "music/Departure.ogg" fadein 1.0
+    
     "I open my eyes."
 
     "I see the sun has begun to rise."
