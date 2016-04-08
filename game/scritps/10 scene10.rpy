@@ -6,6 +6,8 @@ label scene10:
     
     show michael_older_happy at left
     
+    play music "music/Friends Old and New Loop.ogg"
+    
     can "Mike, that's the end of the set. Get over there and ask to her to join us."
 
     mic "Candace, are you sure that's a good idea?"
@@ -257,6 +259,8 @@ label scene10:
     can "Hah! I have no idea what you just said, but I know you're probably right."
 
     can "Anyhow, it looks like we could all use another round. I'll be right back."
+    
+    stop music fadeout 1.0
 
     hide candace_std_happy
 
