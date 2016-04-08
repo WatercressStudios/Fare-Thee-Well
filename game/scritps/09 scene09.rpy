@@ -3,11 +3,14 @@
 # Written by OptionalSauce and DarkEndless
     
 label scene9:
+    
     scene black 
+    
+    stop music
     
     nvl clear
     
-    n "Many years later..."
+    n "December — 2002"
     
     nvl clear
     
@@ -22,12 +25,46 @@ label scene9:
     "A lone vocalist in a blue dress takes the stage at The Hearth and Home."
 
     "She appears to be close to Michael's age, who is now twenty-four."
-
-    "The young woman begins singing, and the the meager audience is immediately captivated."
-
-    ros "If I had wings like Noah's dove, I'd fly the river to the one I love. Fare thee well, my honey, fare thee well."
+    
+    "The girl gazes with at the expectant faces all around her."
+    
+    "A hush falls over the crowd as she leans into the microphone. Her face betrays not a single emotion but pure wonder."
+    
+    "Like she's somewhere else, remembering better times, preparing to sing to herself in a world that stood still to hang off her every word."
+    
+    "The young woman starts to sing, and the the meager audience is immediately captivated."
+    
+    "She begins softly, her voice barely above a whisper."
+    
+    play music "music/Emmeline's Balad - Loop.ogg" fadein 1.0
+    
+    ros "Come over the hills, my bonnie Irish lass..."
+    ros "Come over the hills to your darling..."
+    ros "You choose the road, love, and I'll make the vow..."
+    ros "And I'll be your true love forever."
+    
+    "Her voice is beautiful and wraps around the dark air of the old bar."
+    "I knew this song. I knew it well."
+    "Though I've heard it sung better before, I admit."
+    
+    ros "Red is the rose that in yonder garden grows.."
+    ros "Fair is the lily of the valley..."
+    ros "Clear is the water that flows from the Boyne..."
+    ros "But my love is fairer than any."
+    
+    "She has one of the best voices I've heard in all my life."
+    "I've only been this absorbed in song once before."
+    "The voice of the girl in the blue dress grows, and grows, and grows, only to fill the air with complete emotion, feelings seething with energy."
+    "Like her voice is an endless flowing spring, and to listen to it is to drink, and drink, and drink again."
+    "It's nice to feel this way one more time... even if it's not as strongly."
+    "The girl in the blue dress continues to sing."
+    "When she finally finishes her set, she takes a fateful step back from the microphone."
+    "Her skin beads with sweat. Her chest heaves up and down to the rhythmic beat of her exhausted heart."
+    "Her posture is tired, but proud. Her breath short, but steady. Her eyes somber, but bright, vibrant with fire."
 
     hide rosa_happy
+    
+    stop music fadeout 1.0
     
     with Pause(.5)
     
@@ -52,7 +89,9 @@ label scene9:
     hide candace_std_happy
     
     show candace_std_sad
-
+    
+    play music "music/Written to Memory - Loop.ogg" fadein 1.0
+    
     "Candace gives a defeated sigh, and waves a hand in front of Michael's face, jolting him back to reality."
 
     mic "Oh, uh, sorry Candace. What did you need?"
@@ -155,7 +194,9 @@ label scene9:
     can "Let's talk strategy!"
 
     "Candace and I share a laugh while Michael looks on, terrified at the prospect of whatever scheme Candace has in store."
-   
+    
+    stop music fadeout 1.0
+    
     hide candace_std_happy
     
     hide michael_older_happy
