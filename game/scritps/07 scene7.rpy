@@ -7,6 +7,8 @@
 label scene7:
 
     scene highway with fade
+    
+    play music "music/Theme for a Wanderer - Loop.ogg" fadein 1.0
 
     "June 13, 1987"
 
@@ -89,7 +91,9 @@ label scene7:
     "To wantonly piss on this holy ground would be no less than sacrilege."
 
     "(Innermost convictions be damned, though, if we don’t reach a truck stop or rest area soon. I would rather pee on a bush than myself.)"
-
+    
+    stop music fadeout 1.0
+    
     "On the radio there’s a lull in the heated discourse as one of the hosts segues into some recent soundbite of the President speaking."
 
     "{i}...across Europe, this wall will fall. For it cannot withstand faith; it cannot withstand truth.{/i}"
@@ -117,6 +121,8 @@ label scene7:
     "The danish is dry and crumbly—don’t know what I expected for 50 cents, to tell the truth—but the coffee is good, and I nurse it as I begin to ponder what I’ll do when I reach St. Leonard."
 
     scene highway with fade
+    
+    play music "music/Friends Old and New Loop.ogg" fadein 1.0
 
     "There’s something about the flavor of cheap roadside coffee that’s intoxicating to the tired mind. Pretty soon I can feel my spirits begin to lift as my imagination runs amok thinking up adventures that might await me in St. Leonard."
 
@@ -167,11 +173,15 @@ label scene7:
     "With a wistful sigh I open the record book of my eternal life on the road. There has got to be something in here that will pull me out of this funk and resuscitate those optimistic feelings I had but fifteen minutes ago. I begin flipping to random entries in search of what whatever that might be."
 
     #Wolf's part of scene 1
-
+    
+    stop music fadeout 1.0
+    
     "Let’s see..."
 
     "There was the period of about six years that I spent as a performer in the Ringling Bros. and Barnum and Bailey travelling circus. This was back during the Great Depression, when I would have been lucky to find any work at all."
-
+    
+    play music "music/Written to Memory - Loop.ogg." fadeout 1.0
+    
     "I started out as an animal trainer’s assistant—basically the schmuck that had to feed the animals and clean the shit out of their cages—and from there, moved on to a variety of jobs: from clown, to juggler, to tightrope walker, to trapeze artist, to sword swallower, to you name it. I did it all."
 
     "I mastered every skillset and performed every role that existed under the big top, until finally, one day, I was promoted to ringmaster by an old friend of mine, none other John Nicholas Ringling himself."
@@ -252,10 +262,14 @@ label scene7:
     
     n "Headed for a town near the Canadian border called St. Emmeline."
     
+    stop music fadeout 1.0
+    
     nvl clear
 
     "..."
-
+    
+    play music "music/Emmeline's Ballad - Loop.ogg" fadein 1.0
+    
     "...Am I losing my mind?"
 
     "Was it madness that drove me to this specific part of Maine, or am I just a victim of fate?"
@@ -269,6 +283,20 @@ label scene7:
     "No one will remember me."
 
     "She won’t remember me."
+    
+    "I shouldn't be tempting fate like this. But I can't help but think back to past times, always a strange, new feeling growing with each and every recalled memory."
+
+    "That fateful winter night, I had met a most wondrous woman. She's plagued my dreams for decades at this point, and yet I always told myself that I could never go back."
+
+    "My one fear, though, had been clear to be true: I regret everything."
+
+    "I regret meeting her. I regret talking to her. I regret taking her out, into the snow, like young children exploring their fleeting youth."
+
+    "I regret leaving her, despite the impossibility of it all."
+
+    "I still remember her face, her voice, every bit about her. Despite my old age, my mind is and always will be sharp as ever."
+
+    "She... won't remember me."
 
     "While I’ve been frittering away the past two decades, time has marched on for the good folks in Cedar, Maine. There’s just no point in going back there. I’m not ready to settle down."
 
@@ -279,8 +307,12 @@ label scene7:
     "I have to keep going."
 
     "I can’t stop for anything or anyone."
-
-    "This dreadful feeling will pass once I’m in Canada, and everything will continue as it always had."
+    
+    "I... I can't."
+    
+    "But... should I?"
+    
+    "..."
 
     tru "Talk about your jerkwater towns, man. Folks would forget that place existed if it weren’t on the map."
 
@@ -322,34 +354,16 @@ label scene7:
 
     wan "Here goes nothing…"
 
-    #fade out
+    scene black
     
-    #"I happen upon a journal entry, worn and ragged, that I've read many times since it had been written: Winter, 1967. I close the journal, quickly, a pained expression on my face."
-
-    #"I shouldn't be tempting fate like this. I've read it enough over the years, always a strange, new feeling growing with each and every recalled memory."
-
-    #"We once again begin to move towards my destination. Traffic seems to have given way to open fields and rolling hills. Despite this, my mind is yet again drawn back to that journal entry."
-
-    #"That fateful winter night, I had met a most wondrous woman. She's plagued my dreams for decades at this point, and yet I always told myself that I could never go back."
-
-    #"My one fear, though, had been clear to be true: I regret everything."
-
-    #"I regret meeting her. I regret talking to her. I regret taking her out, into the snow, like young children exploring their fleeting youth."
-
-    #"I regret leaving her, despite the impossibility of it all."
-
-    #"I still remember her face, her voice, every bit about her. Despite my old age, my mind is and always will be sharp as ever."
-
-    #"I wonder… will she remember me?"
-
-    #"The truck takes a detour down a long and green path. In the distance, the familiar sign stares back at me, welcoming me: CEDAR, MAINE: POPULATION 2,501."
-
-    #"I let the trucker know that he can drop me off here. I need to hike the rest of the way on my own. With a proper nod, I depart, and he drives back, along his own path."
-
+    stop music fadeout 1.0
+    
     "With a deep breath and a sigh, I walk towards the bar that I had come to love. Nature makes way to buildings, denser and closer, until I'm nearly in the heart of the small town, a familiar entrance in front of me."
 
     scene bar_night with fade
-
+    
+    play music "music/Lullaby for Cedar, Maine - Loop.ogg" fadein 1.0
+    
     "The same bartender from all those years ago - albeit with a tired look about him - turns towards me as I enter."
 
     show old_bartender_standard
@@ -400,7 +414,7 @@ label scene7:
 
     wan "Last time I happened my way into this bar, do you remember the charming girl in green? Her voice was enchanting, one of a kind, really. What ever happened to her?"
 
-    ten "Emmeline? Well, luck would have it, she still lives here in Cedar, working in this very bar."
+    ten "Emmeline? Well, luck would have it, she still lives here in Cedar. Actually, she still comes to help out from time to time here at this dusty old bar."
 
     "My eyes light up with this very, very good news. She's still here, even after all this time? I can hardly believe it."
 
@@ -425,6 +439,8 @@ label scene7:
     "With that, I sip my beer and think of the coming events. The fear that she won't recognize me once again crosses my mind, but I push it off in search of a bed to lay my head."
 
     "I nod to the bartender, and make my way to a local motel to rest up for the night."
-
+    
+    stop music fadeout 1.0
+    
     jump scene8
 
