@@ -98,6 +98,10 @@ label scene11:
     
     show candace_std_happy
 
+    hide candace_std_happy
+    
+    show candace_std_sad
+
     can "I know what you're about to do. I never expected you'd stay forever."
 
     can "About two hours ago, I figured this would be your last night in Cedar."
@@ -111,6 +115,10 @@ label scene11:
     can "I'm not going to argue that, I'm not going to stop you."
 
     wan "What is it then?"
+
+    hide candace_std_sad
+    
+    show candace_std_happy
 
     "She cracks a slight smile, but gives nothing away."
 

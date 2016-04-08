@@ -14,7 +14,9 @@ label scene9:
     scene black 
     
     scene stage 
+    
     with Pause(.5)
+    
     show rosa_happy at center 
 
     "A lone vocalist in a blue dress takes the stage at The Hearth and Home."
@@ -26,11 +28,15 @@ label scene9:
     ros "If I had wings like Noah's dove, I'd fly the river to the one I love. Fare thee well, my honey, fare thee well."
 
     hide rosa_happy
+    
     with Pause(.5)
     
     scene bar_night with fade
+    
     # Sprites - Candace, Michael
+    
     show candace_std_happy at right
+    
     show michael_older_happy at left
 
     "Across the bar stand the current employees of The Hearth and Home, Candace and Michael, who has taken the job his mother once held to help pay for his education."
@@ -44,6 +50,7 @@ label scene9:
     can "Mike? Hello in there?"
 
     hide candace_std_happy
+    
     show candace_std_sad
 
     "Candace gives a defeated sigh, and waves a hand in front of Michael's face, jolting him back to reality."
@@ -51,6 +58,7 @@ label scene9:
     mic "Oh, uh, sorry Candace. What did you need?"
 
     hide candace_std_sad
+
     show candace_std_happy
 
     "Candace laughs at the young man. She's clearly embarrassed him, so it's no surprise that his face has become several shades redder than some of the wines behind the bar."
@@ -62,6 +70,7 @@ label scene9:
     "Michael prepares several mugs of draft beer, loads them onto a tray, and heads out to the floor. All the while, he pays only minimal attention to his task, still smitten by the young singer."
 
     # Michael Leaves
+
     hide michael_older_happy
 
     can "He reminds me of a story my father would tell me."
@@ -105,15 +114,18 @@ label scene9:
 
     "The song's end is met with a quiet, yet suitable applause."
     
-
-    
     hide rosa_happy
+    
     with Pause(.5)
 
     # BG - Bar Proper
+    
     # Sprites - Candace, Michael
+    
     scene bar_night 
+    
     show candace_std_happy at right
+    
     show michael_older_happy at left
 
     "I feel reminiscent about my similar experience in the very same bar thirty-five years prior, and smile in spite of myself. I propose an idea to the young man across the bar."
@@ -145,7 +157,9 @@ label scene9:
     "Candace and I share a laugh while Michael looks on, terrified at the prospect of whatever scheme Candace has in store."
    
     hide candace_std_happy
+    
     hide michael_older_happy
+    
     with Pause(.5)
     
     jump scene10

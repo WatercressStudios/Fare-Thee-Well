@@ -144,6 +144,10 @@ label scene10:
 
     ros "But..."
 
+    hide rosa_happy
+    
+    show rosa_sad
+
     "The light in her eyes fades into a quiet sadness."
 
     ros "When I finally made it to music school, it was..."
@@ -169,6 +173,10 @@ label scene10:
     can "Well hell, I'll drink to that."
 
     "Rosa nods gratefully to Candace and turns to Michael."
+
+    hide michael_older_happy
+    
+    show michael_older_sad at left
 
     mic "I guess I could say I understand some of those feelings. I finished school, but it hasn't really done me much good. As soo as I graduated, I came right back home to Cedar."
 
@@ -259,6 +267,7 @@ label scene10:
     wan "Tell me, Michael, how is Emmeline doing these days?"
     
     scene black 
+
     with Pause(2)
     
     jump scene11
