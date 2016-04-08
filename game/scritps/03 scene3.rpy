@@ -1,7 +1,9 @@
 label scene3:
     
     hide bartender_young
-
+    
+    play music "music/Written To Memory - Loop.ogg" fadein 1.0 loop
+    
     "Out of the darkness and the crowd, I spot the girl in the green dress making her way toward the door. She's tugging the sides of her coat tight around her, like she's trying to make herself look as small as she can."
 
     "I wave her over before she can leave. She sees me and stares at me blankly while I approach her. She seems surprised."
@@ -41,7 +43,8 @@ label scene3:
     "It got worse from here."
 
     "God, I've not done this in so long."
-
+    
+    stop music
     show emmeline_young_disgust
 
     "The girl visibly recoils. I think she's trying to hold back laughter."
@@ -67,7 +70,9 @@ label scene3:
     "Then, of all things, she smiles."
 
     show emmeline_young_happy
-
+    
+    play music "music/Friends Old and New Loop.ogg" fadein 1.0 loop
+    
     gir "No one's ever asked me about my singing before."
 
     "Success."
@@ -185,6 +190,8 @@ label scene3:
     wan "I don't really involve myself in that. I don't keep myself too current. I don't have any strong opinions, if that's what you're worried about. I'm listening. Anything you can think of to say, you can say, and I'll listen."
 
     show emmeline_young_angry
+    
+    stop music fadeout 1.0
 
     emm "Well, I was expelled from school. For protesting the war."
 
