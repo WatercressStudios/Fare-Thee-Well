@@ -307,6 +307,8 @@ label scene8:
 
     "The air turns frigid, humid. Someone shakes me out of my lull, my trance, my thoughts and memories."
     
+    stop music fadeout 1.0
+
     play music "music/Rain_Background-Mike_Koenig-1681389445.mp3"
     
     "Rain."

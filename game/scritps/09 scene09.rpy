@@ -22,7 +22,7 @@ label scene9:
     
     show rosa_happy at center 
 
-    "A lone vocalist in a blue dress takes the stage at The Hearth and Home."
+    "A lone vocalist in a violet dress takes the stage at The Hearth and Home."
 
     "She appears to be close to Michael's age, who is now twenty-four."
     

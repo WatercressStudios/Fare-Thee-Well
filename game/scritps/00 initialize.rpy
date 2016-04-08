@@ -3,7 +3,7 @@
 #########################
 define n = Character(None, what_color="#FFFFFF", kind=nvl, what_size=32)
 define wan = Character('Wayfarer', color="#800000", show_two_window=True)
-define ten = Character('Bartender', color="#505050", show_two_window=True)
+define ten = Character('Bartender', color="#3a2007", show_two_window=True)
 define gir = Character('Girl', color="#2a4538", show_two_window=True)
 define nvlgir = Character(None, what_color="#FFFFFF", kind=nvl, what_size=32)
 define emm = Character('Emmeline', color="#2a4538", show_two_window=True)
