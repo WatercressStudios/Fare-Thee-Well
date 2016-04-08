@@ -189,5 +189,7 @@ label scene6:
     "I vanish like a ghost from a dream, wiping tears from my eyes."
 
     "All I leave behind are footprints in the snow that are soon swept away by winter wind."
-
+    
+    stop music
+    
     jump scene7
