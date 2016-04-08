@@ -2,7 +2,7 @@ label scene3:
     
     hide bartender_young
     
-    play music "music/Written To Memory - Loop.ogg" fadein 1.0 loop
+    # play music "music/Written To Memory - Loop.ogg" fadein 1.0 loop
     
     "Out of the darkness and the crowd, I spot the girl in the green dress making her way toward the door. She's tugging the sides of her coat tight around her, like she's trying to make herself look as small as she can."
 

@@ -196,7 +196,7 @@ label scene2:
 
     ten "Your sacrifice will be remembered throughout all northern Maine."
     
-    stop music
+    #stop music
     
     # scene bar
     

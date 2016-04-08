@@ -103,7 +103,7 @@ label scene1:
     "I push past the door and enter in out of the snowy night."
     
     stop music
-    play music "music/Written To Memory" fadein 1.0 loop
+    play music "music/Written To Memory - Loop.ogg" fadein 1.0 loop
     
     scene bar_night 
 
