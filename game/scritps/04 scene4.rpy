@@ -19,6 +19,8 @@ label scene4:
     emm "You could, but it's not a fun story. You can imagine my parents weren't very big fans of my expulsion."
 
     wan "I figured."
+    
+    play music "music/Age of Transition - Loop.ogg" fadein 1.0 loop
 
     emm "They were livid. Engorged with rage. You'd think they were going to eat me, they were so angry."
 
@@ -41,7 +43,9 @@ label scene4:
     wan "You seem the type."
     
     hide emmeline_young_sad
-
+    
+    music stop fadeout 1.0
+    
     show emmeline_young_happy
 
     "This makes Emmeline loosen up again, but only a little. That's good. I have to try and help her feel better. I hope I didn't spoil her night."
@@ -59,7 +63,9 @@ label scene4:
     wan "I know how you feel."
 
     wan "You can keep going, if you'd like."
-
+    
+    play music "music/Departure.ogg" fadein 1.0 loop
+    
     emm "Well, the rest is a lot of the same."
 
     emm "I packed up some clothes and some books and snuck out in the middle of the night."
@@ -168,6 +174,8 @@ label scene4:
 
     emm "...If any of that makes sense to you."
 
+    play music "music/Theme for a Wanderer - Loop.ogg" fadein 1.0 loop
+
     "I try to assure her."
 
     wan "Really, I understand. I'm in the same situation as you. I am."
@@ -223,5 +231,7 @@ label scene4:
     wan "Well, I did say you have a beautiful voice."
     
     scene black
+    
+    stop music fadeout 1.0
     
     jump scene5
