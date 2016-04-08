@@ -3,14 +3,14 @@
 #########################
 define n = Character(None, what_color="#FFFFFF", kind=nvl, what_size=32)
 define wan = Character('Wayfarer', color="#800000", show_two_window=True)
-define ten = Character('Bartender', color="#993399", show_two_window=True)
-define gir = Character('Girl', color="#333399", show_two_window=True)
+define ten = Character('Bartender', color="#505050", show_two_window=True)
+define gir = Character('Girl', color="#2a4538", show_two_window=True)
 define nvlgir = Character(None, what_color="#FFFFFF", kind=nvl, what_size=32)
-define emm = Character('Emmeline', color="#333399", show_two_window=True)
+define emm = Character('Emmeline', color="#2a4538", show_two_window=True)
 define tru = Character('Trucker', color="#666666", show_two_window=True)
-define mic = Character('Micheal', color="#006600", show_two_window=True)
+#define mic = Character('Micheal', color="#006600", show_two_window=True)
 define can = Character('Candace', color="#663300", show_two_window=True)
-define ros = Character('Rosa', color="#6600cc", show_two_window=True)
+define ros = Character('Rosa', color="#342644", show_two_window=True)
 define mic = Character('Michael', color="#336699", show_two_window=True)
 
 ######################

@@ -44,7 +44,7 @@ label scene4:
     
     hide emmeline_young_sad
     
-    music stop fadeout 1.0
+    stop music fadeout 1.0
     
     show emmeline_young_happy
 

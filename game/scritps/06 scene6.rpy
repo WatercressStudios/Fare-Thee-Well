@@ -128,7 +128,7 @@ label scene6:
 
     scene snow_bench with fade
     
-    play music "music/Departure.ogg" fadein 1.0
+    play music "music/Departure - Loop.ogg" fadein 1.0
     
     "I open my eyes."
 
