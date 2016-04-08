@@ -12,6 +12,8 @@ label scene11:
     
     show michael_older_happy at left
     
+    play music "music/Departure.ogg" fadein 1.0
+       
     "Hours pass, and it's clear that we've all reached our limit. The clock behind the bar reads three-thirty­six."
 
     ros "My goodness, I hadn't realized how late — well, early — it's gotten. I really should be going."
@@ -125,7 +127,9 @@ label scene11:
     can "Before you go, there's something you need to see."
 
     wan "Well, what is it?"
-
+    
+    stop music fadeout 1.0
+    
     can "Come with me."
 
     "Candace takes me by the arm and leads me behind the bar, through a door, and down a flight of stairs into the wine cellar."
@@ -141,8 +145,6 @@ label scene11:
     can "It's been fun. Thank you."
 
     "Without another word, she turns once more, closing the door behind her."
-
-    "Goodbye, Candace."
 
     hide candace_std_happy
 
@@ -161,8 +163,10 @@ label scene11:
     # Letter 1967
     
     nvl clear
-
-    n "To my dearest stranger,"
+    
+    play music "music/Lullaby for Cedar, Maine - Loop.ogg" fadein 1.0
+    
+    n "Hello, stranger,"
 
     n "Two nights ago, you swooped into my life. You shared with me the best night of my life, and then you were gone, with more mystery than your arrival."
 
@@ -180,7 +184,7 @@ label scene11:
 
     n "So, my stranger, although you never said it yourself, I will say it now."
 
-    n "Goodbye, dear stranger,"
+    n "Goodbye, stranger,"
 
     n "Emmeline"
     
@@ -192,11 +196,15 @@ label scene11:
     
     nvl clear
     
+    stop music fadeout 1.0
+    
     "It took me a few moments, but eventually I was able to reach for the second letter, dated 1987."
 
     "I trace a finger over the now familiar script of Emmeline’s handwriting before reading her words."
+    
+    play music "music/Snowy Night - Loop.ogg" fadein 1.0
 
-    n "Dear Stranger,"
+    n "Dear Young Man,"
     
     n "I didn’t want to believe it was you. Why would you return, after just leaving me there? But your face was unmistakeable."
 
@@ -225,6 +233,8 @@ label scene11:
     n "Emmeline"
     
     nvl clear
+    
+    stop music fadeout 1.0
 
     "She signed her name in that familiar script. I could feel the pressure of tears welling in my eyes now, wishing I could’ve spoken to her. If she knew who I was, then I could have apologized for leaving her all alone on that frosty bench decades ago."
 
@@ -234,9 +244,11 @@ label scene11:
 
     # Letter 2002
     
+    play music "music/Theme for a Wanderer - Loop.ogg" fadein 1.0
+    
     nvl clear
-
-    n "My dear Wanderer,"
+    
+    n "To you,"
 
     n "I will write to you once again, and this will be my last."
  
@@ -268,8 +280,156 @@ label scene11:
 
     nvl clear
     
+    stop music fadeout 1.0
+    
     # End Letter 2002
 
     scene black with fade
+    
+    "I am speechless."
+    "I sit for a while, stirring in my emotions."
+    "I feel..."
+    "Empty. But in a good way."
+    "At an end. But in the best way."
+    "I feel.."
+    "...complete."
+    
+    scene bar_night
+    
+    show candace_std_sad
+    
+    "After I walk out of the closet, I come across Candace, alone. She's the only one left. The bar is empty, silent and calm like some place out of a dream."
+    
+    can "..."
+    can "Finished already?"
+    
+    wan "..."
+    wan "Yeah."
+    
+    can "..."
+    can "And you're leaving now?"
+    
+    wan "Candace..."
+    
+    "She begins to cry."
+    
+    wan "You know I have to do."
+    
+    "She wipes at her eyes with her dirtied hands."
+    
+    can "I know."
+    can "...I know."
+    
+    "There is silence for a moment before Candace draws in for a hug."
+    "She embraces me tightly, her trickling tears soaking into the shoulder of my coat."
+    "She trembles, but only a little."
+    
+    can "I don't want you to go."
+    
+    wan "I have to."
+    
+    can "You can't leave. We're all still here."
+    
+    wan "I'm sorry."
+    
+    can "I..."
+    can "..."
+    
+    "I pull myself away."
+    
+    wan "Goodbye, Candace. I'll miss you."
+    wan "I'll miss you, and everyone else."
+    wan "And this dark, dusty old bar..."
+    wan "...and this sleepy town in the snow."
+    wan "I'll miss it."
+    wan "I'll miss you all."
+    wan "...I will."
+    
+    can "..."
+    can "Will you remember us?"
+    
+    wan "Always."
+    
+    can "..."
+    
+    show candace_std_happy
+    
+    can "...Thank you."
+    can "..."
+    can "You know, you were like family to us."
+    can "To my dad, to me, to the bar, to the town."
+    can "..You really were."
+    can "I want you to remember that, okay?"
+    
+    scene black with dissolve
+    
+    "I give Candace one last smile before I turn for the door."
+    "She goes back to sweeping, not wanting to watch me leave."
+    "She takes a deep breath."
+    "Tears drip from her eyes onto the floor."
+    
+    wan "Okay."
+    
+    stop music fadeout 1.0
+    
+    play music "music/Wind-Mark_DiAngelo-1940285615.wav"
+    
+    scene cedar_night with dissolve
+    
+    "Once outside, I take a final stroll around the town."
+    "Cedar, Maine."
+    "At first glance, it all seems so..."
+    "Asleep."
+    "Like it's not alive but only lays there, in a state of constant rest."
+    "But that couldn't be more wrong."
+    "This town was more alive than any other I've seen."
+    "The white snow resting on the frozen ground glowed like the stuff of dreams."
+    "I've fallen in love, over the years, with this town..."
+    "...with this dream."
+    
+    scene black with dissolve 
+    
+    "But it's time to wake up."
+    
+    scene winterwoods with dissolve
+    
+    "I walk away into wilderness as the sun rises over the trees."
+
+    "I vanish like a ghost from a dream, wiping tears from my eyes."
+
+    "All I leave behind are footprints in the snow that are soon swept away by winter wind."
+    
+    nvl clear
+    
+    n "Of all the money that ere I had, I spent it in good company."
+    n "And of all the harm that ere I've done, alas was done to none but me."
+    n "And all I've done for want of wit, to memory now I cannot recall."
+    n "So fill me to the parting glass. Goodnight and joy be with you all."
+    
+    nvl clear
+    
+    n "So fill to me that parting glass,"
+    n "And drink a health whate'er befalls."
+    n "Then gently rise and softly call,"
+    n "Goodnight and joy be with you all."
+    
+    nvl clear
+
+    n "Of all the comrades that ere I had, they're sorry for my going away,"
+    n "And of all the sweethearts that ere I had , they wish me one more day to stay,"
+    n "But since it falls unto my lot that I should rise while you should not,"
+    n "I will gently rise and I'll softly call, Goodnight and joy be with you all."
+    
+    nvl clear
+
+    n "Fare Thee Well — The story of a lonely man."
+
+    n "A wanderer, a wayfarer, a stranger,"
+
+    n "And the sleepy town he left in the snow,"
+
+    n "One winter night."
+    
+    nvl clear
     
     jump credits
