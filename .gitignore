@@ -48,7 +48,7 @@ Temporary Items
 
 # Ren'py
 
-*.rpy[bc]
+*.rpy[b]
 *.bak
 **/tmp/*
 **/log.txt
