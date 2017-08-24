@@ -108,7 +108,7 @@ label scene5:
 
     wan "That's the one."
     
-    emm "It's Scottish, that's all I know. My mother taught it to me, she said, just like her mother taught it to her. She taught me a lot of the folk music I know, really. I was never as big into the heritage as she was."
+    emm "It's Scottish, that's all I know. My mother taught it to me, just like her mother taught it to her. She taught me a lot of the folk music I know, really. I was never as big into the heritage as she was."
 
     emm "But to answer your question, no. I guess I don't know what it's about. I just sing the words."
 
@@ -120,7 +120,7 @@ label scene5:
 
     emm "But Loch Lomond, right? Isn't that about... two people traveling down different roads?"
 
-    wan "At surface value, yes. But here. You see, in Scottish tradition, it is believed that when a Scot dies while abroad, their soul will walk the earth to return to the mother country, so that the deceased may rest in their homeland."
+    wan "At surface value, yes. But here, you see, in Scottish tradition, it is believed that when a Scot dies while abroad, their soul will walk the earth to return to the mother country, so that the deceased may rest in their homeland."
 
     hide emmeline_young_happy
     
@@ -156,7 +156,7 @@ label scene5:
 
     wan "I do. We all die, and every death is an ending, but what the song tells me is this: when my time comes, it will be when I have done all I can in my life. I will have found what I was searching for, and I will have brought it home with me."
 
-    wan "It tells me that will be my end. Not that I'll be stuck like I am, unchanging, constantly moving, always searching. This person I am right now is in constant flux, and the days of my life are numbered with a clear beginning and a fateful end."
+    wan "It tells me that it will be my end. Not that I'll be stuck like I am, unchanging, constantly moving, always searching. This person I am right now is in constant flux, and the days of my life are numbered with a clear beginning and a fateful end."
 
     wan "I don't see any problem in that."
 
@@ -164,7 +164,7 @@ label scene5:
 
     wan "...some rest sounds like exactly what we need right now."
 
-    "Emmeline goes quiet. She takes in everything I say."
+    "Emmeline goes quiet, and she takes in everything I say."
 
     emm "..."
     
@@ -187,7 +187,7 @@ label scene5:
 
     emm "..."
 
-    emm " You know, maybe not."
+    emm "You know, maybe not."
 
     scene cedar_night with fade
     

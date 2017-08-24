@@ -7,7 +7,7 @@ label scene6:
     play music "music/Lullaby for Cedar, Maine - Intro.ogg" fadein 1.0
     queue music "music/Lullaby for Cedar, Maine - Loop.ogg"
     
-    "We find a bench overlooking the hillside. I wipe the snow off it with the sleeve of my coat. We sit down close to each other for warmth."
+    "We find a bench overlooking the hillside. I wipe the snow off it with the sleeve of my coat, and we sit down close to each other for warmth."
 
     "Emmeline pulls herself even closer to me, tugging at my arm. She leans her head on my shoulder and shuts her eyes."
 
@@ -83,7 +83,7 @@ label scene6:
 
     wan "But one night, he meets someone."
 
-    wan "And that someone makes him feel some way he has not felt since before his journey ever began."
+    wan "And that someone makes him feel some way he had not felt since before his journey ever began."
 
     wan "Someone special. Someone like him, who understood him, who felt his pain. Who knew how it felt to endure."
 
@@ -145,7 +145,7 @@ label scene6:
 
     "I watch her, her breath freezing as it comes out in the crisp, cold air. Her skin is soft and warm to the touch. I think of her, and how she treated me — a stranger, who hadn't even told her his name — with nothing but kindness."
 
-    "This is a real person beside me. With a real heart, pumping real blood. With real emotions, and real thoughts, and the most beautiful voice I've ever heard in my life."
+    "This is a real person beside me, with a real heart, pumping real blood. With real emotions, and real thoughts, and the most beautiful voice I've ever heard in my life."
 
     "This is Emmeline."
 
@@ -169,7 +169,7 @@ label scene6:
 
     "If only things had been different."
 
-    "Then ."
+    "Then, perhaps, I could be happy once more."
 
     # changing to same scene
 

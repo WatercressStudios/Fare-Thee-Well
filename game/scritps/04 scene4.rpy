@@ -35,7 +35,7 @@ label scene4:
 
     emm "Something to be sold off, my value to be measured in nothing but the children I would bear."
 
-    emm "I couldn't take it. Absolutely I couldn't live like that."
+    emm "I couldn't take it. I absolutely couldn't live like that."
 
     wan "So you took off?"
 
@@ -71,7 +71,7 @@ label scene4:
 
     emm "I packed up some clothes and some books and snuck out in the middle of the night."
 
-    emm "I stayed in the city a while, with friends and the like. Figured it was the safest way. After sometime though, I knew I had to get farther away than that. So my parents wouldn't find me."
+    emm "I stayed in the city a while, with friends and the like. Figured it was the safest way. After sometime though, I knew I had to get farther away than that. Somewhere my parents wouldn't find me."
 
     emm "So I ran. Wandered from place to place. Took cabs and buses when I could, walked when I couldn't. Hitchhiked when I absolutely needed to."
 
@@ -115,7 +115,7 @@ label scene4:
 
     emm "I haven't spoken to them since."
 
-    "Emmeline gazes into her reflection catching on the polish of her empty glass, warm under the dim bar lights."
+    "Emmeline gazes into her reflection caught on the polish of her empty glass, warm under the dim bar lights."
 
     "The night has gone on and many have left. Everything's quieter now."
 
@@ -161,7 +161,7 @@ label scene4:
 
     wan "You're afraid of what will happen if you do?"
 
-    emm "I'm beyond afraid. I'm petrified. I can't even breathe right when I think about seeing my parents again. Even though this journey's taken so much away from me, I feel like just giving up and going home isn't going to give me any of that back."
+    emm "I'm beyond afraid. I'm petrified. I can't even breathe right when I think about seeing my parents again. Even though this journey's taken so much away from me, I feel like just giving up and returning home isn't going to give me any of that back."
 
     emm "It isn't."
 
@@ -226,7 +226,7 @@ label scene4:
 
     emm "Mhm."
 
-    emm "And all thanks to the fact you liked my singing so much you needed to tell me, huh?"
+    emm "And it's all thanks to the fact that you liked my singing so much you needed to tell me, huh?"
 
     "I laughed."
 

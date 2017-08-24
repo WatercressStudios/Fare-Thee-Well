@@ -207,7 +207,7 @@ label scene8:
 
     "I gesture in the general direction with a finger extended from my hand that held my drink. The brownish fluid sloshed around behind the intricate lines in the glass, and I realized that it was the same kind I had used that night so many years ago."
 
-    wan "We walked out of this place together and explored the town after dark. Playing in the snow, laughing together… But at the end of the night, we sat close and just talked. I brought up the legend of the wanderer. I didn’t think she’d take it seriously."
+    wan "We walked out of this place together and explored the town after dark. We sat on that bench, overlooking the snow, talking of ourselves... Such a simple, yet meaningful thing, sitting close and talking. I brought up the legend of the wanderer. I didn’t think she’d take it seriously."
 
     wan "But she did. She listened, and in the end she identified with it. Of course, you know Emmeline’s story - how she got here. She has every bit as much wanderlust as I did."
 
@@ -227,7 +227,7 @@ label scene8:
 
     "I nod and hand the bartender back his glass."
 
-    wan "Thanks for the drink. And thanks for the cover earlier. Do you really need some help around here?"
+    wan "Thanks for the drink, and thanks for the cover earlier. Do you really need some help around here?"
 
     show old_bartender_standard
 
@@ -243,7 +243,7 @@ label scene8:
 
     #Wolf's part of scene 2
 
-    ten "Actually, if you wouldn't mind, I think I need a break for today. If it's okay with you…"
+    ten "Actually, if you wouldn't mind, I think I need a break for today. If it's okay with you, that is."
 
     wan "Yeah, I'll close up shop. I'll keep everything straight, don't worry."
     
@@ -264,12 +264,12 @@ label scene8:
 
     "With that, I am left alone. The emptiness of the bar fills the air, silence keeping me company as it has the past hundred years." 
 
-    "The familiar smells of drafts, the familiar atmosphere of the community, made of vagabonds and travelers, friends and families, of those with homes and of those who have yet to find theirs... the familiar sense of loneliness."
+    "The familiar smells of drafts, the atmosphere of the community, made of vagabonds and travelers, friends and families, of those with homes and of those who have yet to find theirs... the familiar sense of loneliness."
     
     play music "music/Age of Transition - Intro.ogg" fadein 1.0
     queue music "music/Age of Transition - Loop.ogg"
     
-    "Have I found my home? Is this my final resting place? Is this where I will eak out the rest of my existence, however long into infinity that it may take me?"
+    "Have I found my home? Is this my final resting place? Is this where I will eke out the rest of my existence, however long it may take me?"
 
     "I honestly don't know."
 
@@ -303,9 +303,9 @@ label scene8:
 
     "I guess, in reality, the more important question is whether or not she would care."
 
-    "Does she remember me? That moment, earlier, gave me the feeling… But how could she forget, that magical night? Out of my many years of existence, that is the one memory that I am certain to never lose."
+    "Does she remember me? That moment, earlier, gave me the feeling… But how could she forget that magical night? Out of my many years of existence, that is the one memory that I am certain to never lose."
 
-    "Maybe she just… did what I never could."
+    "Maybe she just did what I never could."
 
     "The air turns frigid, humid. Someone shakes me out of my lull, my trance, my thoughts and memories."
     
@@ -339,7 +339,7 @@ label scene8:
 
     "Don't leave her again."
 
-    "No, no. I can't. I can't stay here, and yet I can't leave her again. The rain penetrates the canopy, pouring over me, as though lending a few short moments of quiet clarity were too much for the youngling, overcome by the weight of the world.."
+    "No, no. I can't. I can't stay here, and yet I can't leave her either. The rain penetrates the canopy, pouring over me, tearing me from my few short moments of quiet clarity."
 
     "I'm sorry that you have to go through this again."
 

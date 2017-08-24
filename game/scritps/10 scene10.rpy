@@ -180,7 +180,7 @@ label scene10:
     
     show michael_older_sad at left
 
-    mic "I guess I could say I understand some of those feelings. I finished school, but it hasn't really done me much good. As soo as I graduated, I came right back home to Cedar."
+    mic "I guess I could say I understand some of those feelings. I finished school, but it hasn't really done me much good. As soon as I graduated, I came right back home to Cedar."
 
     mic "And I didn't just come back for my mother. Of course I had to, given her health these days, but even if she were in good health, I know I'd still be back here."
 
@@ -238,7 +238,7 @@ label scene10:
 
     wan "In that case, the best thing I can offer you is this:"
 
-    wan "The belonging that you're searching for ­ you may never find it. Where circumstances different, I might still be searching for it. What you can do that will make all the difference is really quite simple."
+    wan "The belonging that you're searching for ­ you may never find it. Were circumstances different, I might still be searching for it. What you can do that will make all the difference is really quite simple."
 
     wan "Life is going to go on, regardless of what you do. Don't just let it happen. Take charge of your own life. Even though you may not find what you search for, it will make that search easier."
 

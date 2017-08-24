@@ -26,11 +26,11 @@ label scene9:
 
     "She appears to be close to Michael's age, who is now twenty-four."
     
-    "The girl gazes with at the expectant faces all around her."
+    "The girl gazes at the expectant faces all around her."
     
-    "A hush falls over the crowd as she leans into the microphone. Her face betrays not a single emotion but pure wonder."
+    "A hush falls over the crowd as she leans into the microphone, and her face betrays not a single emotion but pure wonder."
     
-    "Like she's somewhere else, remembering better times, preparing to sing to herself in a world that stood still to hang off her every word."
+    "It's almost as if she's somewhere else, remembering better times, preparing to sing to herself in a world that stood still, hanging off her every word."
     
     "The young woman starts to sing, and the the meager audience is immediately captivated."
     
@@ -78,7 +78,7 @@ label scene9:
     
     show michael_older_happy at left
 
-    "Across the bar stand the current employees of The Hearth and Home, Candace and Michael, who has taken the job his mother once held to help pay for his education."
+    "Across the bar stand the current employees of The Hearth and Home, Candace and Michael, the latter having taken the job his mother once held to help pay for his education."
 
     "Candace and I are having a lovely conversation, but Michael's unwavering attention is set on the young performer."
 

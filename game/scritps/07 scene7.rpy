@@ -2,395 +2,320 @@
 
 # Act Two — I Am a Man of Constant Sorrow
 
-# Written by Val, DarkEndless, and Wolf
+# Written by EmpireRuled
 
 label scene7:
 
     scene highway with fade
-    
+
     play music "music/Theme for a Wanderer - Intro.ogg" fadein 1.0
     queue music "music/Theme for a Wanderer - Loop.ogg"
 
     "June 13, 1987"
 
-    "Another day, another highway stretches out towards Oblivion, USA as I stand beside it, outstretched arm, erected thumb, baking in the heat of the mid-June sun like a scrambled egg served sunny side-up over asphalt."
+    "June in Maine is still June. I should be accustomed to walking on baking asphalt by now."
 
-    "Route 1 to be exact, some meaningless measure of distance from Caribou. These old Maine roads are so familiar, painfully so, that I attempt to suspend my awareness of them as I walk from one town to the next." 
-    
-    "Too many memories spanning too many years. I’m growing tired; mentally, physically, spiritually—hell, every which way a man can grow weary." 
+    "I travel light, always have. The weight I carry has nothing to do with what's in my pack."
 
-    "But still, year after year I walk these same old roads. Maybe one day I’ll just stop dead cold in my tracks, and the good Lord’ll allow me to finally rest on some dusty trail in the middle of nowhere."
+    "Heavy thoughts are always with me, my memories constant companions on the road."
 
-    "Perhaps they’ll even name it after me… that wouldn’t be so bad, being memorialized for future generations of ramblers like myself."
-    
-    "But now I can’t walk anymore; it’s been hours since I left Caribou and I’ve gotta piss like there’s no tomorrow."
+    "So many roads, so many paths, so many years."
 
-    "I issue a prayer under my breath."
-    
-    "Why? I don’t know, as there’s surely no one out here to hear it but myself." 
+    "So many lives, it seems."
 
-    "I hope that some friendly stranger with a penchant for helping other friendly strangers might notice my hiked thumb and offer me a lift to the next town."
+    "It feels like forever since I was last in Canada. I wonder if it will still feel the same, raw and wild and seemingly untouched." 
 
-    "My prayer is soon answered in the form of an eighteen-wheeler. Zimmerman Trucking Co., if I can correctly decipher the eroded letters emblazoned on the side of the truck."
-    
-    "Its driver leans over the passenger seat and struggles for several moments to get the window to roll down, but to little avail. This truck has clearly seen better days." 
+    "Something tells me it will always have that feel, no matter how much concrete and glass are poured and polished."
 
-    "One exasperated grunt later, he accepts that his passenger-side window will not budge down further than a crack." 
+    "I think that memories can be that way, too. As the years pass, the details subtly shift, but the feel seems to stay the same."
 
-    "Fortunately this is just enough of an opening for him to be able to shout and be heard above the rumble and sputter of his idling engine."
+    "Then again, we can choose to let certain memories fade. If those memories will allow it, of course."
 
-    tru "Hey man, where ya headed?!"
+    "I am aware of my footfalls on the pavement, the undulating drone of the insects in the tall grass that parallels the road."
 
-    wan "Anywhere’s fine so long as I can get out of this heat!"
+    "I can feel the hot sun on my skin, a gentle harshness to the yellow light."
 
-    "A moment later the truck’s passenger-side door swings open, and I gratefully climb up into the well air-conditioned cab."
-    
-    "The interior smells of cigarettes, whiskey, and grease, each scent hitting me in turn as I buckle myself in; it’s nostalgic, though it really shouldn’t be."
+    "The few clouds in the uniformly blue sky are static and wispy, as though painted onto a canvas."
 
-    "The driver, all slender and short and clean-shaven, the very opposite of the big, burly type that you always imagine drive big rigs for a living, thrusts a hand in my direction, which I take and shake firmly."
+    "There is no breeze to add energy to my experience. The leaves of the trees are still, like the clouds." 
 
-    tru "So anywhere’s fine, eh?"
+    "I am literally passing through a long series of moments unbroken by motion..."
 
-    "His shortened ‘o’ sound and use of ‘eh’ places his origin somewhere in the Midwest, probably Minnesota, but there’s a foreign element to it, almost a southern twang."
+    "Except for me."
 
-    wan "Yessir, and I do thank you for the lift. A moment longer out there and I’d likely have succumbed to a heat stroke… or worse."
+    "If I am the only thing moving, does that mean that the world is a canvas, and I am little more than thought passing through?"
 
-    tru "Worse?"
+    "My mind soars across the tapestry of my experiences, touching down at an aerie of memory, then taking flight again in search of the next place of interest."
 
-    wan "Melting."
+    "The miles pass, the sounds and the sun and the grass and the trees blending into a nearly uniform background."
 
-    tru "Ha! Yeah man, it sure is a scorcher, isn’t it? Highest temperature on record for this region, or so the weatherman said on the radio this morning."
+    "It seems as though the only things truly moving are my thoughts. The sensation of that notion intrigues me, distracts me for a while."
 
-    tru "Global warming is what they’re calling it."
+    "Until a new sound breaks the spell of forever. Time is suddenly back on the clock. And it's ticking is the sound of the large diesel engine of an 18-wheeler."
 
-    tru "I don’t know about all that, but I do know it sure ain’t the right weather for hitch-hiking."
+    "I am ripped out of my reverie and the beautiful monotony of the road, finding myself jarringly... present."
 
-    wan "You can say that again."
+    "The driver of a large red truck downshifts as he descends the slow grade, leveling off and closing the distance to me slowly, black plumes puffing briefly from the twin stacks behind the cab."
 
-    tru "Anyway, this old rig’s heading up to St. Leonard, but you just let me know if you wanna be dropped off anywhere  along the way." 
+    "Well, what the hell. Maybe he'll take a rider for a while. I turn and begin to walk backwards, and stick my thumb in the air."
 
-    tru "Not that there’s much to speak of between here and there, haha."
+    "A few short seconds pass, and the driver begins downshifting again, the engine braking - indicating to me that I am about to replace the drone of insects and the heat of the sun with the rhythm of an engine and the chill of air-conditioning."
 
-    wan "Nah, Canada is fine. In fact, anywhere’s better than…"
+    "The truck passes me slowly, coming to a halt just a few yards later. The hiss of the airbrakes and the solid rattling thrum of the engine waiting for me."
 
-    "I pause to consider just where the hell I am. This ribbon of highway which leads north out of Caribou just meanders through unincorporated countryside, really."
+    "I walk up to the door as the window smoothly slides down, and I step on the running board with a hand on the mirror brace to render a greeting to who will be my traveling companion for God knows how long."
 
-    "Grassy plains and clusters of trees everywhere you look. A short distance away I spy a small farm that wasn’t there a decade ago."
+    wan "Morning sir, where are you headed?" 
 
-    "An old man is listlessly riding a lawnmower over well-trimmed grass. What else can he do to kill these mid-afternoon hours when everything is so hot and dry and dead?"
+    "I feel genuinely freindly as the two of us engage in that age-old, mutual summing-up that travelers have always done, leading to a gut instinct about trust. It takes mere seconds for us both to decide."
 
-    wan "...nowhere, I guess."
+    tru "Levis, just South of Quebec City. Running straight through Maine." 
 
-    "The man laughs and shifts the truck into gear, and soon we’re headed down Route 1, with only the radio to take my mind off of how full my bladder is."
+    "He has an accent straight out of the American northern midwest, and looks to be about 50 years old. I cannot remember the last time I thought that was old." 
 
-    "It's tuned to some political program wherein two pundits are taking turns yelling lies at each other about Gorbachev and democracy."
+    tru "How 'bout you?"
 
-    "A more unprincipled man might’ve taken a leak somewhere off the side of the road, but I could never do a thing like that." 
+    wan "As far as you'll take me, if that's alright, sir." 
 
-    "This land, with its deserts and trees and beaches and skyscrapers and hippie communes, is my land; the highways that are etched into its face are collectively my temple, and I am its high priest."
+    tru "Hop in and let's put some miles behind us then, buddy."
 
-    "To wantonly piss on this holy ground would be no less than sacrilege."
+    "I swing the heavy door wide and slide in, then set my pack at my feet before closing the window and belting myself in."
 
-    "(Innermost convictions be damned, though, if we don’t reach a truck stop or rest area soon. I would rather pee on a bush than myself.)"
-    
-    stop music fadeout 1.0
-    
-    "On the radio there’s a lull in the heated discourse as one of the hosts segues into some recent soundbite of the President speaking."
+    "I never thought about 18-wheelers having a 'new car smell', but this one did. It was obviously new to the road in very well maintained."
 
-    "{i}...across Europe, this wall will fall. For it cannot withstand faith; it cannot withstand truth.{/i}"
-    
-    "The trucker’s interest appears piqued as he turns up the volume and listens intently."
+    wan "Wow, this truck is beautiful!"
 
-    "{i}General Secretary Gorbachev, if you seek peace, if you seek prosperity for the Soviet Union and eastern Europe, if you seek liberalization, come here to this gate.{/i}"
+    "The trucker laughs, and then pats the large center console lovingly."
 
-    "{i}Mr. Gorbachev, open this gate. Mr. Gorbachev, tear down this wall! {/i}"
+    tru "She's not even three months old, we're still getting used to each other."
 
-    "Old Gipper couldn’t outact a chimp, but he can sure put an end to communism, yessirree."
+    "The trucker is wearing a grey t-shirt and jeans, and a ball cap with an American flag on the front. He has two faded green tattoos, one on each arm. His hair is cut a little on the short side, and hasn't shaved in a couple of days by the looks of it."
 
-    "The driver soon loses interest as the program segues out of Reagan’s spiel and back to the two goofballs arguing about Gorbachev, and he begins to scan through whatever radio stations can be caught this far into Aroostook County."
+    tru "I drove my last truck for almost twenty years, but she decided that she'd run her last mile. It still feels a little weird driving without her."
 
-    tru "Any preference?"
+    "The way the trucker spoke about his truck felt instantly familiar, and I found myself nodding in understanding."
 
-    "I let him skip through various rock and roll oldies stations before giving him the nod to stop the dial on Hank Williams’ ‘Lovesick Blues’."
+    tru "This new one though, I think she and I are going to be together for the rest of my time on the road."
 
-    "I’m not the biggest country music fan, but listening to the Hillbilly Shakespeare wax poetic about being nobody’s sugar daddy anymore proves to be a pleasant enough distraction—at least until my trucking friend joins in with his own nasally intonations."
+    wan "So where do you call home?"
 
-    "Fortunately a Texaco soon appears, and I’m spared the displeasure of hearing him butcher the rest of the tune as he pull in near the closest pump and steps outside to refuel."
+    tru "You're sitting in it! I've been living on the road and out of motels for years. Being gone so much was never a good fit for a homelife, and besides, I have a bit of a wanderlust."
 
-    "As for me, I hasten to avail myself of the gas station’s public restroom. I purchase a cinnamon danish and an 8 oz. cup of coffee on my way out, and then it’s back on the road we go."
+    wan "I can relate..."
 
-    "The danish is dry and crumbly—don’t know what I expected for 50 cents, to tell the truth—but the coffee is good, and I nurse it as I begin to ponder what I’ll do when I reach St. Leonard."
+    tru "I bet you can, as far as you are from, well, anywhere!"
 
-    scene highway with fade
-    
-    play music "music/Friends Old and New Loop.ogg" fadein 1.0
+    "The trucker spoke while he smoothly shifted gears, the powerful truck pulling its load effortlessly, the vibrations of the huge engine absorbed by surprisngly comfortable seats. The AC felt rejuvenating, too."
 
-    "There’s something about the flavor of cheap roadside coffee that’s intoxicating to the tired mind. Pretty soon I can feel my spirits begin to lift as my imagination runs amok thinking up adventures that might await me in St. Leonard."
+    tru "Yeah, I've been traveling for most of my life. First in the Army, then when I got home from the war I just couldn't sit still. Been on the road ever since."
 
-    "This won’t be my first time in Canada, far from it, of course, but for whatever reason I’ve avoided seeing Quebec till now."
+    wan "I tend to stick around a place for a while, myself, and then it just feels like... It's time to go, I guess."
 
-    "Maybe it’s because I don’t speak a damn lick of French, but then again, language barriers never kept me from having a little fun in the French Quarter either."
+    tru "Yup, I know whatcha mean, buddy. Once I got home from the war, I never really felt like I fit in, no matter how much I wanted to. I didn't understand why, and figured I'd find what I was looking for on the road."
 
-    "A passing mile marker reads 2,305. It won’t be too long now until we reach the border and I can begin a new life in a new town with a new job…" 
+    wan "And did you?"
 
-    "All for about two weeks before I have to move on and do the same old song and dance someplace else. I’m not complaining—because again, I’ve never been to French-speaking Canada."
+    tru "To be honest? I'm not sure. But I did find happiness, and that's what all the hippies were always talking about, so I guess at least I found something."
 
-    "St. Leonard will do me good. ...or so I’d like to believe."
+    tru "I think there's a certain freedom to keeping moving. Plenty of time to think, that's for sure. I drive, and when I feel like resting, I stop. As long as I stay on schedule, nobody pays me much mind. And that's just fine with me."
 
-    "But that honest part of me that I’ve become so adept at suppressing is nagging at my brain, reminding me in no subtle tone that there’s more between here and there than just open road."
+    "As the trucker shared a bit of his life with me, I watched the coiled cord for the CB radio set sway. Plenty of time to think. The trucker and I really do seem to have a lot in common."
 
-    "An old, familiar ache suddenly reawakens as I gaze into the shallow pool of java that sits at the bottom of my cup. In the swirling pools of ochre I can see visions of a girl I once met, hallucinations of her chestnut hair wisping in the light winter breeze."
+    tru "Sometimes I think that I've probably missed out on quite a bit of life, though, to be honest. I mean I have family, and I keep up with them well enough. So I sort of let them live more 'normal' lives for me, if that makes any sense at all."
 
-    "What possessed me to walk this way? What else did I think would come of going back to Maine? Not enough time has passed to dull my lingering sense of regret."
+    wan "I think it makes a lot of sense. I have tried the 'normal' life a few times, but I always end up back on the road in the end. Waiting for the next stop."
 
-    "I mean, hell, twenty years is a long, long time… but in my life? That’s not long enough to exorcise the ghost of a single night."
+    tru "You ought to think about driving trucks, it seems like you're a good fit for it. Better than walking all the time, that's for sure!"
 
-    "It was the sort of night that never leaves you; even as a memory, it visits you in the evening when you’re trying to be quiet, trying to rest. It plays tricks on your mind, summoning apparitions from out of nowhere."
+    wan "I've never considered it, to be honest. But I see your point. I'm not sure if the pace would feel quite right, though. Walking has such a familiar feel to it for me, now. I'm not sure if I would like the change..."
 
-    "Even now, visions of that girl come to me when I least expect them; just when I think I’m ready to cancel all debts to my past self and press onward for once and for good, that’s when she comes to me."
+    tru "Most people are creatures of habit, you can't deny that. In a way, being a drifter is a habit, too."
 
-    "These visions conquer my mind. They keep me coming back to old roads and old towns in hopes of seeing her again—even though I’m certain she wouldn’t remember me."
+    wan "I can't disagree. Although for me it's as much a need as it is a habit. No matter how much I like a place, I just can't stay. Eventually, it's time to go. Whether I like it or not."
 
-    "The truck suddenly jerks to a halt, causing the puddle of coffee I was just fixated on to splash in my face, putting a premature end to my sad, nostalgic spell."
+    tru "Some of us just aren't meant to put down deep roots, buddy."
 
-    tru "Jesus, man, I’m so sorry! Are you alright?"
+    wan "The deeper the roots, the harder it is to tear yourself away when it's time to leave."
 
-    wan "It was lukewarm anyway, so I’m cool. What’s happening?"
+    tru "I imagine you're right about that."
 
-    "The man gestures beyond the windshield and I see a long stretch of cars ahead and beyond that, an accident of some sort. State trooper lights flash in the distance."
+    "Our conversation falls off into a comfortable silence, the world outside passing by." 
 
-    "Seems they’re allowing only a few vehicles at a time to cautiously maneuver around the wreckage, and we’re the new end-of-the-line."
+    "My eyes move to the distance ahead, taking in the slow approach of forests and roadside meadows and following the minor, gradual turns as the road makes its way northward."
 
-    "Five minutes, ten minutes, fifteen minutes slowly drip by, and in that time we’ve scarcely budged. Finally the fellow seated beside me lets out an exasperated sigh and reaches over to my side of the cab in order to fish something from out the glove compartment; I scoot my legs back to give him more room to sort through the stacks of loose tools and booklets."
+    "Looking out of the side window and focusing a little closer reveals how fast we really are going, the trees more of a blur, the details outside more elusive and difficult to focus on."
 
-    "After replacing a manual and a set of grease-stained gloves his bandaged hand at last returns with a well-worn copy of The Complete Works of Allen Ginsberg. Cat’s got taste."
+    "It's about perspective, really. Looking forward into the future, things seem further away, moving more slowly. You can take your time to consider it, to think about where you might be going."
 
-    "As he slips on a pair of reading glasses and opens to some latter bookmarked page, I decide to whittle away the time with a book of a different kind: my journal. Reaching into the front compartment of my backpack, I remove the latest draft of my voluminous travelogue."
+    "Looking around at where you are in the moment? That feels much more fleeting. The pace is quicker. It can be difficult to fully notice all the details before things change."
 
-    "I like to think that one day this journal will be published to great acclaim, but as a work of fiction; Lord knows I’ve experienced too much crazy shit over the course of too many decades for anyone to buy into the veracity of its contents."
+    "The past, however, is always there. Frozen in memory. You have the rest of your life to think about it. Reflect upon it. In my case, there is plenty of time to think about the past. Too much time, actually..."
 
-    "Then, some years afterward, it’ll be adapted to the silver screen as a musical buddy comedy starring Steve Martin and Dan Ackroyd. Kevin Bacon will cameo as yours truly. It’ll be mad fun, and it will all happen long after I finally decide to give up on this running joke of a life."
+    "I wish that I had the luxury of living in the moments without the specter of the future always looming in the background. Always knowing that no matter what, I always have to leave."
 
-    "With a wistful sigh I open the record book of my eternal life on the road. There has got to be something in here that will pull me out of this funk and resuscitate those optimistic feelings I had but fifteen minutes ago. I begin flipping to random entries in search of what whatever that might be."
+    "People living their lives so often seem to be able to appreciate things in the moment so long as they slow down a bit, building memories at their natural pace. For them, there is a beginning and an end. The middle part is life."
 
-    #Wolf's part of scene 1
-    
-    stop music fadeout 1.0
-    
-    "Let’s see..."
+    "I would like to take my time for once."
 
-    "There was the period of about six years that I spent as a performer in the Ringling Bros. and Barnum and Bailey travelling circus. This was back during the Great Depression, when I would have been lucky to find any work at all."
-    
-    play music "music/Written to Memory - Intro.ogg." fadeout 1.0
-    queue music "music/Written to Memory - Loop.ogg"
-    
-    "I started out as an animal trainer’s assistant—basically the schmuck that had to feed the animals and clean the shit out of their cages—and from there, moved on to a variety of jobs: from clown, to juggler, to tightrope walker, to trapeze artist, to sword swallower, to you name it. I did it all."
+    "Many people say they feel rushed. I feel the opposite. An inexorable expiration of each period of 'normal'."
 
-    "I mastered every skillset and performed every role that existed under the big top, until finally, one day, I was promoted to ringmaster by an old friend of mine, none other John Nicholas Ringling himself."
+    "They have a finite amount of life, and can live normally within the time that they are given. Whereas I, with nothing BUT time, struggle."
 
-    "Sadly, he died the year afterward, and in my opinion the old circus was never the same. Once his nephew assumed ownership of the business is when everything started going south for me."
+    "Perspective. It affects the way we live. The passing of time, I think, does too."
 
-    "I didn’t so much mind that ticket prices went up, or that we were asked to make everything bigger and more dangerous for less pay; but when our standard two-week engagements became month-long, then two-months long engagements, I knew I had to leave."
+    "No matter what happens, I always end up gradually losing sync with everyone around me. Relationships, friends, coworkers. Every time I find a good place, a good thing, the clock starts ticking."
 
-    "With a heavy heart, I bid a silent farewell to my old flames: Carla, the acrobat, Regina, the animal tamer, and Catherine, the knife-thrower, along with all the hearts I’d broken along the old B&B circuit, and I never looked back."
+    "The longer I stay, the louder the ticking. And the more out of sync I become. And the deeper my roots could reach..."
 
-    "Skipping ahead a few dozen pages…  ah, my affair with Lillian Hellman, the playwright. Lilly was accused of being a Communist sympathizer during the Second Red Scare of the early 50s and was under constant surveillance by FBI and Department of State. In addition to being spied on, she was being harassed by Anti-Soviet groups and had begun to fear for her safety."
+    "Eventually? I must move on. I rip myself out of that life, tearing others in the doing, and leave that normalcy behind forever. As well as the emotional wreckage shared with people who will never understand why."
 
-    "Through a series of odd jobs and acquaintances, I became her bodyguard in March of 1951, when she went on a media tour of New York state to promote her newest play, The Autumn Garden. I would accompany her into every ritzy hotel room along the itinerary, where we’d often stay up till 2 AM or later sipping cognac and discussing politics."
+    "I know deep down inside that it is best to avoid making any meaningful connections because I will have to move on. And I hate myself for making anyone share that pain. They don't deserve it."
 
-    "Lilly’s political sympathies were very similar to mine, and I commiserated with her on her plight. It wasn’t long before she counted me among her many lovers."
+    "But..."
 
-    "Of course, the press tour eventually ended, and she returned to her home on Long Island. She invited me to come live with her. As always, the offer of having a place to call home and a friendly face to share it with was tempting beyond words."
+    "Once in a while, a connection just... Happens. I wish that I could just enjoy that simple human experience without the inevitability that shadows what should be something beautiful. Something simple and warm."
 
-    "I spent a few nights with her there, slept on a cot because I didn’t want to fall in too deep with her, then made up some bullshit story about having to go break things off with a girl in Queens; I never went back to the Island, never even saw Lillian Hellman again."
+    "Always that damned shadow. Always."
 
-    "If someone were to ask me if she is writing plays or if she’s even still alive, I would have to say that I really don’t know."
+    "I am lost in thought, traveling through time in my own head, when an all too familiar name - a name that I have been desperately trying NOT to think about - demands that its presence be known."
 
-    "As the traffic jam slowly diminishes, I read stories of peace and stories of protest; stories of love and stories of war; stories of freedom and stories of bondage. In all my life’s stories there’s a sick recurring theme: my own selfishness."
+    wan "Emmeline."
 
-    "During high times and low times alike, I ingrained myself in the hearts of those around me. Though fate dictated that I should always keep moving, I always stuck around long enough to leave a lasting impression on one person or another."
+    "I speak it out loud, not realizing that the trucker might hear it over the sound of the engine."
 
-    "In some ways I can’t help it. I’m not so much of an asshole that I would go out of my way to make everyone dislike me. I can’t simply abort that everyday mental process which keeps me trying to please others. I want to please others. I figured out a long time ago that what I want more than anything in this world is to be loved by everyone I meet."
+    tru "Hm? Emmeline, huh? Is she why you've been lost outside that window for the past hour?"
 
-    "So I keep travelling across this land, from one friend to another, from one lover to the next; like a merry-go-round, round and round I go, in perpetual motion, leaving a blur of discarded relationships behind me as I spin."
+    "His half-smile is simultaneously knowing and wry."
 
-    "Though I’ve tried to slow things down since that fateful night, that holy night of repentance when I finally decided that I wasn’t going to hurt another loved one, that I was sick of vanishing from their lives with no explanation given… Christ, it’s 1987 and I’m still spinning."
+    "I exhale an empty laugh. I wonder if he isn't right about that..."
 
-    "This increasingly hellish ride I’ve spent the past several decades on is never going to end. Never. Not until I finally work up the courage to jump."
+    "The trucker lets the moment sit for a few seconds, and then cocks an eyebrow."
 
-    "..."
+    tru "It's funny, as much as I loved my old truck, I never gave her a name. Some truckers do, the sentimental ones anyway. I wonder why I never named her?"
 
-    "I feel sick."
+    "At first, I thought that he had dropped his interest in Emmeline's name and my contemplation. But as the trucker spoke, I realized that he wasn't delving into his fellow traveler's life. He was sharing the journey."
 
-    "Looking up, I see we’re finally back en route to St. Leonard. A feeling of relief should be washing over me, but the opposite is true: instead, a sense of dread has befallen me."
+    tru "I was closer to that old truck than I was with anyone. I do admit that I had plenty of conversations with her, though. All the time, actually. She was a pretty good listener, that's for sure!"
 
-    "Nothing good ever comes from reading my travelogue."
+    tru "But it's funny. In the war, my buddies and I stopped using first names. We came up with nicknames, things like that. It seemed at the time that we were all just close, you know?"
 
-    "Someday, I hope, someone will find it and find inspiration and meaning in my collective experiences; for me, though, they only seem to bring pain. It is a book of painful truths, from cover to cover; I knew this yet decided to read it anyway."
+    tru "But I wonder if maybe it was something else. Maybe it was a way for us to not get TOO close, after all."
 
-    tru "Hey, man… you alright? You’re lookin’ kind of pale there."
+    tru "Makes me wonder, you know?"
 
-    wan "Y… yeah. I guess… I guess that danish didn’t agree with me, heh."
+    "I think on that for a minute. That girl in the green dress captivated me. She unassumingly commanded my attention. There was something about her that just drew me in, captivated me."
 
-    "I’ve got to get my mind on something else."
+    "But when I learned her name, it became personal. Intensely personal. We shared such a connection."
 
-    tru "Oh, yeah. Those shitty little truck stop snacks’ll do that to ya, for sure."
+    "And then I had to go. I had no choice. I cared too much for her to put her through what would have to come. What always has to come."
 
-    "I have to get it off of her."
+    "I cared for her. It only took one night. And a name."
 
-    tru "Luckily for both of us, our stop is comin’ soon."
+    wan "I think you may just be onto something, there, sir."
 
-    "Stop, huh?"
+    "We both spend the next few hours in total silence, except for a brief stop for fuel, roadside coffee and a bathroom break. Two travelers, sharing a journey. It was a good day."
 
-    "Stop..."
+    "The sun was beginning to show the age of the day. The trees were beginning to cast shadows over the road, and the roadsigns were beginning to reflect that golden sunlight so characteristic of long summer days."
 
-    "...Of course. This truck is going to stop in St. Leonard, where I will settle into a motel for the night. I will look for employment the next day, and I will find it. I will stay in St. Leonard as long as I am able to, then I will move onto the next town."
+    "Cedar 30 miles"
 
-    "I have all of Quebec to explore. It will be fun, and before I know it, these tormentous feelings will have passed."
+    "Damn it."
 
-    "..."
+    "I shifted in my seat, and watched the sign as it approached with increasing speed, my eyes following it as it passed by."
 
-    "I reopen the book, this time not to a sad old story, but to my most recent, unfinished entry. I record that my visit to Spanish Harlem was fruitless, that the old gypsy palm reader that been my friend for so many decades had finally passed away; now no one knows my secret."
+    tru "Cedar, Maine. Now that's one of those towns that you'll miss if you blink too long. You look like you recognize it...?"
 
-    "From Harlem I hitched a ride that took me all the way to Bangor, where I began to walk."
+    "I sigh, and nod."
 
-    nvl clear
+    tru "You know, that coffee sure is running through me! I think we'll try not to blink when we get to Cedar so I can enjoy the last civilized bathroom for hours."
 
-    n "June 12-13"
+    "Cedar. Damn it."
 
-    n "After about a week of walking US 1 and sleeping under the stars, I stopped in Caribou. Spent the night at a cheap motel, then went to barber for a shave and a haircut in the morning."
+    "It takes no time at all to get there. Not enough time to think. Not enough time to talk myself out of the decision fighting to make its way to the surface of my mind."
 
-    n "Continued northward until I was picked up by a friendly truck driver."
-    
-    n "Headed for a town near the Canadian border called St. Emmeline."
-    
-    stop music fadeout 1.0
-    
-    nvl clear
+    "The truck comes to a gradual stop in a gravel pull-off, heavy tires crunching, air brakes squealing, engine slowing to an idle. Everything slowing down."
 
-    "..."
-    
-    play music "music/Emmeline's Ballad - Intro.ogg" fadein 1.0
-    queue music "music/Emmeline's Ballad - Loop.ogg"
-    
-    "...Am I losing my mind?"
+    "The trucker sets the brake and cuts the engine off, a shudder through the big vehicle implying a little more than a brief stop."
 
-    "Was it madness that drove me to this specific part of Maine, or am I just a victim of fate?"
+    "He lifts to door latch and half opens the door, one foot reaching for the running board."
 
-    "No, something tells me that it was more than just a simple twist of fate that brought me here. My feet have a mind of their own, and took me to this part of Maine of their own accord. They’ve tried to tell me for some time now that it’s time to settle down one last time, but I haven’t been listening."
+    tru "I'll be a little bit, so feel free to stretch your legs..."
 
-    "Am I really going to do this? Am I really going to go back there after all these years?"
+    "There is a hint of something in his voice. Almost a knowing tone. This guy really is intuitive for having spent so much time alone on the road."
 
-    "What would even be the point?"
+    "Goes with the territory, I suppose."
 
-    "No one will remember me."
+    tru "I'll see you in a bit, buddy."
 
-    "She won’t remember me."
-    
-    "I shouldn't be tempting fate like this. But I can't help but think back to past times, always a strange, new feeling growing with each and every recalled memory."
+    "There is the hint of a wry, crooked smile on the trucker's face."
 
-    "That fateful winter night, I had met a most wondrous woman. She's plagued my dreams for decades at this point, and yet I always told myself that I could never go back."
+    "I am certain he knows that I am connected to Cedar, and that it is because of Emmeline."
 
-    "My one fear, though, had been clear to be true: I regret everything."
+    tru "Or maybe not..."
 
-    "I regret meeting her. I regret talking to her. I regret taking her out, into the snow, like young children exploring their fleeting youth."
+    "The trucker's boots grind into the gravel as he heads off, leaving me to choose which fork in the road to take."
 
-    "I regret leaving her, despite the impossibility of it all."
+    "I woke up this morning expecting to walk all day, possibly more. Then the truck lumbered along, and for a while I rode with another traveler and my thoughts. It is interesting that despite the seeming randomness of today, I still wound up in Cedar."
 
-    "I still remember her face, her voice, every bit about her. Despite my old age, my mind is and always will be sharp as ever."
+    "Exactly where my thoughts were leading me, apparently."
 
-    "She... won't remember me."
+    "To stay or go."
 
-    "While I’ve been frittering away the past two decades, time has marched on for the good folks in Cedar, Maine. There’s just no point in going back there. I’m not ready to settle down."
+    "While I consider what I should do, I shoulder my pack."
 
-    "I still have places I need to see, things I’ve got to do. For all my talk of being weary of my life on the road, I’m not ready to grow old and lose it."
+    "I shut the heavy door of the big red machine as I recall the layout of the little town quietly waiting before me."
 
-    "Why can’t anyone understand that?"
+    "As I try to decide what to do, I begin walking along the single main road through Cedar."
 
-    "I have to keep going."
+    "The trees are thick here, providing ample shade interspersed with patches of waning sunlight."
 
-    "I can’t stop for anything or anyone."
-    
-    "I... I can't."
-    
-    "But... should I?"
-    
-    "..."
+    "I pass the general store on the right." 
 
-    tru "Talk about your jerkwater towns, man. Folks would forget that place existed if it weren’t on the map."
+    "I need to make a choice."
 
-    "I look up to see what he’s referring to, and in the near distance there is a sign rapidly approaching: Cedar, 5 miles."
+    "I look up and see the path to the bench that overlooks the sunrise."
 
-    "..."
-    
-    "I must be out of my mind."
+    "It hits me. Did I ever really have a choice today? My path was leading me back to Cedar one way or another. The road, the truck, my thoughts. All of it led to Cedar."
 
-    scene highway with fade
+    "I veer left, cross the road and step up onto the old wooden stairs to The Hearth and Home. The steps have a reassuring, organic feel to them, oddly rustic and welcoming. I can feel warmth radiating from the sun-soaked bricks."
 
-    tru "You sure you don’t wanna continue on to Canada?"
+    "I think I'm going to give this a shot. It is almost as though fate led me here, and on some instinctive level, I get the feeling that I was heading here all along."
 
-    wan "No, here’s fine. I… I sort of have some unfinished business in Cedar."
+    "My hand closes around the old wrought-iron doorhandle as the sound of the truck's engine passes by, followed by the bellow of an air horn. As the trucker continues on his own path, the surrounding forest swallows up the roar of the engine and as suddenly as they were there, they are gone again."
 
-    "The trucker laughs and says that, from the way I had been acting ever since we were caught in that traffic jam, he figured I had changed my mind about St. Leonard."
+    "There is a magic to this place..."
 
-    wan "I’m really grateful to for you for bring me this far. So, uh, so what do I owe you for the ride?"
+    "I open the door and step into the cool darkness."
 
-    "I reach into my back to remove my wallet, but the trucker just shakes his head."
+    "The fading light from outside momentarily illuminates the room, and the bartender looks up to greet his first customer of the day."
 
-    tru "You’re just a wayfaring stranger like me. If the only difference between us is that I’ve got a vehicle and you don’t… God, what kind of person would I have been to pass you up? That’s why I never pass up hitch-hikers and will never charge one for a ride."
+    "My eyes take a second to adjust, but there is no doubt. This place really hasn't changed."
 
-    wan "Are you sure?"
+    "The present and the past crash together, and are surprisingly nearly indistinguishable."
 
-    "I really hate taking advantage of people’s kindness. The trucker smiles and offers me one last hearty laugh."
+    "The bartender is a bit of an exception, though."
 
-    tru "Man, don’t think twice, it’s alright."
+    "His hair is grey, and his face has more lines than when last we met."
 
-    "..."
+    "He sets a glass down behind the old, polished dark wood bar, and there is a look of growing recognition in his eyes, but that same look is clouded by doubt."
 
-    # engine start, driving off sound effect
+    ten "Afternoon, what can I get you?"
 
-    "I turn to face a sign I thought I’d never see again; it reads ‘Cedar, Maine. Population: 2,501’. "
+    wan "A beer would be fine, thank you."
 
-    "I think for a moment about what it might mean for me to venture beyond that sign—about all the risks involved in trying to see her again. Now that I’m finally here, I want nothing more than to just turn around and run back to the highway, where I’ve always belonged."
+    ten "You got it."
 
-    "But I can’t. It was the spectre of her memory which drew me here, and it won’t let me run away again. For better or worse, it’s time to face Cedar; it’s time to face Emmeline."
+    "The bartender smoothly and deftly fills the glass and sets it down in front of me on a plain white napkin, making brief eye contact that somehow conveys the notion that he has decided upon something."
 
-    wan "Here goes nothing…"
+    ten "So, just passing through again?"
 
-    scene black
-    
-    stop music fadeout 1.0
-    
-    "With a deep breath and a sigh, I walk towards the bar that I had come to love. Nature makes way to buildings, denser and closer, until I'm nearly in the heart of the small town, a familiar entrance in front of me."
+    "I look up from my beer and look at him. There is a small smile and a knowing look in his eyes. His memory is excellent. What do I say?"
 
-    scene bar_night with fade
-    
-    play music "music/Lullaby for Cedar, Maine - Intro.ogg" fadein 1.0
-    queue music "music/Lullaby for Cedar, Maine - Loop.ogg"
-    
-    "The same bartender from all those years ago - albeit with a tired look about him - turns towards me as I enter."
+    wan "I was thinking that maybe this time I'll stay a bit longer this time."
 
-    show old_bartender_standard
+    ten "The weather's nicer, that's for sure."
 
-    ten "Good evening, what can I get for you?"
-
-    wan "Just a beer, nothing fancy, thank you."
-
-    hide old_bartender_standard
-    
-    show old_bartender_sad
-
-    "The old man's complexion changes as he halts, staring at the bottle in front of him."
-
-    ten "I… I never forget a face, and I surely wouldn't a voice. Have I met you before, young man?"
-
-    wan "Once, a long, long while ago."
-
-    hide old_bartender_sad
-
-    show old_bartender_surprised
-
-    ten "But… how? How are you…"
+    ten "You know, I never forget a face. Then again, normally those faces age a little in twenty years. How are you..."
 
     wan "It's a long story."
 
@@ -398,17 +323,17 @@ label scene7:
 
     show old_bartender_sad
 
-    ten "I believe so. You know, it's been twenty years since I last saw your face?"
+    ten "I believe that."
 
-    wan "Oh, I know so. I've counted every day since that winter night."
+    wan "You know, I've counted every day since that winter night."
 
     hide old_bartender_sad
-    
+
     show old_bartender_standard
 
     ten "Why have you returned? Surely you wouldn't have come back here after two entire decades just to have a drink here at my bar."
 
-    wan "I'm not so entirely sure, to tell you the truth."
+    wan "I'm not entirely sure, to tell you the truth."
 
     "A gentle silence fills the air between us as he hands me the beer and I take a sip, clearing my throat."
 
@@ -418,13 +343,13 @@ label scene7:
 
     wan "Last time I happened my way into this bar, do you remember the charming girl in green? Her voice was enchanting, one of a kind, really. What ever happened to her?"
 
-    ten "Emmeline? Well, luck would have it, she still lives here in Cedar. Actually, she still comes to help out from time to time here at this dusty old bar."
+    ten "Emmeline? Well, luck would have it, she still lives here in Cedar. Actually, she still comes to help out from time to time here at this dusty old place."
 
     "My eyes light up with this very, very good news. She's still here, even after all this time? I can hardly believe it."
 
     ten "Yeah, she lives just down the road, with her husband and young boy."
 
-    "I feel… crushed. I'm not sure what I was expecting, really, but it hurts nonetheless."
+    "I feel… crushed. I'm not sure what I was expecting, really, but it hurts nevertheless."
 
     "The bartender must've caught on, as he continues."
 
@@ -437,14 +362,13 @@ label scene7:
     wan "Yeah, I'll be here. Thanks, really. It means a lot."
 
     ten "Don't mention it. Anything for an old friend."
-    
+
     hide old_bartender_standard
 
     "With that, I sip my beer and think of the coming events. The fear that she won't recognize me once again crosses my mind, but I push it off in search of a bed to lay my head."
 
     "I nod to the bartender, and make my way to a local motel to rest up for the night."
-    
-    stop music fadeout 1.0
-    
-    jump scene8
 
+    stop music fadeout 1.0
+
+    jump scene8

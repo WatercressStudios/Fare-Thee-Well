@@ -203,6 +203,6 @@ label scene3:
 
     emm "It does."
     
-    "We stop to sip our drinks. I mull over in my mind what to say next."
+    "We stop to sip our drinks, and I mull over in my mind what to say next."
     
     jump scene4

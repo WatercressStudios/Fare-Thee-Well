@@ -4,7 +4,7 @@ label scene2:
     
     "A hush falls over the crowd as she leans into the microphone. Her face betrays not a single emotion but pure wonder."
     
-    "Like she's somewhere else, remembering better times, preparing to sing to herself in a world that stood still to hang off her every word."
+    "It's almost as if she's somewhere else, remembering better times, preparing to sing to herself in a world that stood still, hanging off her every word."
     
     show emmeline_young_surprise at center 
     
@@ -51,7 +51,7 @@ label scene2:
     
     "After her rendition of Loch Lomond, the girl continues to perform, singing various other folk songs. The audience continues to be mesmerized by every movement of her parted lips — the bar is eerily silent, and not a single person dare move."
 
-    "Her voice is magical. The most beautiful I've heard in all my life."
+    "Her voice is magical, perhaps the most beautiful I've heard in all my life."
 
     "I've never been this absorbed in song before."
 
@@ -126,7 +126,7 @@ label scene2:
 
     ten "Much."
 
-    "So even this counts as 'much busier than usual.' This must be an even smaller town than I'd thought."
+    "So even this counts as 'much busier than usual.' This must be a smaller town than I'd originally thought."
 
     wan "The girl helps?"
 

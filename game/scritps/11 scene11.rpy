@@ -259,7 +259,7 @@ label scene11:
 
     n "Candace has been filling me in on all the fun I've been missing, so I'm grateful to her for that. I trust that she'll deliver these letters to you, when the time is right."
 
-    n "We've had our suspicions for a while now, that you would probably leave Cedar soon. It always makes me sad, thinking of your inevitable departure. It's kind of strange. We've spent so little time together in our lives, but it seems like that timeis so very significant."
+    n "We've had our suspicions for a while now, that you would probably leave Cedar soon. It always makes me sad, thinking of your inevitable departure. It's kind of strange. We've spent so little time together in our lives, but it seems like that time is so very significant."
     
     n "Over all these years, there hasn't been a day that I haven't thought back to the night we first met. I never have been able to understand why, it's just always meant a lot to me."
     

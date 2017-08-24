@@ -109,7 +109,7 @@ label scene1:
     
     scene bar_night 
 
-    "Once inside I take off my gloves and rub my hands together for warmth. It takes too long to feel my fingers again."
+    "Once inside, I take off my gloves and rub my hands together for warmth. It takes too long to feel my fingers again."
 
     "I close my tired eyes and take in the sounds of the bar. It's busier than I'd expect in a town like this."
 
