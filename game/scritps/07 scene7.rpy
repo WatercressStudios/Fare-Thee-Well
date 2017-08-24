@@ -294,6 +294,8 @@ label scene7:
     "The present and the past crash together, and are surprisingly nearly indistinguishable."
 
     "The bartender is a bit of an exception, though."
+    
+    show old_bartender_surprised
 
     "His hair is grey, and his face has more lines than when last we met."
 
