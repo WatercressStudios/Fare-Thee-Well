@@ -195,6 +195,7 @@ screen main_menu():
         textbutton _("Load Game") action ShowMenu("load")
         textbutton _("Preferences") action ShowMenu("preferences")
         textbutton _("Help") action Help()
+        textbutton _("Credits") action Start("credits")
         textbutton _("Quit") action Quit(confirm=False)
 
 init -2:
