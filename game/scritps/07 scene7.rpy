@@ -43,7 +43,7 @@ label scene7:
 
     "Except for me."
 
-    "If I am the only thing moving, does that mean that the world is a canvas, and I am little more than thought passing through?"
+    "If I am the only thing moving, does that mean that the world is a canvas, and I am little more than a thought passing through?"
 
     "My mind soars across the tapestry of my experiences, touching down at an aerie of memory, then taking flight again in search of the next place of interest."
 
@@ -67,7 +67,7 @@ label scene7:
 
     wan "Morning sir, where are you headed?" 
 
-    "I feel genuinely freindly as the two of us engage in that age-old, mutual summing-up that travelers have always done, leading to a gut instinct about trust. It takes mere seconds for us both to decide."
+    "I feel genuinely friendly as the two of us engage in that age-old, mutual summing-up that travelers have always done, leading to a gut instinct about trust. It takes mere seconds for us both to decide."
 
     tru "Levis, just South of Quebec City. Running straight through Maine." 
 
@@ -81,7 +81,7 @@ label scene7:
 
     "I swing the heavy door wide and slide in, then set my pack at my feet before closing the window and belting myself in."
 
-    "I never thought about 18-wheelers having a 'new car smell', but this one did. It was obviously new to the road in very well maintained."
+    "I never thought about 18-wheelers having a 'new car smell', but this one did. It was obviously new to the road and very well maintained."
 
     wan "Wow, this truck is beautiful!"
 
