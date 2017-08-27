@@ -4,7 +4,7 @@ label credits:
 
     stop music
 
-    $ renpy.movie_cutscene("vfx/credits.webm") # Loads the credit video
+    $ renpy.movie_cutscene("vfx/credits.mpg") # Loads the credit video
 
     scene black 
     with Pause(1)
