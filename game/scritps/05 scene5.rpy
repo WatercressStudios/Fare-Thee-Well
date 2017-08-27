@@ -108,7 +108,9 @@ label scene5:
 
     wan "That's the one."
     
-    emm "It's Scottish, that's all I know. My mother taught it to me, just like her mother taught it to her. She taught me a lot of the folk music I know, really. I was never as big into the heritage as she was."
+    emm "It's Scottish, that's all I know. My mother taught it to me, just like her mother taught it to her. She taught me a lot of the folk music I know, really."
+    
+    emm "I was never as big into the heritage as she was."
 
     emm "But to answer your question, no. I guess I don't know what it's about. I just sing the words."
 
@@ -120,13 +122,17 @@ label scene5:
 
     emm "But Loch Lomond, right? Isn't that about... two people traveling down different roads?"
 
-    wan "At surface value, yes. But here, you see, in Scottish tradition, it is believed that when a Scot dies while abroad, their soul will walk the earth to return to the mother country, so that the deceased may rest in their homeland."
+    wan "At surface value, yes. It all comes back to Scottish tradition."
+    
+    wan "It is believed that when a Scot dies while abroad, their soul will walk the earth to return to the mother country, so that the deceased may rest in their homeland."
 
     hide emmeline_young_happy
     
     show emmeline_young_sad
 
-    wan "The road that these wandering spirits use to return to Scotland is called the low road — as mentioned in the song. The regular, corporeal roads that living people like you and I use are the high roads."
+    wan "The road that these wandering spirits use to return to Scotland is called the low road — as mentioned in the song."
+         
+    wan "The regular, corporeal roads that living people like you and I use are the high roads."
 
     wan "The high road belongs to the living; the low road, to the dead. That belief is what the song centers around."
 
@@ -154,9 +160,13 @@ label scene5:
 
     emm "You find comfort in a song that tells you you're going to die?"
 
-    wan "I do. We all die, and every death is an ending, but what the song tells me is this: when my time comes, it will be when I have done all I can in my life. I will have found what I was searching for, and I will have brought it home with me."
+    wan "I do. We all die, and every death is an ending, but what the song tells me is this: when my time comes, it will be when I have done all I can in my life."
+    
+    wan "I will have found what I was searching for, and I will have brought it home with me."
 
-    wan "It tells me that it will be my end. Not that I'll be stuck like I am, unchanging, constantly moving, always searching. This person I am right now is in constant flux, and the days of my life are numbered with a clear beginning and a fateful end."
+    wan "It tells me that it will be my end. Not that I'll be stuck like I am, unchanging, constantly moving, always searching."
+    
+    wan "This person I am right now is in constant flux, and the days of my life are numbered with a clear beginning and a fateful end."
 
     wan "I don't see any problem in that."
 
@@ -248,5 +258,7 @@ label scene5:
     "Emmeline laughs more."
 
     emm "Just a little bit."
+    
+    hide emmeline_young_happy
     
     jump scene6

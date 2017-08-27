@@ -28,26 +28,22 @@ label scene2:
     gir "On the bonnie, bonnie banks of Loch Lomond."
     
     "Of course I know this song."
-    
-    nvl clear
 
-    nvlgir "The small birds they sing and the wildflowers spring,"
+    gir "The small birds they sing and the wildflowers spring,"
 
-    nvlgir "And in sunshine the waters are sleeping."
+    gir "And in sunshine the waters are sleeping."
 
-    nvlgir "Where the broken hearted can know no second spring again,"
+    gir "Where the broken hearted can know no second spring again,"
 
-    nvlgir "Though the woeful may cease from their grieving."
+    gir "Though the woeful may cease from their grieving."
 
-    nvlgir "You'll take the high road and I'll take the low road,"
+    gir "You'll take the high road and I'll take the low road,"
 
-    nvlgir "And I'll be in Scotland before you."
+    gir "And I'll be in Scotland before you."
 
-    nvlgir "But me and my true love will never meet again."
+    gir "But me and my true love will never meet again."
 
-    nvlgir "On the bonnie, bonnie banks of Loch Lomond."
-    
-    nvl clear
+    gir "On the bonnie, bonnie banks of Loch Lomond."
     
     "After her rendition of Loch Lomond, the girl continues to perform, singing various other folk songs. The audience continues to be mesmerized by every movement of her parted lips — the bar is eerily silent, and not a single person dare move."
 

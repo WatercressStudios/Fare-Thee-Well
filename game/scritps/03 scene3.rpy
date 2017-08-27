@@ -4,7 +4,9 @@ label scene3:
     
     # play music "music/Written To Memory - Loop.ogg" fadein 1.0 loop
     
-    "Out of the darkness and the crowd, I spot the girl in the green dress making her way toward the door. She's tugging the sides of her coat tight around her, like she's trying to make herself look as small as she can."
+    "Out of the darkness and the crowd, I spot the girl in the green dress making her way toward the door."
+    
+    "She's tugging the sides of her coat tight around her, like she's trying to make herself look as small as she can."
 
     "I wave her over before she can leave. She sees me and stares at me blankly while I approach her. She seems surprised."
 
@@ -187,7 +189,9 @@ label scene3:
 
     emm "Well... I'm not sure you'd want to get into it. I don't know what your politics are."
 
-    wan "I don't really involve myself in that. I don't keep myself too current. I don't have any strong opinions, if that's what you're worried about. I'm listening. Anything you can think of to say, you can say, and I'll listen."
+    wan "I don't really involve myself in that. I don't keep myself too current. I don't have any strong opinions, if that's what you're worried about."
+    
+    wan "I'm listening. Anything you can think of to say, you can say, and I'll listen."
 
     show emmeline_young_angry
     
