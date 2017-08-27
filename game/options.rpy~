@@ -150,12 +150,8 @@ init -1 python hide:
     ## Note that these only change the size of some of the text. Other
     ## buttons have their own styles.
 
-    style.default.color = "#5B3D28"
-    style.default.drop_shadow = [(1, 1,)]
-    style.default.drop_shadow_color = (0, 0, 0, 100)
-    style.say_label.bold = False
-    style.say_label.size = 42
-    
+    style.default.color = "#000000"
+
     #########################################
     ## These settings let you change some of the sounds that are used by
     ## Ren'Py.

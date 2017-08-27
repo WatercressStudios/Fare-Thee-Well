@@ -24,7 +24,7 @@ screen say(who, what, side_image=None, two_window=False):
 
             if who:
                 text who:
-                    id "who" xpos -436 ypos 30
+                    id "who" xpos -436 ypos 24
 
             text what id "what"
 
@@ -421,44 +421,27 @@ screen yesno_prompt(message, yes_action, no_action):
 
     modal True
 
-    window:
-        style "gm_root"
-
-    frame:
-        style_group "yesno"
-
-        xfill True
-        xmargin .05
-        ypos .1
-        yanchor 0
-        ypadding .05
-
-        has vbox:
-            xalign .5
-            yalign .5
-            spacing 30
-
-        label _(message):
-            xalign 0.5
-
-        hbox:
-            xalign 0.5
-            spacing 100
-
-            textbutton _("Yes") action yes_action
-            textbutton _("No") action no_action
-
-    # Right-click and escape answer "no".
-    key "game_menu" action no_action
-
-init -2:
-    style yesno_button:
-        size_group "yesno"
-
-    style yesno_label_text:
-        text_align 0.5
-        layout "subtitle"
-        size 35
+    add "ui/yn/background.png" 
+    add "ui/yn/base_left.png" at from_left
+    add "ui/yn/base_right.png" xanchor 1.0 at from_right
+    add "ui/yn/lines_left.png" at from_top
+    add "ui/yn/lines_right.png" xanchor 1.0 yanchor 1.0 xpos 1920 at from_bottom
+    imagebutton auto "ui/yn/yes_%s.png" xpos 1393 ypos 574 xanchor 1.0 focus_mask None action yes_action at from_right
+    imagebutton auto "ui/yn/no_%s.png" xpos 1394 ypos 735 xanchor 1.0 focus_mask None action no_action at from_right
+    add "ui/main/overlay.png"
+    
+    if message == layout.ARE_YOU_SURE:
+        add "ui/yn/message_quit.png" xanchor 1.0 at from_right
+    elif message == layout.DELETE_SAVE:
+        add "ui/yn/message_delete.png" xanchor 1.0 at from_right
+    elif message == layout.OVERWRITE_SAVE:
+        add "ui/yn/message_overwrite.png" xanchor 1.0 at from_right
+    elif message == layout.LOADING:
+        add "ui/yn/message_load.png" xanchor 1.0 at from_right
+    elif message == layout.QUIT:
+        add "ui/yn/message_quit.png" xanchor 1.0 at from_right
+    elif message == layout.MAIN_MENU:
+        add "ui/yn/message_title.png" xanchor 1.0 at from_right
 
 
 ##############################################################################
@@ -472,8 +455,8 @@ screen quick_menu():
     hbox:
         style_group "quick"
 
-        xalign 1.0
-        yalign 1.0
+        xalign 0.99
+        yalign 0.99
 
         textbutton _("Back") action Rollback()
         textbutton _("Save") action ShowMenu('save')
@@ -492,9 +475,9 @@ init -2:
 
     style quick_button_text:
         is default
-        size 18
+        size 24
         idle_color "#888888"
-        hover_color "#000000"
+        hover_color "#5B3D28"
         selected_idle_color "#cc08"
         selected_hover_color "#cc0"
         insensitive_color "#4448"
