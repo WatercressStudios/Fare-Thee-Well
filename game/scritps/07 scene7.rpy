@@ -6,12 +6,18 @@
 
 label scene7:
 
-    scene highway with fade
+    scene black with fade
 
     play music "music/Theme for a Wanderer - Intro.ogg" fadein 1.0
     queue music "music/Theme for a Wanderer - Loop.ogg"
+    
+    nvl clear
 
-    "June 13, 1987"
+    n "June 13, 1987"
+    
+    nvl clear
+    
+    scene highway with fade
 
     "June in Maine is still June. I should be accustomed to walking on baking asphalt by now."
 
@@ -111,23 +117,31 @@ label scene7:
 
     wan "I tend to stick around a place for a while, myself, and then it just feels like... It's time to go, I guess."
 
-    tru "Yup, I know whatcha mean, buddy. Once I got home from the war, I never really felt like I fit in, no matter how much I wanted to. I didn't understand why, and figured I'd find what I was looking for on the road."
+    tru "Yup, I know whatcha mean, buddy. Once I got home from the war, I never really felt like I fit in, no matter how much I wanted to."
+    
+    tru "I didn't understand why, and figured I'd find what I was looking for on the road."
 
     wan "And did you?"
 
     tru "To be honest? I'm not sure. But I did find happiness, and that's what all the hippies were always talking about, so I guess at least I found something."
 
-    tru "I think there's a certain freedom to keeping moving. Plenty of time to think, that's for sure. I drive, and when I feel like resting, I stop. As long as I stay on schedule, nobody pays me much mind. And that's just fine with me."
+    tru "I think there's a certain freedom to keeping moving. Plenty of time to think, that's for sure. I drive, and when I feel like resting, I stop."
+    
+    tru "As long as I stay on schedule, nobody pays me much mind. And that's just fine with me."
 
     "As the trucker shared a bit of his life with me, I watched the coiled cord for the CB radio set sway. Plenty of time to think. The trucker and I really do seem to have a lot in common."
 
-    tru "Sometimes I think that I've probably missed out on quite a bit of life, though, to be honest. I mean I have family, and I keep up with them well enough. So I sort of let them live more 'normal' lives for me, if that makes any sense at all."
+    tru "Sometimes I think that I've probably missed out on quite a bit of life, though, to be honest. I mean I have family, and I keep up with them well enough."
+    
+    tru "So I sort of let them live more 'normal' lives for me, if that makes any sense at all."
 
     wan "I think it makes a lot of sense. I have tried the 'normal' life a few times, but I always end up back on the road in the end. Waiting for the next stop."
 
     tru "You ought to think about driving trucks, it seems like you're a good fit for it. Better than walking all the time, that's for sure!"
 
-    wan "I've never considered it, to be honest. But I see your point. I'm not sure if the pace would feel quite right, though. Walking has such a familiar feel to it for me, now. I'm not sure if I would like the change..."
+    wan "I've never considered it, to be honest. But I see your point. I'm not sure if the pace would feel quite right, though."
+    
+    wan "Walking has such a familiar feel to it for me, now. I'm not sure if I would like the change..."
 
     tru "Most people are creatures of habit, you can't deny that. In a way, being a drifter is a habit, too."
 
@@ -195,9 +209,13 @@ label scene7:
 
     "At first, I thought that he had dropped his interest in Emmeline's name and my contemplation. But as the trucker spoke, I realized that he wasn't delving into his fellow traveler's life. He was sharing the journey."
 
-    tru "I was closer to that old truck than I was with anyone. I do admit that I had plenty of conversations with her, though. All the time, actually. She was a pretty good listener, that's for sure!"
+    tru "I was closer to that old truck than I was with anyone. I do admit that I had plenty of conversations with her, though."
+    
+    tru "All the time, actually. She was a pretty good listener, that's for sure!"
 
-    tru "But it's funny. In the war, my buddies and I stopped using first names. We came up with nicknames, things like that. It seemed at the time that we were all just close, you know?"
+    tru "But it's funny. In the war, my buddies and I stopped using first names. We came up with nicknames, things like that."
+    
+    tru "It seemed at the time that we were all just close, you know?"
 
     tru "But I wonder if maybe it was something else. Maybe it was a way for us to not get TOO close, after all."
 

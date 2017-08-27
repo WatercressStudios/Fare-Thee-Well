@@ -29,7 +29,9 @@ label scene4:
 
     "While she's talking, her voice becomes strained. Obviously this is reopening old wounds for her. I feel bad for bringing it up now."
 
-    emm "They started pressuring me to find a husband. Showed me off to any rich young men or family friends who came by, trying to convince me to give myself up and marry a complete stranger."
+    emm "They started pressuring me to find a husband."
+    
+    emm "Showed me off to any rich young men or family friends who came by, trying to convince me to give myself up and marry a complete stranger."
 
     emm "Made me feel like I was a hunk of meat being peddled in some marketplace. To them, my failure had branded me a commodity. I'd become a damaged good."
 
@@ -71,7 +73,9 @@ label scene4:
 
     emm "I packed up some clothes and some books and snuck out in the middle of the night."
 
-    emm "I stayed in the city a while, with friends and the like. Figured it was the safest way. After sometime though, I knew I had to get farther away than that. Somewhere my parents wouldn't find me."
+    emm "I stayed in the city a while, with friends and the like. Figured it was the safest way. After sometime though, I knew I had to get farther away than that."
+    
+    emm "Somewhere my parents wouldn't find me."
 
     emm "So I ran. Wandered from place to place. Took cabs and buses when I could, walked when I couldn't. Hitchhiked when I absolutely needed to."
 
@@ -93,7 +97,9 @@ label scene4:
 
     emm "I called my parents a few times, just to let them know I was still alive. I'm a good girl like that."
 
-    emm "At first, they were even more furious than they'd been while I was at home. They threatened to call the police after me. Threatened me when I said I wouldn't come home."
+    emm "At first, they were even more furious than they'd been while I was at home. They threatened to call the police after me."
+    
+    emm "Threatened me when I said I wouldn't come home."
 
     emm "But after some time, as I got farther and farther from home, as I was gone for longer and longer? They started to soften up."
 
@@ -125,11 +131,15 @@ label scene4:
 
     wan "You don't want to go home?"
 
-    emm "No, I do. Believe me. This sort of life gets tiring after a while. Having no safety, no security. Always needing to move from place to place. Searching for warmth every single night and praying every single morning you'll be able to find work and to feed yourself..."
+    emm "No, I do. Believe me. This sort of life gets tiring after a while. Having no safety, no security. Always needing to move from place to place."
+    
+    emm "Searching for warmth every single night and praying every single morning you'll be able to find work and to feed yourself..."
 
     emm "It drains you. It takes a lot away and it makes you lose your sense of place."
 
-    emm "When you can't ever stay in one place too long, it feels like everything in your life has a time limit set on it. It ticks away, and it couldn't care less about what you want. The time runs out, and one by one, everything in your life melts away."
+    emm "When you can't ever stay in one place too long, it feels like everything in your life has a time limit set on it."
+    
+    emm "It ticks away, and it couldn't care less about what you want. The time runs out, and one by one, everything in your life melts away."
 
     emm "The people you meet, the things you gain, the sights you see. They leave, and you're left with nothing again."
 
@@ -137,7 +147,9 @@ label scene4:
 
     wan "Yeah."
 
-    wan "You start over. You feel like you don't have any control over anything, like you're not even the person living your life. You feel like you're only sitting back and watching events unfold. Like you're an observer from the outside, looking in on yourself."
+    wan "You start over. You feel like you don't have any control over anything, like you're not even the person living your life."
+    
+    wan "You feel like you're only sitting back and watching events unfold. Like you're an observer from the outside, looking in on yourself."
     
     hide emmeline_young_angry
     
@@ -161,7 +173,9 @@ label scene4:
 
     wan "You're afraid of what will happen if you do?"
 
-    emm "I'm beyond afraid. I'm petrified. I can't even breathe right when I think about seeing my parents again. Even though this journey's taken so much away from me, I feel like just giving up and returning home isn't going to give me any of that back."
+    emm "I'm beyond afraid. I'm petrified. I can't even breathe right when I think about seeing my parents again."
+    
+    emm "Even though this journey's taken so much away from me, I feel like just giving up and returning home isn't going to give me any of that back."
 
     emm "It isn't."
 

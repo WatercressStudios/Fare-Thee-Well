@@ -12,17 +12,17 @@ label scene1:
     scene black 
     
     nvl clear
-
+    
     n "Fare Thee Well — The story of a lonely man."
-
+    
     n "A wanderer, a wayfarer, a stranger,"
-
+    
     n "And the sleepy town he found in the snow,"
-
+    
     n "One winter night."
 
     nvl clear
-
+    
     n "December — 1967"
 
     nvl clear
@@ -32,58 +32,58 @@ label scene1:
     queue music "music/Theme for a Wanderer - Loop.ogg"
     
     scene winterwoods 
+    #n
+    "I am a lone, wayfaring stranger,"
+    #n
+    "Traveling through this world of woe."
+    #n
+    "But there's no sickness, toil, or danger,"
+    #n
+    "In that bright land to which I go."
 
-    n "I am a lone, wayfaring stranger,"
-
-    n "Traveling through this world of woe."
-
-    n "But there's no sickness, toil, or danger,"
-
-    n "In that bright land to which I go."
-
-    nvl clear
+    #nvl clear
 
     "The strong winter wind beats down all around me."
 
     "I pull my coat ever closer."
+    #n
+    "I'm going there to see my Father,"
+    #n
+    "I'm going there no more to roam."
+    #n
+    "I'm only going over Jordan,"
+    #n
+    "I'm only going over home."
 
-    n "I'm going there to see my Father,"
-
-    n "I'm going there no more to roam."
-
-    n "I'm only going over Jordan,"
-
-    n "I'm only going over home."
-
-    nvl clear
+    #nvl clear
 
     "Down the road I walked, covered in cold snow."
 
     "I have no one to meet and nowhere to go."
+    #n
+    "I know dark clouds will gather 'round me,"
+    #n
+    "I know my way is rough and steep."
+    #n
+    "But golden fields lie out before me,"
+    #n
+    "Where God's redeemed shall ever sleep."
 
-    n "I know dark clouds will gather 'round me,"
-
-    n "I know my way is rough and steep."
-
-    n "But golden fields lie out before me,"
-
-    n "Where God's redeemed shall ever sleep."
-
-    nvl clear
+    #nvl clear
 
     "I need to find somewhere better than this."
 
     "I can't feel a thing."
+    #n
+    "I'm going there to see my Mother,"
+    #n
+    "She said she'd meet me when I come."
+    #n
+    "I'm only going over Jordan,"
+    #n
+    "I'm only going over home."
 
-    n "I'm going there to see my Mother,"
-
-    n "She said she'd meet me when I come."
-
-    n "I'm only going over Jordan,"
-
-    n "I'm only going over home."
-
-    nvl clear
+    #nvl clear
 
     scene cedar_night 
 
