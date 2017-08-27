@@ -23,7 +23,8 @@ screen say(who, what, side_image=None, two_window=False):
                 style "say_vbox"
 
             if who:
-                text who id "who"
+                text who:
+                    id "who" xpos -436 ypos 30
 
             text what id "what"
 

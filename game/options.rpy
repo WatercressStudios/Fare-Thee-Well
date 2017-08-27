@@ -91,8 +91,8 @@ init -1 python hide:
     ## are the size of the left/right and top/bottom borders,
     ## respectively.
 
-    style.window.background = Frame("ui/frame.png")
-    style.say_who_window.background = Frame("ui/sayframe.png")
+    style.window.background = "ui/textbox.png"
+    style.say_who_window.background = None
 
     ## Margin is space surrounding the window, where the background
     ## is not drawn.
@@ -105,20 +105,15 @@ init -1 python hide:
     ## Padding is space inside the window, where the background is
     ## drawn.
 
-    style.window.left_padding = 40
-    style.window.right_padding = 40
-    style.window.top_padding = 30
-    style.window.bottom_padding = 30
-
-    style.say_who_window.left_padding = 10
-    style.say_who_window.right_padding = 10
-    style.say_who_window.top_padding = 20
-    style.say_who_window.bottom_padding = 20
+    style.window.left_padding = 538
+    style.window.right_padding = 78
+    style.window.top_padding = 130
+    style.window.bottom_padding = 0
 
     ## This is the minimum height of the window, including the margins
     ## and padding.
 
-    # style.window.yminimum = 250
+    style.window.yminimum = 300
 
 
     #########################################
@@ -146,11 +141,11 @@ init -1 python hide:
 
     ## The file containing the default font.
 
-    style.default.font = "font/FairfaxStationNF.otf"
+    style.default.font = "font/LinLibertine_R.ttf"
 
     ## The default size of text.
 
-    style.default.size = 28
+    style.default.size = 36
 
     ## Note that these only change the size of some of the text. Other
     ## buttons have their own styles.
