@@ -8,8 +8,8 @@ label scene2:
     
     show emmeline_young_surprise at center 
     
-    play music "music/Emmeline's Ballad - Intro.ogg" fadein 1.0 loop
-    queue music "music/Emmeline's Ballad - Loop.ogg"
+    play music "music/Emmeline's Ballad Rework.mp3" fadein 1.0 loop
+    #queue music "music/Emmeline's Ballad - Loop.ogg"
     
     "She begins softly, her voice barely above a whisper."
     

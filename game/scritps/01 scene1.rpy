@@ -28,8 +28,8 @@ label scene1:
     nvl clear
     
     stop music
-    play music "music/Theme for a Wanderer - Intro.ogg" fadein 1.0 loop
-    queue music "music/Theme for a Wanderer - Loop.ogg"
+    play music "music/Theme for a Wanderer Rework.mp3" fadein 1.0 loop
+    #queue music "music/Theme for a Wanderer - Loop.ogg"
     
     scene winterwoods 
     #n
