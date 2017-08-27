@@ -274,6 +274,8 @@ label scene11:
     n "My dearest Wanderer, we aren't very good at goodbyes, are we? But this will indeed be our last. But I have grandchildren that I soon hope to meet, and you have a long road ahead of you, so I'll keep it brief."
 
     n "I want you to remember me as who I was and, to you, will now always be."
+    
+    nvl clear
 
     n "So goodbye, my dear Wanderer."
 
@@ -355,6 +357,8 @@ label scene11:
     
     can "..."
     
+    hide candace_std_sad
+    
     show candace_std_happy
     
     can "...Thank you."
@@ -364,9 +368,12 @@ label scene11:
     can "..You really were."
     can "I want you to remember that, okay?"
     
-    scene black with dissolve
+    hide candace_std_happy
     
     "I give Candace one last smile before I turn for the door."
+    
+    scene black with dissolve
+    
     "She goes back to sweeping, not wanting to watch me leave."
     "She takes a deep breath."
     "Tears drip from her eyes onto the floor."
@@ -400,26 +407,28 @@ label scene11:
 
     "All I leave behind are footprints in the snow that are soon swept away by winter wind."
     
-    nvl clear
+    #nvl clear
+    #nvl text
+    "Of all the money that ere I had, I spent it in good company."
+    "And of all the harm that ere I've done, alas was done to none but me."
+    "And all I've done for want of wit, to memory now I cannot recall."
+    "So fill me to the parting glass. Goodnight and joy be with you all."
     
-    n "Of all the money that ere I had, I spent it in good company."
-    n "And of all the harm that ere I've done, alas was done to none but me."
-    n "And all I've done for want of wit, to memory now I cannot recall."
-    n "So fill me to the parting glass. Goodnight and joy be with you all."
+    #nvl clear
+    #nvl text
+    "So fill to me that parting glass,"
+    "And drink a health whate'er befalls."
+    "Then gently rise and softly call,"
+    "Goodnight and joy be with you all."
     
-    nvl clear
+    #nvl clear
+    #nvl text
+    "Of all the comrades that ere I had, they're sorry for my going away,"
+    "And of all the sweethearts that ere I had , they wish me one more day to stay,"
+    "But since it falls unto my lot that I should rise while you should not,"
+    "I will gently rise and I'll softly call, Goodnight and joy be with you all."
     
-    n "So fill to me that parting glass,"
-    n "And drink a health whate'er befalls."
-    n "Then gently rise and softly call,"
-    n "Goodnight and joy be with you all."
-    
-    nvl clear
-
-    n "Of all the comrades that ere I had, they're sorry for my going away,"
-    n "And of all the sweethearts that ere I had , they wish me one more day to stay,"
-    n "But since it falls unto my lot that I should rise while you should not,"
-    n "I will gently rise and I'll softly call, Goodnight and joy be with you all."
+    scene black with dissolve 
     
     nvl clear
 

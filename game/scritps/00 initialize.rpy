@@ -28,7 +28,7 @@ image old_bartender_happy = "sprites/Old Bartender/Old Bartender - Standard Pose
 image old_bartender_standard_cleaning_glass = "sprites/Old Bartender/Old Bartender - Cleaning Glass - Standard.png"
 image old_bartender_sad_cleaning_glass = "sprites/Old Bartender/Old Bartender - Cleaning Glass - Sad.png"
 image old_bartender_happy_cleaning_glass = "sprites/Old Bartender/Old Bartender - Cleaning Glass - Happy.png"
-image middle_aged_emmeline_sad = "sprites/Middsssssssssssssssssssssssssssssssssssssssle Aged Emmeline/middle aged emmeline sad.png"
+image middle_aged_emmeline_sad = "sprites/Middle Aged Emmeline/middle aged emmeline sad.png"
 image middle_aged_emmeline_happy = "sprites/Middle Aged Emmeline/middle aged emmeline happy.png"
 image young_micheal_happy = "sprites/Young Micheal/young micheal happy.png"
 image young_micheal_fear = "sprites/Young Micheal/young micheal fear.png"
@@ -70,6 +70,7 @@ image stage = "bg/stage_filter_final.png"
 image snow_bench = "bg/snow_bench.png"
 image highway = "bg/mainehighway_1.png"
 image bar_day = "bg/bar_filter_day_final.png"
+image summer = "bg/summer forest.png"
 
 ###################
 # CGs #

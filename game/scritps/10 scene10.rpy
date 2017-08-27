@@ -142,7 +142,9 @@ label scene10:
 
     "Rosa begins to tell her story, and her eyes light up with a childlike happiness."
 
-    ros "When I was younger, all I ever wanted to do was go to school to study music. It has always been my passion. So I worked at it, from the time I first saw a future in it, until I had realized the dream."
+    ros "When I was younger, all I ever wanted to do was go to school to study music. It has always been my passion."
+    
+    ros "So I worked at it, from the time I first saw a future in it, until I had realized the dream."
 
     ros "But..."
 
@@ -166,7 +168,9 @@ label scene10:
 
     ros "So I can say with certainty that I don't regret making that decision. What I'm unsure about is where I'm going now."
 
-    ros "All I have is my music and the will to keep moving forward. So since leaving school, I've been travelling wherever the music takes me. I hope that it can one day lead me to true happiness."
+    ros "All I have is my music and the will to keep moving forward. So since leaving school, I've been travelling wherever the music takes me."
+    
+    ros "I hope that it can one day lead me to true happiness."
     
     ros "I guess, for now, I'm just along for the ride."
 
@@ -200,7 +204,9 @@ label scene10:
 
     "Candace waves a hand over her shoulder, motioning to the empty Hearth and Home."
 
-    can "This ol' girl's been in the family for four generations now. My father, grandad, and great grandad all put their lives into this place, and I'll be damned if I don't do the same."
+    can "This ol' girl's been in the family for four generations now."
+    
+    can "My father, grandad, and great grandad all put their lives into this place, and I'll be damned if I don't do the same."
 
     can "But this life isn't for everyone. Maybe you just need to broaden your horizons? See more of what's out there?"
 
@@ -228,7 +234,9 @@ label scene10:
 
     "She narrows her eyes in suspicion. Clearly I've piqued her interest."
     
-    wan "I used to be a lot like you, looking for somewhere I could belong, going wherever the road took me. There's nothing wrong with that; no shame in it whatsoever. It takes time to discover who you are, to find out who you want to be."
+    wan "I used to be a lot like you, looking for somewhere I could belong, going wherever the road took me."
+    
+    wan "There's nothing wrong with that; no shame in it whatsoever. It takes time to discover who you are, to find out who you want to be."
 
     ros "So what advice can you give?"
 
@@ -238,9 +246,13 @@ label scene10:
 
     wan "In that case, the best thing I can offer you is this:"
 
-    wan "The belonging that you're searching for ­ you may never find it. Were circumstances different, I might still be searching for it. What you can do that will make all the difference is really quite simple."
+    wan "The belonging that you're searching for ­ you may never find it."
+    
+    wan "Were circumstances different, I might still be searching for it. What you can do that will make all the difference is really quite simple."
 
-    wan "Life is going to go on, regardless of what you do. Don't just let it happen. Take charge of your own life. Even though you may not find what you search for, it will make that search easier."
+    wan "Life is going to go on, regardless of what you do. Don't just let it happen. Take charge of your own life."
+    
+    wan "Even though you may not find what you search for, it will make that search easier."
 
     "I've always had trouble putting this into words. It's been in the back of my mind for as long as I can remember, but words always seem to fail me."
 
@@ -272,6 +284,6 @@ label scene10:
     
     scene black 
 
-    with Pause(2)
+    with Pause(1)
     
     jump scene11

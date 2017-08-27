@@ -283,6 +283,8 @@ label scene7:
 
     "I shut the heavy door of the big red machine as I recall the layout of the little town quietly waiting before me."
 
+    scene summer with fade
+
     "As I try to decide what to do, I begin walking along the single main road through Cedar."
 
     "The trees are thick here, providing ample shade interspersed with patches of waning sunlight."
@@ -304,6 +306,8 @@ label scene7:
     "There is a magic to this place..."
 
     "I open the door and step into the cool darkness."
+    
+    scene bar_day with fade
 
     "The fading light from outside momentarily illuminates the room, and the bartender looks up to greet his first customer of the day."
 
@@ -313,7 +317,7 @@ label scene7:
 
     "The bartender is a bit of an exception, though."
     
-    show old_bartender_surprised
+    show old_bartender_standard
 
     "His hair is grey, and his face has more lines than when last we met."
 
@@ -327,6 +331,10 @@ label scene7:
 
     "The bartender smoothly and deftly fills the glass and sets it down in front of me on a plain white napkin, making brief eye contact that somehow conveys the notion that he has decided upon something."
 
+    hide old_bartender_standard
+
+    show old_bartender_surprised
+    
     ten "So, just passing through again?"
 
     "I look up from my beer and look at him. There is a small smile and a knowing look in his eyes. His memory is excellent. What do I say?"
@@ -377,7 +385,9 @@ label scene7:
 
     wan "While it should… it doesn't, really. I'm not entirely sure what I would have done, anyhow. Would it be wrong of me to ask of an address?"
 
-    ten "While I would give it to you regardless, it's not necessary. She comes by every morning with her son to help set up for the day. You should come again, tomorrow, as I assume you are planning to stay for a while?"
+    ten "While I would give it to you regardless, it's not necessary."
+         
+    ten "She comes by every morning with her son to help set up for the day. You should come again, tomorrow, as I assume you are planning to stay for a while?"
 
     wan "Yeah, I'll be here. Thanks, really. It means a lot."
 

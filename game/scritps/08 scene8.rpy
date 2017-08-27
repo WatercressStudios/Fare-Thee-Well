@@ -45,7 +45,9 @@ label scene8:
 
     show old_bartender_sad_cleaning_glass
 
-    ten "Sorry, Em. I should’ve mentioned earlier that I have a new employee in training - he helped me this morning. We still have the stage to set up, though. I’ll get you some work yet."
+    ten "Sorry, Em. I should’ve mentioned earlier that I have a new employee in training - he helped me this morning."
+    
+    ten "We still have the stage to set up, though. I’ll get you some work yet."
 
     "She looks at me directly for the first time, but there is no spark of memory in her eyes - only the casual friendliness of someone greeting a new acquaintance."
 
@@ -142,7 +144,9 @@ label scene8:
 
     "He looks at his Mother for answers, looking anxious."
 
-    emm "You remember. Depeche Mode, sometimes you listen to Michael Jackson. I’m more of a Simon and Garfunkel gal myself. The new stuff isn’t bad, but there’s something about the acoustic guitars…"
+    emm "You remember. Depeche Mode, sometimes you listen to Michael Jackson."
+    
+    emm "I’m more of a Simon and Garfunkel gal myself. The new stuff isn’t bad, but there’s something about the acoustic guitars…"
 
     hide young_micheal_surprised
 
@@ -207,13 +211,17 @@ label scene8:
 
     "I gesture in the general direction with a finger extended from my hand that held my drink. The brownish fluid sloshed around behind the intricate lines in the glass, and I realized that it was the same kind I had used that night so many years ago."
 
-    wan "We walked out of this place together and explored the town after dark. We sat on that bench, overlooking the snow, talking of ourselves... Such a simple, yet meaningful thing, sitting close and talking. I brought up the legend of the wanderer. I didn’t think she’d take it seriously."
+    wan "We walked out of this place together and explored the town after dark. We sat on that bench, overlooking the snow, talking of ourselves..."
+    
+    wan "Such a simple, yet meaningful thing, sitting close and talking. I brought up the legend of the wanderer. I didn’t think she’d take it seriously."
 
     wan "But she did. She listened, and in the end she identified with it. Of course, you know Emmeline’s story - how she got here. She has every bit as much wanderlust as I did."
 
     "I take a sip from my glass and turn around before looking into the cup."
 
-    wan "Or… had. I guess everyone else like me eventually grows out of that phase. I suppose a part of me realized it then. I didn’t want to break her heart, so I just left. Ultimately, I shouldn’t be surprised that she didn’t remember me at first."
+    wan "Or… had. I guess everyone else like me eventually grows out of that phase. I suppose a part of me realized it then."
+    
+    wan "I didn’t want to break her heart, so I just left. Ultimately, I shouldn’t be surprised that she didn’t remember me at first."
 
     wan "I’m sure she’s had to deal with her share of people walking out of her life. It was only one night."
 
@@ -223,7 +231,9 @@ label scene8:
 
     "The old man puts a comforting hand on my shoulder."
 
-    ten "You know, I didn’t think Emmeline would ever settle down. But her husband… well, you’d like him. He runs the tri-county newspaper. Takes the family camping often in the summer and autumn. You couldn’t ask for a better life for her or her son in this town."
+    ten "You know, I didn’t think Emmeline would ever settle down. But her husband… well, you’d like him. He runs the tri-county newspaper."
+    
+    ten "Takes the family camping often in the summer and autumn. You couldn’t ask for a better life for her or her son in this town."
 
     "I nod and hand the bartender back his glass."
 
