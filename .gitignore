@@ -56,3 +56,5 @@ Temporary Items
 **/errors.txt
 **/traceback.txt
 *-dists/*
+*.rpyc
+*.rpy~
