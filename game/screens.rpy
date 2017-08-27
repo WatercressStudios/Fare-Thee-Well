@@ -256,89 +256,98 @@ screen navigation():
 # a single screen, file_picker. We then use the file_picker screen
 # from simple load and save screens.
 
-screen file_picker():
-
-    frame:
-        style "file_picker_frame"
-
-        has vbox
-
-        # The buttons at the top allow the user to pick a
-        # page of files.
-        hbox:
-            style_group "file_picker_nav"
-
-            textbutton _("Previous"):
-                action FilePagePrevious()
-
-            textbutton _("Auto"):
-                action FilePage("auto")
-
-            textbutton _("Quick"):
-                action FilePage("quick")
-
-            for i in range(1, 9):
-                textbutton str(i):
-                    action FilePage(i)
-
-            textbutton _("Next"):
-                action FilePageNext()
-
-        $ columns = 1
-        $ rows = 10
-
-        # Display a grid of file slots.
-        grid columns rows:
-            transpose True
-            xfill True
-            style_group "file_picker"
-
-            # Display ten file slots, numbered 1 - 10.
-            for i in range(1, columns * rows + 1):
-
-                # Each file slot is a button.
-                button:
-                    action FileAction(i)
-                    xfill True
-
-                    has hbox
-
-                    # Add the screenshot.
-                    add FileScreenshot(i)
-
-                    $ file_name = FileSlotName(i, columns * rows)
-                    $ file_time = FileTime(i, empty=_("Empty Slot."))
-                    $ save_name = FileSaveName(i)
-
-                    text "[file_name]. [file_time!t]\n[save_name!t]"
-
-                    key "save_delete" action FileDelete(i)
-
-
-screen save():
-
-    # This ensures that any other menu screen is replaced.
+screen save:
     tag menu
-
+    add "ui/main/background.png" 
+    add "ui/prefs/screens_top.png" at from_top2
+    add "ui/prefs/screens_bottom.png" yanchor 1.0 ypos 1080 at from_bottom3
+    add "ui/prefs/lines_top.png" at from_left2
+    add "ui/prefs/lines_bottom.png" xanchor 1.0 yanchor 1.0 ypos 1080 at from_right2
+    add "ui/prefs/base.png" at effect1
+    add "ui/saveload/save_title.png" at effect1
     use navigation
     use file_picker
-
-screen load():
-
-    # This ensures that any other menu screen is replaced.
+    add "ui/main/overlay.png"
+    
+screen load:
     tag menu
-
+    add "ui/main/background.png" 
+    add "ui/prefs/screens_top.png" at from_top2
+    add "ui/prefs/screens_bottom.png" yanchor 1.0 ypos 1080 at from_bottom3
+    add "ui/prefs/lines_top.png" at from_left2
+    add "ui/prefs/lines_bottom.png" xanchor 1.0 yanchor 1.0 ypos 1080 at from_right2
+    add "ui/prefs/base.png" at effect1
+    add "ui/saveload/load_title.png" at effect1
     use navigation
     use file_picker
+    add "ui/main/overlay.png"
+    
+screen file_picker:
+    imagebutton auto "ui/saveload/quick_%s.png" xpos 378 ypos 823 focus_mask None action FilePage("quick") at effect1
+    imagebutton auto "ui/saveload/auto_%s.png" xpos 563 ypos 823 focus_mask None action FilePage("auto") at effect1
+    imagebutton auto "ui/saveload/1_%s.png" xpos 725 ypos 823 focus_mask None action FilePage(1) at effect1
+    imagebutton auto "ui/saveload/2_%s.png" xpos 818 ypos 823 focus_mask None action FilePage(2) at effect1
+    imagebutton auto "ui/saveload/3_%s.png" xpos 912 ypos 823 focus_mask None action FilePage(3) at effect1
+    imagebutton auto "ui/saveload/4_%s.png" xpos 1010 ypos 823 focus_mask None action FilePage(4) at effect1
+    imagebutton auto "ui/saveload/5_%s.png" xpos 1104 ypos 823 focus_mask None action FilePage(5) at effect1
+    imagebutton auto "ui/saveload/6_%s.png" xpos 1196 ypos 823 focus_mask None action FilePage(6) at effect1
+    imagebutton auto "ui/saveload/7_%s.png" xpos 1291 ypos 823 focus_mask None action FilePage(7) at effect1
+    imagebutton auto "ui/saveload/8_%s.png" xpos 1384 ypos 823 focus_mask None action FilePage(8) at effect1
+    imagebutton auto "ui/saveload/9_%s.png" xpos 1478 ypos 823 focus_mask None action FilePage(9) at effect1
+    
+    imagebutton auto "ui/saveload/slot_%s.png" xpos 236 ypos 195 focus_mask True action FileAction(1) at effect1
+    add "ui/saveload/empty.png" xpos 255 ypos 214 at effect1
+    use load_save_slot(number=1, x=236, y=195) 
+    imagebutton auto "ui/saveload/slot_%s.png" xpos 236 ypos 406 focus_mask True action FileAction(2) at effect1
+    add "ui/saveload/empty.png" xpos 255 ypos 425 at effect1
+    use load_save_slot(number=2, x=236, y=406) 
+    imagebutton auto "ui/saveload/slot_%s.png" xpos 236 ypos 617 focus_mask True action FileAction(3) at effect1
+    add "ui/saveload/empty.png" xpos 255 ypos 636 at effect1
+    use load_save_slot(number=3, x=236, y=617) 
+    imagebutton auto "ui/saveload/slot_%s.png" xpos 1023 ypos 195 focus_mask True action FileAction(4) at effect1
+    add "ui/saveload/empty.png" xpos 1042 ypos 214 at effect1
+    use load_save_slot(number=4, x=1023, y=195) 
+    imagebutton auto "ui/saveload/slot_%s.png" xpos 1023 ypos 406 focus_mask True action FileAction(5) at effect1
+    add "ui/saveload/empty.png" xpos 1042 ypos 425 at effect1
+    use load_save_slot(number=5, x=1023, y=406) 
+    imagebutton auto "ui/saveload/slot_%s.png" xpos 1023 ypos 617 focus_mask True action FileAction(6) at effect1
+    add "ui/saveload/empty.png" xpos 1042 ypos 636 at effect1
+    use load_save_slot(number=6, x=1023, y=617) 
+    
+screen load_save_slot:
+    hbox:
+        style_group "watercress"
+        textbutton _("Delete") xpos x+530 ypos y+125  action FileDelete(number) at effect1
+
+    $ file_text = "% s\n  %s" % (FileTime(number, empty="Empty."), FileSaveName(number))
+
+    text file_text xpos x+295 ypos y+18 style_group "watercress" at effect1
+
+    add FileScreenshot(number) xpos x+19 ypos y+19 at effect1
+    
+init -2 python:
+    config.thumbnail_width = 260
+    config.thumbnail_height = 146
 
 init -2:
-    style file_picker_frame is menu_frame
-    style file_picker_nav_button is small_button
-    style file_picker_nav_button_text is small_button_text
-    style file_picker_button is large_button
-    style file_picker_text is small_button_text
-    style file_picker_frame:
-        xsize 660
+    style watercress_button:
+        is default
+        background None
+    style watercress_button_text:
+        is default
+        size 38
+        idle_color "#FFE2BC"
+        hover_color "#5B3D28"
+        insensitive_color "#808080"
+        drop_shadow [(2, 2,)]
+        drop_shadow_color (0, 0, 0, 100)
+    style watercress_text:
+         is default
+         size 42
+         color "#FFE2BC"
+         idle_color "#FFE2BC"
+         drop_shadow [(2, 2,)]
+         drop_shadow_color (0, 0, 0, 100)
 
 
 ##############################################################################
