@@ -258,7 +258,7 @@ init python:
     g.button("dark")
     g.unlock_image("ceder_night")
     #g.transform(slowpan)
-    g.unlock_image("bar_night")
+    #g.unlock_image("bar_night")
 
     # This button has a condition associated with it, allowing the game
     # to choose which images unlock.
@@ -318,7 +318,7 @@ screen gallery:
     tag menu
 
     # The background.
-    add "black"
+    add "white"
 
     # A grid of buttons.
     grid 1 3:
