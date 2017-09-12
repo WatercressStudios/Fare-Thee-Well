@@ -50,7 +50,7 @@ with open(inputFilePath, 'r') as infile, open(outputFilePath, 'w') as outfile:
             outfile.write('voice "' + routeTag + '-' + sceneNumber + '-' + str(lineCount) + '.mp3" #Michael (Reece Bridger)\n')
             outfile.write(line)
             lineCount += 1
-        elif 'yic' in line[:3]:
+        elif 'ymic' in line[:4]:
             outfile.write('voice "' + routeTag + '-' + sceneNumber + '-' + str(lineCount) + '.mp3" #Young Michael (Dani Chambers)\n')
             outfile.write(line)
             lineCount += 1
