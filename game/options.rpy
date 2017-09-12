@@ -275,7 +275,7 @@ init -1 python hide:
 
     ## Should we start in fullscreen mode?
 
-    config.default_fullscreen = True
+    config.default_fullscreen = False
 
     ## The default text speed in characters per second. 0 is infinite.
 
