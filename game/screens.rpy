@@ -238,7 +238,7 @@ init -2:
 #
 # Screen that's used to display the gallery menu
 # https://www.renpy.org/doc/html/rooms.html
-# Testing webhook
+# Testing webhook 2
 init python:
 
     # Step 1. Create the gallery object.
