@@ -190,6 +190,7 @@ screen main_menu():
    imagebutton auto "ui/main/prefs_%s.png" xpos 0 ypos 747 focus_mask None action ShowMenu('preferences') at from_left
    imagebutton auto "ui/main/credits_%s.png" xpos 0 ypos 856 focus_mask None action Start("credits") at from_left
    imagebutton auto "ui/main/quit_%s.png" xpos 0 ypos 970 focus_mask None action Quit(confirm=False) at from_left
+   textbutton "Gallery" action ShowMenu("gallery")
    # Adds the image as the final thing on the screen.
    add "ui/main/overlay.png"
 
@@ -231,7 +232,117 @@ init -2:
         alpha 0.0 ypos 1300
         linear 2.5 alpha 1.0 ypos 1080
     # alpha 0 > 1 is just a fadein, linear & easein are just the time taken for the effect to occur. First line of each transform defines the starting state and then the second is the final state.
-    
+
+##############################################################################
+# Gallery Menu
+#
+# Screen that's used to display the gallery menu
+# https://www.renpy.org/doc/html/rooms.html
+init python:
+
+    # Step 1. Create the gallery object.
+    g = Gallery()
+
+    # Step 2. Add buttons and images to the gallery.
+
+    # A button that contains an image that automatically unlocks.
+    g.button("dawn")
+    g.image("dawn1")
+    g.unlock("dawn1")
+
+    # This button has multiple images assocated with it. We use unlock_image
+    # so we don't have to call both .image and .unlock. We also apply a
+    # transform to the first image.
+    g.button("dark")
+    g.unlock_image("bigbeach1")
+    g.transform(slowpan)
+    g.unlock_image("beach1 mary")
+    g.unlock_image("beach2")
+    g.unlock_image("beach3")
+
+    # This button has a condition associated with it, allowing the game
+    # to choose which images unlock.
+    g.button("end1")
+    g.condition("persistent.unlock_1")
+    g.image("transfer")
+    g.image("moonpic")
+    g.image("girlpic")
+    g.image("nogirlpic")
+    g.image("bad_ending")
+
+    g.button("end2")
+    g.condition("persistent.unlock_2")
+    g.image("library")
+    g.image("beach1 nomoon")
+    g.image("bad_ending")
+
+    # The last image in this button has an condition associated with it,
+    # so it will only unlock if the user gets both endings.
+    g.button("end3")
+    g.condition("persistent.unlock_3")
+    g.image("littlemary2")
+    g.image("littlemary")
+    g.image("good_ending")
+    g.condition("persistent.unlock_3 and persistent.unlock_4")
+
+    g.button("end4")
+    g.condition("persistent.unlock_4")
+    g.image("hospital1")
+    g.image("hospital2")
+    g.image("hospital3")
+    g.image("heaven")
+    g.image("white")
+    g.image("good_ending")
+    g.condition("persistent.unlock_3 and persistent.unlock_4")
+
+    # The final two buttons contain images that show multiple pictures
+    # at the same time. This can be used to compose character art onto
+    # a background.
+    g.button("dawn mary")
+    g.unlock_image("dawn1", "mary dawn wistful")
+    g.unlock_image("dawn1", "mary dawn smiling")
+    g.unlock_image("dawn1", "mary dawn vhappy")
+
+    g.button("dark mary")
+    g.unlock_image("beach2", "mary dark wistful")
+    g.unlock_image("beach2", "mary dark smiling")
+    g.unlock_image("beach2", "mary dark vhappy")
+
+    # The transition used when switching images.
+    g.transition = dissolve
+
+# Step 3. The gallery screen we use.
+screen gallery:
+
+    # Ensure this replaces the main menu.
+    tag menu
+
+    # The background.
+    add "beach2"
+
+    # A grid of buttons.
+    grid 3 3:
+
+        xfill True
+        yfill True
+
+        # Call make_button to show a particular button.
+        add g.make_button("dark", "gal-dark.png", xalign=0.5, yalign=0.5)
+        add g.make_button("dawn", "gal-dawn.png", xalign=0.5, yalign=0.5)
+        add g.make_button("end1", "gal-end1.png", xalign=0.5, yalign=0.5)
+
+        add g.make_button("end2", "gal-end2.png", xalign=0.5, yalign=0.5)
+        add g.make_button("end3", "gal-end3.png", xalign=0.5, yalign=0.5)
+        add g.make_button("end4", "gal-end4.png", xalign=0.5, yalign=0.5)
+
+        add g.make_button("dark mary", "gal-dark_mary.png", xalign=0.5, yalign=0.5)
+        add g.make_button("dawn mary", "gal-dawn_mary.png", xalign=0.5, yalign=0.5)
+
+        # The screen is responsible for returning to the main menu. It could also
+        # navigate to other gallery screens.
+        textbutton "Return" action Return() xalign 0.5 yalign 0.5
+
+
 ##############################################################################
 # Navigation
 #
@@ -245,6 +356,7 @@ screen navigation():
     imagebutton auto "ui/navigation/prefs_%s.png" xpos 1152 ypos 972 focus_mask None action ShowMenu('preferences') at effect1
     imagebutton auto "ui/navigation/title_%s.png" xpos 1462 ypos 972 focus_mask None action MainMenu() at effect1
     imagebutton auto "ui/navigation/quit_%s.png" xpos 1652 ypos 972 focus_mask None action Quit() at effect1
+    
 ##############################################################################
 # Save, Load
 #
