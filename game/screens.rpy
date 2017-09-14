@@ -196,6 +196,9 @@ screen main_menu():
 
 init -2:
     # Defines transform properties to make images move.
+    transform fade_in:
+        alpha 0.0
+        linear 2.5 alpha 1.0
     transform from_left:
         alpha 0.0 xpos -500
         linear 2.5 alpha 1.0 xpos 0
@@ -241,106 +244,65 @@ init -2:
 # Testing organization webhook
 
 init python:
-
-    # Step 1. Create the gallery object.
+    #List gallery images in the array
+    gallery_cg_items = ["bg/winter_path_filter_final.png", "bg/town_filter_final.png", "bg/bar_filter_night_final.png", "bg/stage_filter_final.png",]
+    #Rows and columns of the gallery
+    gallery_rows = 2
+    gallery_columns = 2
+    #Thumbnail size
+    thumbnail_x_size = 540
+    thumbnail_y_size = 302
+    
+    gallery_cell_count = gallery_rows * gallery_columns
+    #Gallery instance declaration
     g = Gallery()
+    #Gallery property assignments
+    for gallery_item in gallery_cg_items:
+        g.button(gallery_item + " button")
+        g.image(gallery_item)
+        g.unlock(gallery_item)
+        
+    #For varients
+    #if gallery_item == "cg4":
+    #        g_cg.image("cg4b")
+    #        g_cg.unlock("cg4b")
 
-    # Step 2. Add buttons and images to the gallery.
+    #Default cg transition
+    g.transition = fade
+    cg_page=0
 
-    # A button that contains an image that automatically unlocks.
-    g.button("dawn")
-    g.image("winterwoods")
-    g.unlock("winterwoods")
+#init +1 python:
+#    #Initialize thumbnails
+#    for gallery_item in gallery_cg_items:
+#        renpy.image (gallery_item + " button", im.Scale(ImageReference(gallery_item), thumbnail_x_size, thumbnail_y_size))
 
-    # This button has multiple images assocated with it. We use unlock_image
-    # so we don't have to call both .image and .unlock. We also apply a
-    # transform to the first image.
-    g.button("dark")
-    g.unlock_image("ceder_night")
-    #g.transform(slowpan)
-    #g.unlock_image("bar_night")
-
-    # This button has a condition associated with it, allowing the game
-    # to choose which images unlock.
-    #g.button("end1")
-    #g.condition("persistent.unlock_snow_bench")
-    #g.image("transfer")
-    #g.image("moonpic")
-    #g.image("girlpic")
-    #g.image("nogirlpic")
-    #g.image("bad_ending")
-
-    #g.button("end2")
-    #g.condition("persistent.unlock_2")
-    #g.image("library")
-    #g.image("beach1 nomoon")
-    #g.image("bad_ending")
-
-    # The last image in this button has an condition associated with it,
-    # so it will only unlock if the user gets both endings.
-    #g.button("end3")
-    #g.condition("persistent.unlock_3")
-    #g.image("littlemary2")
-    #g.image("littlemary")
-    #g.image("good_ending")
-    #g.condition("persistent.unlock_3 and persistent.unlock_4")
-
-    #g.button("end4")
-    #g.condition("persistent.unlock_4")
-    #g.image("hospital1")
-    #g.image("hospital2")
-    #g.image("hospital3")
-    #g.image("heaven")
-    #g.image("white")
-    #g.image("good_ending")
-    #g.condition("persistent.unlock_3 and persistent.unlock_4")
-
-    # The final two buttons contain images that show multiple pictures
-    # at the same time. This can be used to compose character art onto
-    # a background.
-    #g.button("dawn mary")
-    #g.unlock_image("dawn1", "mary dawn wistful")
-    #g.unlock_image("dawn1", "mary dawn smiling")
-    #g.unlock_image("dawn1", "mary dawn vhappy")
-
-    #g.button("dark mary")
-    #g.unlock_image("beach2", "mary dark wistful")
-    #g.unlock_image("beach2", "mary dark smiling")
-    #g.unlock_image("beach2", "mary dark vhappy")
-
-    # The transition used when switching images.
-    g.transition = dissolve
-
-# Step 3. The gallery screen we use.
-screen gallery:
-
-    # Ensure this replaces the main menu.
+screen cg_gallery:
     tag menu
-
-    # The background.
     add "white"
-
-    # A grid of buttons.
-    grid 1 3:
-
-        xfill True
-        yfill True
-
-        # Call make_button to show a particular button.
-        add g.make_button("dark", "black", xalign=0.5, yalign=0.5)
-        add g.make_button("dawn", "black", xalign=0.5, yalign=0.5)
-        #add g.make_button("end1", "gal-end1.png", xalign=0.5, yalign=0.5)
-
-        #add g.make_button("end2", "gal-end2.png", xalign=0.5, yalign=0.5)
-        #add g.make_button("end3", "gal-end3.png", xalign=0.5, yalign=0.5)
-        #add g.make_button("end4", "gal-end4.png", xalign=0.5, yalign=0.5)
-
-        #add g.make_button("dark mary", "gal-dark_mary.png", xalign=0.5, yalign=0.5)
-        #add g.make_button("dawn mary", "gal-dawn_mary.png", xalign=0.5, yalign=0.5)
-
-        # The screen is responsible for returning to the main menu. It could also
-        # navigate to other gallery screens.
-        textbutton "Return" action Return() xalign 0.5 yalign 0.5
+    use navigation
+    frame background None xpos 50 at fade_in:
+        grid gallery_rows gallery_columns:
+            ypos 265
+            $ i = 0
+            $ next_cg_page = cg_page + 1            
+            if next_cg_page > int(len(gallery_cg_items)/gallery_cell_count):
+                $ next_cg_page = 0
+            for gallery_item in gallery_cg_items:
+                $ i += 1
+                if i <= (cg_page+1)*gallery_cell_count and i>cg_page*gallery_cell_count:
+                    add g.make_button(gallery_item + " button", gallery_item + " button", im.Scale("ui/wine_closet.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None, bottom_margin=80, right_margin=70)
+            for j in range(i, (cg_page+1)*gallery_cell_count): #we need this to fully fill the grid
+                null
+                
+    if persistent.cg1_unlocked == True:
+        imagebutton auto "gui/ex/dm1_%s.png" xpos 352 ypos 580 focus_mask None action ShowMenu("cg1") at fade_in
+    if persistent.cg2_unlocked == True:
+        imagebutton auto "gui/ex/dm1_%s.png" xpos 988 ypos 580 focus_mask None action ShowMenu("cg2") at fade_in
+    if persistent.cg3_unlocked == True:
+        imagebutton auto "gui/ex/dm1_%s.png" xpos 352 ypos 967 focus_mask None action ShowMenu("cg3") at fade_in
+    if persistent.cg4_unlocked == True:
+        imagebutton auto "gui/ex/dm2_%s.png" xpos 977 ypos 962 focus_mask None action ShowMenu("cg4") at fade_in
+        imagebutton auto "gui/ex/dm3_%s.png" xpos 976 ypos 1013 focus_mask None action ShowMenu("cg4b") at fade_in
 
 
 ##############################################################################

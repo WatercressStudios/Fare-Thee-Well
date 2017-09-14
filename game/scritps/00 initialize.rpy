@@ -75,8 +75,8 @@ image summer = "bg/summer forest.png"
 ###################
 # CGs #
 ###################
+image mm_cg = "ui/mm.jpg"
 
-## ds-sans was here ;) xxx
 #######
 # VFX #
 #######
