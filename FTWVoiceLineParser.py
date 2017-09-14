@@ -1,4 +1,4 @@
-#Fare Thee Well Voice Parser 1.0.0
+#Fare Thee Well Voice Parser 1.0.1
 print('Please enter the file to be parsed. Include the file path.')
 inputFilePath = input()
 

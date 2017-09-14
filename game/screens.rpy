@@ -295,14 +295,13 @@ screen cg_gallery:
                 null
                 
     if persistent.cg1_unlocked == True:
-        imagebutton auto "gui/ex/dm1_%s.png" xpos 352 ypos 580 focus_mask None action ShowMenu("cg1") at fade_in
+        imagebutton auto "gui/ex/dm1_%s.png" xpos 352 ypos 580 focus_mask None action ShowMenu("bg/winter_path_filter_final.png") at fade_in
     if persistent.cg2_unlocked == True:
-        imagebutton auto "gui/ex/dm1_%s.png" xpos 988 ypos 580 focus_mask None action ShowMenu("cg2") at fade_in
+        imagebutton auto "gui/ex/dm1_%s.png" xpos 988 ypos 580 focus_mask None action ShowMenu("bg/town_filter_final.png") at fade_in
     if persistent.cg3_unlocked == True:
-        imagebutton auto "gui/ex/dm1_%s.png" xpos 352 ypos 967 focus_mask None action ShowMenu("cg3") at fade_in
+        imagebutton auto "gui/ex/dm1_%s.png" xpos 352 ypos 967 focus_mask None action ShowMenu("bg/bar_filter_night_final.png") at fade_in
     if persistent.cg4_unlocked == True:
-        imagebutton auto "gui/ex/dm2_%s.png" xpos 977 ypos 962 focus_mask None action ShowMenu("cg4") at fade_in
-        imagebutton auto "gui/ex/dm3_%s.png" xpos 976 ypos 1013 focus_mask None action ShowMenu("cg4b") at fade_in
+        imagebutton auto "gui/ex/dm2_%s.png" xpos 977 ypos 962 focus_mask None action ShowMenu("bg/stage_filter_final.png") at fade_in
 
 
 ##############################################################################
