@@ -18,40 +18,40 @@ lineCount = 1
 
 with open(inputFilePath, 'r') as infile, open(outputFilePath, 'w') as outfile:
     for line in infile:
-        if 'wan' in line[:3]:
-            outfile.write('voice "' + routeTag + '-' + sceneNumber + '-' + str(lineCount) + '.mp3" #Wayfarer (Terrance Drye)\n')
+        if '    wan' in line[:7]:
+            outfile.write('    voice "' + routeTag + '-' + sceneNumber + '-' + str(lineCount) + '.mp3" #Wayfarer (Terrance Drye)\n')
             outfile.write(line)
             lineCount += 1
-        elif 'ten' in line[:3]:
-            outfile.write('voice "' + routeTag + '-' + sceneNumber + '-' + str(lineCount) + '.mp3" #Bartender (Andrew Boa)\n')
+        elif '    ten' in line[:7]:
+            outfile.write('    voice "' + routeTag + '-' + sceneNumber + '-' + str(lineCount) + '.mp3" #Bartender (Andrew Boa)\n')
             outfile.write(line)
             lineCount += 1
-        elif 'gir' in line[:3]:
-            outfile.write('voice "' + routeTag + '-' + sceneNumber + '-' + str(lineCount) + '.mp3" #Emmeline (Hayley Nelson)\n')
+        elif '    gir' in line[:7]:
+            outfile.write('    voice "' + routeTag + '-' + sceneNumber + '-' + str(lineCount) + '.mp3" #Emmeline (Hayley Nelson)\n')
             outfile.write(line)
             lineCount += 1
-        elif 'emm' in line[:3]:
-            outfile.write('voice "' + routeTag + '-' + sceneNumber + '-' + str(lineCount) + '.mp3" #Emmeline (Hayley Nelson)\n')
+        elif '    emm' in line[:7]:
+            outfile.write('    voice "' + routeTag + '-' + sceneNumber + '-' + str(lineCount) + '.mp3" #Emmeline (Hayley Nelson)\n')
             outfile.write(line)
             lineCount += 1
-        elif 'tru' in line[:3]:
-            outfile.write('voice "' + routeTag + '-' + sceneNumber + '-' + str(lineCount) + '.mp3" #Trucker (Sean Wisner)\n')
+        elif '    tru' in line[:7]:
+            outfile.write('    voice "' + routeTag + '-' + sceneNumber + '-' + str(lineCount) + '.mp3" #Trucker (Sean Wisner)\n')
             outfile.write(line)
             lineCount += 1
-        elif 'can' in line[:3]:
-            outfile.write('voice "' + routeTag + '-' + sceneNumber + '-' + str(lineCount) + '.mp3" #Candace (Victoria Wong)\n')
+        elif '    can' in line[:7]:
+            outfile.write('    voice "' + routeTag + '-' + sceneNumber + '-' + str(lineCount) + '.mp3" #Candace (Victoria Wong)\n')
             outfile.write(line)
             lineCount += 1
-        elif 'ros' in line[:3]:
-            outfile.write('voice "' + routeTag + '-' + sceneNumber + '-' + str(lineCount) + '.mp3" #Rosa (Tiana Camacho)\n')
+        elif '    ros' in line[:7]:
+            outfile.write('    voice "' + routeTag + '-' + sceneNumber + '-' + str(lineCount) + '.mp3" #Rosa (Tiana Camacho)\n')
             outfile.write(line)
             lineCount += 1
-        elif 'mic' in line[:3]:
-            outfile.write('voice "' + routeTag + '-' + sceneNumber + '-' + str(lineCount) + '.mp3" #Michael (Reece Bridger)\n')
+        elif '    mic' in line[:7]:
+            outfile.write('    voice "' + routeTag + '-' + sceneNumber + '-' + str(lineCount) + '.mp3" #Michael (Reece Bridger)\n')
             outfile.write(line)
             lineCount += 1
-        elif 'ymic' in line[:4]:
-            outfile.write('voice "' + routeTag + '-' + sceneNumber + '-' + str(lineCount) + '.mp3" #Young Michael (Dani Chambers)\n')
+        elif '    ymic' in line[:8]:
+            outfile.write('    voice "' + routeTag + '-' + sceneNumber + '-' + str(lineCount) + '.mp3" #Young Michael (Dani Chambers)\n')
             outfile.write(line)
             lineCount += 1
         else:
