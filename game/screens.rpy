@@ -276,7 +276,7 @@ init python:
 #    for gallery_item in gallery_cg_items:
 #        renpy.image (gallery_item + " button", im.Scale(ImageReference(gallery_item), thumbnail_x_size, thumbnail_y_size))
 
-screen cg_gallery:
+screen gallery:
     tag menu
     add "white"
     use navigation
@@ -290,7 +290,7 @@ screen cg_gallery:
             for gallery_item in gallery_cg_items:
                 $ i += 1
                 if i <= (cg_page+1)*gallery_cell_count and i>cg_page*gallery_cell_count:
-                    add g.make_button(gallery_item + " button", gallery_item + " button", im.Scale("ui/wine_closet.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None, bottom_margin=80, right_margin=70)
+                    add g.make_button(gallery_item + " button", gallery_item + " button", im.Scale("bg/wine_closet.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None, bottom_margin=80, right_margin=70)
             for j in range(i, (cg_page+1)*gallery_cell_count): #we need this to fully fill the grid
                 null
                 
