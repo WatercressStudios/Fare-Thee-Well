@@ -2,15 +2,16 @@
 # Character Declaration #
 #########################
 define n = Character(None, what_color="#FFFFFF", kind=nvl, what_size=32)
-define wan = Character('Wayfarer', color="#800000", show_two_window=True)
-define ten = Character('Bartender', color="#3a2007", show_two_window=True)
-define gir = Character('Girl', color="#2a4538", show_two_window=True)
+define wan = Character('Wayfarer', color="#800000", what_ypos=-45)
+define ten = Character('Bartender', color="#3a2007", what_ypos=-45)
+define gir = Character('Girl', color="#2a4538", what_ypos=-45)
 define nvlgir = Character(None, what_color="#FFFFFF", kind=nvl, what_size=32)
-define emm = Character('Emmeline', color="#2a4538", show_two_window=True)
-define tru = Character('Trucker', color="#666666", show_two_window=True)
-define can = Character('Candace', color="#663300", show_two_window=True)
-define ros = Character('Rosa', color="#342644", show_two_window=True)
-define mic = Character('Michael', color="#336699", show_two_window=True)
+define emm = Character('Emmeline', color="#2a4538", what_ypos=-45)
+define tru = Character('Trucker', color="#666666", what_ypos=-45)
+define can = Character('Candace', color="#663300", what_ypos=-45)
+define ros = Character('Rosa', color="#342644", what_ypos=-45)
+define mic = Character('Michael', color="#336699", what_ypos=-45)
+define ymic = Character('Michael', color="#336699", what_ypos=-45)
 
 ######################
 # Sprite Declaration #
@@ -70,11 +71,12 @@ image stage = "bg/stage_filter_final.png"
 image snow_bench = "bg/snow_bench.png"
 image highway = "bg/mainehighway_1.png"
 image bar_day = "bg/bar_filter_day_final.png"
+image summer = "bg/summer forest.png"
 
 ###################
 # CGs #
 ###################
-
+image mm_cg = "ui/mm.jpg"
 
 #######
 # VFX #
