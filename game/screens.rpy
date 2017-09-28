@@ -294,6 +294,7 @@ screen gallery:
             for j in range(i, (cg_page+1)*gallery_cell_count): #we need this to fully fill the grid
                 null
                 
+    #Gallery unlocking persistents
     if persistent.cg1_unlocked == True:
         imagebutton auto "gui/ex/dm1_%s.png" xpos 352 ypos 580 focus_mask None action ShowMenu("bg/winter_path_filter_final.png") at fade_in
     if persistent.cg2_unlocked == True:
