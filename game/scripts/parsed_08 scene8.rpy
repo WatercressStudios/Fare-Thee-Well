@@ -71,8 +71,8 @@ label scene8:
 
     "Michael plays with the collar of his shirt and averts his eyes."
 
-    voice "C-8-7.mp3" #Michael (Reece Bridger)
-    mic "Hi…"
+    voice "C-8-7.mp3" #Young Michael (Dani Chambers)
+    ymic "Hi…"
 
     "I give him a smile and a wave, and then extend my hand to Emmeline. She shakes it. I take a page out of Michael’s book - I’m too nervous to meet her gaze directly for too long."
 
@@ -145,8 +145,8 @@ label scene8:
 
     "I set about putting the microphone center stage, and I feel something nudge my leg. I see Michael holding a cable toward me."
 
-    voice "C-8-16.mp3" #Michael (Reece Bridger)
-    mic "That one goes with this one."
+    voice "C-8-16.mp3" #Young Michael (Dani Chambers)
+    ymic "That one goes with this one."
 
     voice "C-8-17.mp3" #Wayfarer (Terrance Drye)
     wan "Oh. Thanks. What kind of music do you enjoy, Michael?"
@@ -157,8 +157,8 @@ label scene8:
 
     "I take the cable he offered me and hook it up. Surely enough, the audio jack and ports are the correct sizes, and the cable is long enough to walk around the stage with if necessary."
 
-    voice "C-8-18.mp3" #Michael (Reece Bridger)
-    mic "The Stray Cats, and, uh…"
+    voice "C-8-18.mp3" #Young Michael (Dani Chambers)
+    ymic "The Stray Cats, and, uh…"
 
     "He looks at his Mother for answers, looking anxious."
 
@@ -208,8 +208,8 @@ label scene8:
 
     "That spark of remembrance, the warmth in her eyes that signifies memory. Now she knows who I am. She remembers that night, two decades past. She brings a hand to her cheek as Michael tugs at her shirt."
     
-    voice "C-8-24.mp3" #Michael (Reece Bridger)
-    mic "Mommy, are you okay?"
+    voice "C-8-24.mp3" #Young Michael (Dani Chambers)
+    ymic "Mommy, are you okay?"
 
     voice "C-8-25.mp3" #Emmeline (Hayley Nelson)
     emm "I’m alright. Let’s get you to school."
