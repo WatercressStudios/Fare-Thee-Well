@@ -16,16 +16,20 @@ label scene11:
        
     "Hours pass, and it's clear that we've all reached our limit. The clock behind the bar reads three-thirty­six."
 
+    voice "C-11-1.mp3" #Rosa (Tiana Camacho)
     ros "My goodness, I hadn't realized how late — well, early — it's gotten. I really should be going."
 
     "Rosa stands and puts on her coat."
 
+    voice "C-11-2.mp3" #Rosa (Tiana Camacho)
     ros "Thank you all for a wonderful evening. I'm truly grateful."
 
+    voice "C-11-3.mp3" #Michael (Reece Bridger)
     mic "Rosa, would you mind if I walked you back to your motel?"
 
     "Candace sneaks a wink and a thumbs­up in my direction. I can't help but grin."
 
+    voice "C-11-4.mp3" #Rosa (Tiana Camacho)
     ros "Well, okay. That's very nice of you to offer."
 
     "As the two prepare to leave, Candace begins to clean up while I lean back in my chair and stretch my tired bones."
@@ -34,8 +38,10 @@ label scene11:
     
     hide candace_std_happy
 
+    voice "C-11-5.mp3" #Michael (Reece Bridger)
     mic "Hey Rosa, could you just wait by the door? I'll be there in just a minute."
 
+    voice "C-11-6.mp3" #Rosa (Tiana Camacho)
     ros "Sure."
 
     # Rosa Leaves
@@ -48,8 +54,10 @@ label scene11:
 
     "Michael, now standing in front of me alone, turns to me."
 
+    voice "C-11-7.mp3" #Michael (Reece Bridger)
     mic "I just wanted to thank you. Tonight has been one of the most memorable nights of my life, and it's all thanks to your encouragement."
     
+    voice "C-11-8.mp3" #Wayfarer (Terrance Drye)
     wan "There's no need to thank me. We all had a good time."
 
     "I think it's time I left Cedar. I've spent more time in this little town than I'd intended to. It's the first time I ever came back somewhere."
@@ -58,10 +66,12 @@ label scene11:
 
     "Though no other place will ever quite fill the gap Cedar will doubtlessly leave in my life, I chose to make Cedar a part of me, and I wouldn't trade that for anything."
 
+    voice "C-11-9.mp3" #Michael (Reece Bridger)
     mic "Maybe I don't need to thank you, but let me anyway. You've always been a good friend to me; let me do the same for you."
 
     "Michael extends his hand to me, and I take it in mine. We exchange a handshake, meaningful to each of us in different ways."
 
+    voice "C-11-10.mp3" #Michael (Reece Bridger)
     mic "Thank you."
 
     "Goodbye, Michael."
@@ -104,18 +114,24 @@ label scene11:
     
     show candace_std_sad
 
+    voice "C-11-11.mp3" #Candace (Victoria Wong)
     can "I know what you're about to do. I never expected you'd stay forever."
 
+    voice "C-11-12.mp3" #Candace (Victoria Wong)
     can "About two hours ago, I figured this would be your last night in Cedar."
 
     "Candace looks very serious when compared to her normal, more gleeful, demeanor."
     
+    voice "C-11-13.mp3" #Candace (Victoria Wong)
     can "Now, after seeing you just a moment ago, I'm certain."
 
+    voice "C-11-14.mp3" #Wayfarer (Terrance Drye)
     wan "It's just... time I moved on, Candace."
 
+    voice "C-11-15.mp3" #Candace (Victoria Wong)
     can "I'm not going to argue that, I'm not going to stop you."
 
+    voice "C-11-16.mp3" #Wayfarer (Terrance Drye)
     wan "What is it then?"
 
     hide candace_std_sad
@@ -124,24 +140,29 @@ label scene11:
 
     "She cracks a slight smile, but gives nothing away."
 
+    voice "C-11-17.mp3" #Candace (Victoria Wong)
     can "Before you go, there's something you need to see."
 
+    voice "C-11-18.mp3" #Wayfarer (Terrance Drye)
     wan "Well, what is it?"
     
     stop music fadeout 1.0
     
+    voice "C-11-19.mp3" #Candace (Victoria Wong)
     can "Come with me."
 
     "Candace takes me by the arm and leads me behind the bar, through a door, and down a flight of stairs into the wine cellar."
 
     "She reaches to an empty section of the wine rack, and produces a large sealed envelope."
 
+    voice "C-11-20.mp3" #Candace (Victoria Wong)
     can "There's a chair over there. Take as much time as you need."
 
     "She hands me the envelope and walks over to the door."
 
     "Candace turns back to me. She looks sad for a brief moment, but then smiles again."
 
+    voice "C-11-21.mp3" #Candace (Victoria Wong)
     can "It's been fun. Thank you."
 
     "Without another word, she turns once more, closing the door behind her."
@@ -305,67 +326,100 @@ label scene11:
     
     "After I walk out of the closet, I come across Candace, alone. She's the only one left. The bar is empty, silent and calm like some place out of a dream."
     
+    voice "C-11-22.mp3" #Candace (Victoria Wong)
     can "..."
+    voice "C-11-23.mp3" #Candace (Victoria Wong)
     can "Finished already?"
     
+    voice "C-11-24.mp3" #Wayfarer (Terrance Drye)
     wan "..."
+    voice "C-11-25.mp3" #Wayfarer (Terrance Drye)
     wan "Yeah."
     
+    voice "C-11-26.mp3" #Candace (Victoria Wong)
     can "..."
+    voice "C-11-27.mp3" #Candace (Victoria Wong)
     can "And you're leaving now?"
     
+    voice "C-11-28.mp3" #Wayfarer (Terrance Drye)
     wan "Candace..."
     
     "She begins to cry."
     
+    voice "C-11-29.mp3" #Wayfarer (Terrance Drye)
     wan "You know I have to do."
     
     "She wipes at her eyes with her dirtied hands."
     
+    voice "C-11-30.mp3" #Candace (Victoria Wong)
     can "I know."
+    voice "C-11-31.mp3" #Candace (Victoria Wong)
     can "...I know."
     
     "There is silence for a moment before Candace draws in for a hug."
     "She embraces me tightly, her trickling tears soaking into the shoulder of my coat."
     "She trembles, but only a little."
     
+    voice "C-11-32.mp3" #Candace (Victoria Wong)
     can "I don't want you to go."
     
+    voice "C-11-33.mp3" #Wayfarer (Terrance Drye)
     wan "I have to."
     
+    voice "C-11-34.mp3" #Candace (Victoria Wong)
     can "You can't leave. We're all still here."
     
+    voice "C-11-35.mp3" #Wayfarer (Terrance Drye)
     wan "I'm sorry."
     
+    voice "C-11-36.mp3" #Candace (Victoria Wong)
     can "I..."
+    voice "C-11-37.mp3" #Candace (Victoria Wong)
     can "..."
     
     "I pull myself away."
     
+    voice "C-11-38.mp3" #Wayfarer (Terrance Drye)
     wan "Goodbye, Candace. I'll miss you."
+    voice "C-11-39.mp3" #Wayfarer (Terrance Drye)
     wan "I'll miss you, and everyone else."
+    voice "C-11-40.mp3" #Wayfarer (Terrance Drye)
     wan "And this dark, dusty old bar..."
+    voice "C-11-41.mp3" #Wayfarer (Terrance Drye)
     wan "...and this sleepy town in the snow."
+    voice "C-11-42.mp3" #Wayfarer (Terrance Drye)
     wan "I'll miss it."
+    voice "C-11-43.mp3" #Wayfarer (Terrance Drye)
     wan "I'll miss you all."
+    voice "C-11-44.mp3" #Wayfarer (Terrance Drye)
     wan "...I will."
     
+    voice "C-11-45.mp3" #Candace (Victoria Wong)
     can "..."
+    voice "C-11-46.mp3" #Candace (Victoria Wong)
     can "Will you remember us?"
     
+    voice "C-11-47.mp3" #Wayfarer (Terrance Drye)
     wan "Always."
     
+    voice "C-11-48.mp3" #Candace (Victoria Wong)
     can "..."
     
     hide candace_std_sad
     
     show candace_std_happy
     
+    voice "C-11-49.mp3" #Candace (Victoria Wong)
     can "...Thank you."
+    voice "C-11-50.mp3" #Candace (Victoria Wong)
     can "..."
+    voice "C-11-51.mp3" #Candace (Victoria Wong)
     can "You know, you were like family to us."
+    voice "C-11-52.mp3" #Candace (Victoria Wong)
     can "To my dad, to me, to the bar, to the town."
+    voice "C-11-53.mp3" #Candace (Victoria Wong)
     can "..You really were."
+    voice "C-11-54.mp3" #Candace (Victoria Wong)
     can "I want you to remember that, okay?"
     
     hide candace_std_happy
@@ -378,6 +432,7 @@ label scene11:
     "She takes a deep breath."
     "Tears drip from her eyes onto the floor."
     
+    voice "C-11-55.mp3" #Wayfarer (Terrance Drye)
     wan "Okay."
     
     play music "music/Wind-Mark_DiAngelo-1940285615.wav"

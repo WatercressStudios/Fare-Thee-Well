@@ -19,8 +19,10 @@ label scene8:
 
     "I take a seat in front of the bar as the old man organizes the rainbow of colored glass bottles behind it."
 
+    voice "C-8-1.mp3" #Bartender (Andrew Boa)
     ten "Calm down, son. You’d think someone with as much experience as you would’ve learned to deal with these situations."
 
+    voice "C-8-2.mp3" #Wayfarer (Terrance Drye)
     wan "Saying goodbye is easy. But the returns, and the greetings..."
 
     "The old man met my eyes and inclined his head toward the door. Making my best effort to keep my door, I notice Emmeline and her son - probably around seven years old. An inquisitive blue-eyed boy with brown hair."
@@ -41,12 +43,15 @@ label scene8:
 
     "Emmeline glances around the bar and seems mildly disappointed. Her gaze flits over me as it would one of the tables. She approaches the old man."
 
+    voice "C-8-3.mp3" #Emmeline (Hayley Nelson)
     emm "You set up without me?"
 
     show old_bartender_sad_cleaning_glass
 
+    voice "C-8-4.mp3" #Bartender (Andrew Boa)
     ten "Sorry, Em. I should’ve mentioned earlier that I have a new employee in training - he helped me this morning."
     
+    voice "C-8-5.mp3" #Bartender (Andrew Boa)
     ten "We still have the stage to set up, though. I’ll get you some work yet."
 
     "She looks at me directly for the first time, but there is no spark of memory in her eyes - only the casual friendliness of someone greeting a new acquaintance."
@@ -57,6 +62,7 @@ label scene8:
     
     show old_bartender_happy_cleaning_glass
 
+    voice "C-8-6.mp3" #Emmeline (Hayley Nelson)
     emm "Oh. Nice to meet you! I’m Emmeline, and this is my son Michael."
 
     hide young_micheal_happy
@@ -65,10 +71,12 @@ label scene8:
 
     "Michael plays with the collar of his shirt and averts his eyes."
 
-    mic "Hi…"
+    voice "C-8-7.mp3" #Young Michael (Dani Chambers)
+    ymic "Hi…"
 
     "I give him a smile and a wave, and then extend my hand to Emmeline. She shakes it. I take a page out of Michael’s book - I’m too nervous to meet her gaze directly for too long."
 
+    voice "C-8-8.mp3" #Wayfarer (Terrance Drye)
     wan "It’s nice to meet you both."
     
     hide young_micheal_fear
@@ -77,6 +85,7 @@ label scene8:
     
     stop music fadeout 1.0
 
+    voice "C-8-9.mp3" #Bartender (Andrew Boa)
     ten "Right, well. That stage isn’t going to set up itself. Em, why don’t you and Michael teach this greenie here the ropes. I’ve got a few more glasses to clean."
 
     show old_bartender_standard_cleaning_glass
@@ -106,32 +115,40 @@ label scene8:
 
     show middle_aged_emmeline_happy 
 
+    voice "C-8-10.mp3" #Emmeline (Hayley Nelson)
     emm "Have you ever worked in a bar before?"
 
+    voice "C-8-11.mp3" #Wayfarer (Terrance Drye)
     wan "I know my way around one."
 
     hide middle_aged_emmeline_happy
     
     show middle_aged_emmeline_happy at right
     
+    voice "C-8-12.mp3" #Emmeline (Hayley Nelson)
     emm "Don't we all."
 
     show young_micheal_happy at left
  
     "Michael climbs up the front of the stage and seemed to be opening a bin that contained the cables."
 
+    voice "C-8-13.mp3" #Emmeline (Hayley Nelson)
     emm "How old are you? Twenty five?"
 
+    voice "C-8-14.mp3" #Wayfarer (Terrance Drye)
     wan "I’m a little older than I look. I’m assuming he’s done this before?"
 
     "Emmeline walks beside the stage to retrieve a broom and a dustpan before starting to sweep behind the speakers, amps, and other sound equipment."
 
+    voice "C-8-15.mp3" #Emmeline (Hayley Nelson)
     emm "Yeah. He loves to listen to music, so this is right up his alley. It’s Karaoke night tonight, so the setup will be a little different."
 
     "I set about putting the microphone center stage, and I feel something nudge my leg. I see Michael holding a cable toward me."
 
-    mic "That one goes with this one."
+    voice "C-8-16.mp3" #Young Michael (Dani Chambers)
+    ymic "That one goes with this one."
 
+    voice "C-8-17.mp3" #Wayfarer (Terrance Drye)
     wan "Oh. Thanks. What kind of music do you enjoy, Michael?"
 
     hide young_micheal_happy
@@ -140,22 +157,27 @@ label scene8:
 
     "I take the cable he offered me and hook it up. Surely enough, the audio jack and ports are the correct sizes, and the cable is long enough to walk around the stage with if necessary."
 
-    mic "The Stray Cats, and, uh…"
+    voice "C-8-18.mp3" #Young Michael (Dani Chambers)
+    ymic "The Stray Cats, and, uh…"
 
     "He looks at his Mother for answers, looking anxious."
 
+    voice "C-8-19.mp3" #Emmeline (Hayley Nelson)
     emm "You remember. Depeche Mode, sometimes you listen to Michael Jackson."
     
+    voice "C-8-20.mp3" #Emmeline (Hayley Nelson)
     emm "I’m more of a Simon and Garfunkel gal myself. The new stuff isn’t bad, but there’s something about the acoustic guitars…"
 
     hide young_micheal_surprised
 
     show young_micheal_happy at left
 
+    voice "C-8-21.mp3" #Wayfarer (Terrance Drye)
     wan "It brings to mind the open road, and people singing in new bars. Soft atmospheres and a good crowd."
 
     "Emmeline looks back at me and gives me a genuine smile - not the practiced friendliness of polite greeting, but something with altogether more substance. Michael and I finish setting up all of the relevant cords."
 
+    voice "C-8-22.mp3" #Emmeline (Hayley Nelson)
     emm "Yeah. You took the words right out of my mouth. Well, it’s about time - I have to get Michael to school."
 
     #BG - Bar Proper
@@ -177,6 +199,7 @@ label scene8:
 
     "Emmeline waves goodbye to the bartender and takes Michael’s hand, walking toward the door."
 
+    voice "C-8-23.mp3" #Bartender (Andrew Boa)
     ten "Same time tomorrow. Have a good day."
     
     stop music fadeout 1.0
@@ -185,8 +208,10 @@ label scene8:
 
     "That spark of remembrance, the warmth in her eyes that signifies memory. Now she knows who I am. She remembers that night, two decades past. She brings a hand to her cheek as Michael tugs at her shirt."
     
-    mic "Mommy, are you okay?"
+    voice "C-8-24.mp3" #Young Michael (Dani Chambers)
+    ymic "Mommy, are you okay?"
 
+    voice "C-8-25.mp3" #Emmeline (Hayley Nelson)
     emm "I’m alright. Let’s get you to school."
 
     #Michael and Emmeline leave
@@ -197,50 +222,65 @@ label scene8:
 
     "I sigh and lean against the worn mahogany of the bar, and I can hear the bartender pouring a glass of something. I didn’t bother to turn around - my eyes were fixed on the road, watching them drive away."
 
+    voice "C-8-26.mp3" #Bartender (Andrew Boa)
     ten "Well, you couldn’t have been expecting anything else, could you?"
     
     play music "music/Departure.ogg" fadein 1.0
     
+    voice "C-8-27.mp3" #Wayfarer (Terrance Drye)
     wan "No, I couldn’t have. Do you want to hear the story of that winter night?"
 
+    voice "C-8-28.mp3" #Bartender (Andrew Boa)
     ten "Yeah, why not. This is for you, by the way. Looks like you could use it. On the house."
 
     "I turn enough to pick it up, and take a sip, but my gaze remains on the road. Emmeline is long gone by now, but I can’t bring myself to look inside again. Not just yet."
 
+    voice "C-8-29.mp3" #Wayfarer (Terrance Drye)
     wan "I don’t know how much you remember. Em and I left after talking. Really bonding, you know. At one of these tables, by that window."
 
     "I gesture in the general direction with a finger extended from my hand that held my drink. The brownish fluid sloshed around behind the intricate lines in the glass, and I realized that it was the same kind I had used that night so many years ago."
 
+    voice "C-8-30.mp3" #Wayfarer (Terrance Drye)
     wan "We walked out of this place together and explored the town after dark. We sat on that bench, overlooking the snow, talking of ourselves..."
     
+    voice "C-8-31.mp3" #Wayfarer (Terrance Drye)
     wan "Such a simple, yet meaningful thing, sitting close and talking. I brought up the legend of the wanderer. I didn’t think she’d take it seriously."
 
+    voice "C-8-32.mp3" #Wayfarer (Terrance Drye)
     wan "But she did. She listened, and in the end she identified with it. Of course, you know Emmeline’s story - how she got here. She has every bit as much wanderlust as I did."
 
     "I take a sip from my glass and turn around before looking into the cup."
 
+    voice "C-8-33.mp3" #Wayfarer (Terrance Drye)
     wan "Or… had. I guess everyone else like me eventually grows out of that phase. I suppose a part of me realized it then."
     
+    voice "C-8-34.mp3" #Wayfarer (Terrance Drye)
     wan "I didn’t want to break her heart, so I just left. Ultimately, I shouldn’t be surprised that she didn’t remember me at first."
 
+    voice "C-8-35.mp3" #Wayfarer (Terrance Drye)
     wan "I’m sure she’s had to deal with her share of people walking out of her life. It was only one night."
 
     show old_bartender_sad
 
+    voice "C-8-36.mp3" #Bartender (Andrew Boa)
     ten "It was a long night."
 
     "The old man puts a comforting hand on my shoulder."
 
+    voice "C-8-37.mp3" #Bartender (Andrew Boa)
     ten "You know, I didn’t think Emmeline would ever settle down. But her husband… well, you’d like him. He runs the tri-county newspaper."
     
+    voice "C-8-38.mp3" #Bartender (Andrew Boa)
     ten "Takes the family camping often in the summer and autumn. You couldn’t ask for a better life for her or her son in this town."
 
     "I nod and hand the bartender back his glass."
 
+    voice "C-8-39.mp3" #Wayfarer (Terrance Drye)
     wan "Thanks for the drink, and thanks for the cover earlier. Do you really need some help around here?"
 
     show old_bartender_standard
 
+    voice "C-8-40.mp3" #Bartender (Andrew Boa)
     ten "That I do. If you want to settle in for a few years, I’d love to have you around. But you know what happens if you stay, wanderer. You sure you want to deal with that?"
 
     hide old_bartender_standard
@@ -249,12 +289,15 @@ label scene8:
 
     "I ran a hand through my hair and looked outside, wondering what it would be like to stay in this town for a few years."
 
+    voice "C-8-41.mp3" #Wayfarer (Terrance Drye)
     wan "I think I’m going to get some fresh air. If I return, you’ll know my answer. If I don’t - well, you’ll know just the same."
 
     #Wolf's part of scene 2
 
+    voice "C-8-42.mp3" #Bartender (Andrew Boa)
     ten "Actually, if you wouldn't mind, I think I need a break for today. If it's okay with you, that is."
 
+    voice "C-8-43.mp3" #Wayfarer (Terrance Drye)
     wan "Yeah, I'll close up shop. I'll keep everything straight, don't worry."
     
     hide old_bartender_sad

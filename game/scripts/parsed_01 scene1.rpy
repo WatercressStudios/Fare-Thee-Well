@@ -121,32 +121,41 @@ label scene1:
 
     show bartender_young at center 
 
+    voice "C-1-1.mp3" #Bartender (Andrew Boa)
     ten "Evening."
 
+    voice "C-1-2.mp3" #Wayfarer (Terrance Drye)
     wan "A beer, please."
 
     "I only order it so I can stay."
 
     "The bartender fills a glass from the tap."
 
+    voice "C-1-3.mp3" #Bartender (Andrew Boa)
     ten "Traveling through?"
 
     "He places the drink in front of me. The liquid in the glass shines like oil under the pale, mellow lights of the bar."
 
+    voice "C-1-4.mp3" #Wayfarer (Terrance Drye)
     wan "Yeah."
 
     "I drink it all at once. It brings some fire back into my blood."
 
+    voice "C-1-5.mp3" #Bartender (Andrew Boa)
     ten "Can't say I know what business brought you here."
 
+    voice "C-1-6.mp3" #Wayfarer (Terrance Drye)
     wan "How do you know I'm not traveling for pleasure?"
 
+    voice "C-1-7.mp3" #Bartender (Andrew Boa)
     ten "Pleasure doesn't come this far north this time of year."
 
     "I smirk."
 
+    voice "C-1-8.mp3" #Wayfarer (Terrance Drye)
     wan "Maybe I got lost."
 
+    voice "C-1-9.mp3" #Bartender (Andrew Boa)
     ten "Maybe you did."
 
     "He takes my glass and steps away."
