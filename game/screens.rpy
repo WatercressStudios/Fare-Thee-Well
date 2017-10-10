@@ -325,17 +325,17 @@ screen gallery_bg1:
         grid gallery_rows gallery_columns:
 
             # Call make_button to show a particular button.
-            add g.make_button("bg1", im.Scale("bg/bar_filter_day_final.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5)
-            add g.make_button("bg2", im.Scale("bg/bar_filter_night_final.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5)
-            add g.make_button("bg3", im.Scale("bg/mainehighway_1.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5)
+            add g.make_button("bg1", im.Scale("bg/bar_filter_day_final.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
+            add g.make_button("bg2", im.Scale("bg/bar_filter_night_final.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
+            add g.make_button("bg3", im.Scale("bg/mainehighway_1.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
 
-            add g.make_button("bg4", im.Scale("bg/snow_bench.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5)
-            add g.make_button("bg5", im.Scale("bg/stage_filter_final.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5)
-            add g.make_button("bg6", im.Scale("bg/summer forest.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5)
+            add g.make_button("bg4", im.Scale("bg/snow_bench.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
+            add g.make_button("bg5", im.Scale("bg/stage_filter_final.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
+            add g.make_button("bg6", im.Scale("bg/summer forest.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
 
-            add g.make_button("bg7", im.Scale("bg/town_filter_final.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5)
-            add g.make_button("bg8", im.Scale("bg/wine_closet.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5)
-            add g.make_button("bg9", im.Scale("bg/winter forest night revised.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5)
+            add g.make_button("bg7", im.Scale("bg/town_filter_final.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
+            add g.make_button("bg8", im.Scale("bg/wine_closet.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
+            add g.make_button("bg9", im.Scale("bg/winter forest night revised.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
             
             # The screen is responsible for returning to the main menu. It could also
             # navigate to other gallery screens.
