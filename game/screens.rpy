@@ -190,7 +190,7 @@ screen main_menu():
    imagebutton auto "ui/main/prefs_%s.png" xpos 0 ypos 747 focus_mask None action ShowMenu('preferences') at from_left
    imagebutton auto "ui/main/credits_%s.png" xpos 0 ypos 856 focus_mask None action Start("credits") at from_left
    imagebutton auto "ui/main/quit_%s.png" xpos 0 ypos 970 focus_mask None action Quit(confirm=False) at from_left
-   textbutton "Gallery" action ShowMenu("gallery")
+   textbutton "Gallery" action ShowMenu("gallery_bg1")
    # Adds the image as the final thing on the screen.
    add "ui/main/overlay.png"
 
@@ -242,69 +242,168 @@ init -2:
 # Screen that's used to display the gallery menu
 # https://www.renpy.org/doc/html/rooms.html
 # Testing organization webhook
-
 init python:
-    #List gallery images in the array
-    gallery_cg_items = ["bg/winter_path_filter_final.png", "bg/town_filter_final.png", "bg/bar_filter_night_final.png", "bg/stage_filter_final.png",]
-    #Rows and columns of the gallery
-    gallery_rows = 2
-    gallery_columns = 2
+
+    # Step 1. Create the gallery object.
+    g = Gallery()
+
+    # Step 2. Add buttons and images to the gallery.
+    # A button that contains an image that automatically unlocks.
+    g.button("bg1")
+    g.unlock_image("bg/bar_filter_day_final.png")
+
+    # A button that contains an image that automatically unlocks.
+    g.button("bg2")
+    g.unlock_image("bg/bar_filter_night_final.png")
+    
+    # A button that contains an image that automatically unlocks.
+    g.button("bg3")
+    g.unlock_image("bg/mainehighway_1.png")
+    
+    # A button that contains an image that automatically unlocks.
+    g.button("bg4")
+    g.unlock_image("bg/snow_bench.png")
+    
+    # A button that contains an image that automatically unlocks.
+    g.button("bg5")
+    g.unlock_image("bg/stage_filter_final.png")
+    
+    # A button that contains an image that automatically unlocks.
+    g.button("bg6")
+    g.unlock_image("bg/summer forest.png")
+    
+    # A button that contains an image that automatically unlocks.
+    g.button("bg7")
+    g.unlock_image("bg/town_filter_final.png")
+    
+    # A button that contains an image that automatically unlocks.
+    g.button("bg8")
+    g.unlock_image("bg/wine_closet.png")
+    
+    # A button that contains an image that automatically unlocks.
+    g.button("bg9")
+    g.unlock_image("bg/winter forest night revised.png")
+    
+    # A button that contains an image that automatically unlocks.
+    g.button("bg10")
+    g.unlock_image("bg/winter park night.png")
+    
+    # A button that contains an image that automatically unlocks.
+    g.button("bg11")
+    g.unlock_image("bg/winter_path_filter_final.png")
+
+    # This button has a condition associated with it, allowing the game
+    # to choose which images unlock.
+    g.button("art1")
+    g.condition("persistent.gallery_unlock_1")
+    g.image("cg/InstantRiot1.jpg")
+    
+    # This button has a condition associated with it, allowing the game
+    # to choose which images unlock.
+    g.button("art2")
+    g.condition("persistent.gallery_unlock_2")
+    g.image("cg/mm.jpg")
+
+    # The transition used when switching images.
+    g.transition = dissolve
+    
+    gallery_rows = 3
+    gallery_columns = 3
+    
     #Thumbnail size
     thumbnail_x_size = 540
     thumbnail_y_size = 302
-    
-    gallery_cell_count = gallery_rows * gallery_columns
-    #Gallery instance declaration
-    g = Gallery()
-    #Gallery property assignments
-    for gallery_item in gallery_cg_items:
-        g.button(gallery_item + " button")
-        g.image(gallery_item)
-        g.unlock(gallery_item)
-        
-    #For varients
-    #if gallery_item == "cg4":
-    #        g_cg.image("cg4b")
-    #        g_cg.unlock("cg4b")
 
-    #Default cg transition
-    g.transition = fade
-    cg_page=0
+# Step 3. The gallery screen we use.
+screen gallery_bg1:
 
-#init +1 python:
-#    #Initialize thumbnails
-#    for gallery_item in gallery_cg_items:
-#        renpy.image (gallery_item + " button", im.Scale(ImageReference(gallery_item), thumbnail_x_size, thumbnail_y_size))
-
-screen gallery:
     tag menu
     add "white"
     use navigation
+
     frame background None xpos 50 at fade_in:
         grid gallery_rows gallery_columns:
-            ypos 265
-            $ i = 0
-            $ next_cg_page = cg_page + 1            
-            if next_cg_page > int(len(gallery_cg_items)/gallery_cell_count):
-                $ next_cg_page = 0
-            for gallery_item in gallery_cg_items:
-                $ i += 1
-                if i <= (cg_page+1)*gallery_cell_count and i>cg_page*gallery_cell_count:
-                    add g.make_button(gallery_item + " button", gallery_item + " button", im.Scale("bg/wine_closet.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None, bottom_margin=80, right_margin=70)
-            for j in range(i, (cg_page+1)*gallery_cell_count): #we need this to fully fill the grid
-                null
-                
-    #Gallery unlocking persistents
-    if persistent.cg1_unlocked == True:
-        imagebutton auto "gui/ex/dm1_%s.png" xpos 352 ypos 580 focus_mask None action ShowMenu("bg/winter_path_filter_final.png") at fade_in
-    if persistent.cg2_unlocked == True:
-        imagebutton auto "gui/ex/dm1_%s.png" xpos 988 ypos 580 focus_mask None action ShowMenu("bg/town_filter_final.png") at fade_in
-    if persistent.cg3_unlocked == True:
-        imagebutton auto "gui/ex/dm1_%s.png" xpos 352 ypos 967 focus_mask None action ShowMenu("bg/bar_filter_night_final.png") at fade_in
-    if persistent.cg4_unlocked == True:
-        imagebutton auto "gui/ex/dm2_%s.png" xpos 977 ypos 962 focus_mask None action ShowMenu("bg/stage_filter_final.png") at fade_in
 
+            # Call make_button to show a particular button.
+            add g.make_button("bg1", im.Scale("bg/bar_filter_day_final.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5)
+            add g.make_button("bg2", im.Scale("bg/bar_filter_night_final.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5)
+            add g.make_button("bg3", im.Scale("bg/mainehighway_1.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5)
 
+            add g.make_button("bg4", im.Scale("bg/snow_bench.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5)
+            add g.make_button("bg5", im.Scale("bg/stage_filter_final.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5)
+            add g.make_button("bg6", im.Scale("bg/summer forest.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5)
+
+            add g.make_button("bg7", im.Scale("bg/town_filter_final.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5)
+            add g.make_button("bg8", im.Scale("bg/wine_closet.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5)
+            add g.make_button("bg9", im.Scale("bg/winter forest night revised.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5)
+            
+            # The screen is responsible for returning to the main menu. It could also
+            # navigate to other gallery screens.
+            # textbutton "Return" action Return() xalign 0.5 yalign 0.5
+        
+#ds-sans code
+#init python:
+#    #List gallery images in the array
+#    gallery_cg_items = ["bg/winter_path_filter_final.png", "bg/town_filter_final.png", "bg/bar_filter_night_final.png", "bg/stage_filter_final.png",]
+#    #Rows and columns of the gallery
+#    gallery_rows = 2
+#    gallery_columns = 2
+#    #Thumbnail size
+#    thumbnail_x_size = 540
+#    thumbnail_y_size = 302
+#    
+#    gallery_cell_count = gallery_rows * gallery_columns
+#    #Gallery instance declaration
+#    g = Gallery()
+#    #Gallery property assignments
+#    for gallery_item in gallery_cg_items:
+#        g.button(gallery_item + " button")
+#        g.image(gallery_item)
+#        g.unlock(gallery_item)
+#        
+#    #For varients
+#    #if gallery_item == "cg4":
+#    #        g_cg.image("cg4b")
+#    #        g_cg.unlock("cg4b")
+#
+#    #Default cg transition
+#    g.transition = fade
+#    cg_page=0
+#
+##init +1 python:
+##    #Initialize thumbnails
+##    for gallery_item in gallery_cg_items:
+##        renpy.image (gallery_item + " button", im.Scale(ImageReference(gallery_item), thumbnail_x_size, thumbnail_y_size))
+##
+#screen gallery:
+#    tag menu
+#    add "white"
+#    use navigation
+#    frame background None xpos 50 at fade_in:
+#        grid gallery_rows gallery_columns:
+#            ypos 265
+#            $ i = 0
+#            $ next_cg_page = cg_page + 1            
+#            if next_cg_page > int(len(gallery_cg_items)/gallery_cell_count):
+#                $ next_cg_page = 0
+#            for gallery_item in gallery_cg_items:
+#                $ i += 1
+#                if i <= (cg_page+1)*gallery_cell_count and i>cg_page*gallery_cell_count:
+#                    add g.make_button(gallery_item + " button", gallery_item + " button", im.Scale("bg/wine_closet.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None, bottom_margin=80, right_margin=70)
+#            for j in range(i, (cg_page+1)*gallery_cell_count): #we need this to fully fill the grid
+#                null
+#                
+#    #Gallery unlocking persistents
+#    if persistent.cg1_unlocked == True:
+#        imagebutton auto "gui/ex/dm1_%s.png" xpos 352 ypos 580 focus_mask None action ShowMenu("bg/winter_path_filter_final.png") at fade_in
+#    if persistent.cg2_unlocked == True:
+#        imagebutton auto "gui/ex/dm1_%s.png" xpos 988 ypos 580 focus_mask None action ShowMenu("bg/town_filter_final.png") at fade_in
+#    if persistent.cg3_unlocked == True:
+#        imagebutton auto "gui/ex/dm1_%s.png" xpos 352 ypos 967 focus_mask None action ShowMenu("bg/bar_filter_night_final.png") at fade_in
+#    if persistent.cg4_unlocked == True:
+#        imagebutton auto "gui/ex/dm2_%s.png" xpos 977 ypos 962 focus_mask None action ShowMenu("bg/stage_filter_final.png") at fade_in
+#
+#
 ##############################################################################
 # Navigation
 #
