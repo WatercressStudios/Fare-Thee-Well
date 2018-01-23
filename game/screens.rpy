@@ -198,42 +198,42 @@ init -2:
     # Defines transform properties to make images move.
     transform fade_in:
         alpha 0.0
-        linear 2.5 alpha 1.0
+        linear 1 alpha 1.0
     transform from_left:
         alpha 0.0 xpos -500
-        linear 2.5 alpha 1.0 xpos 0
+        linear 1 alpha 1.0 xpos 0
     transform from_right:
         alpha 0.0 xpos 2420
-        linear 2.5 alpha 1.0 xpos 1920
+        linear 1 alpha 1.0 xpos 1920
     transform from_top:
         alpha 0.0 ypos -1100
-        pause 2.5
-        linear 2.5 alpha 1.0 ypos 0
+        pause 1.5
+        linear 1 alpha 1.0 ypos 0
     transform from_bottom:
         alpha 0.0 ypos 2200
-        pause 2.5
-        linear 2.5 alpha 1.0 ypos 1080
+        pause 1.5
+        linear 1 alpha 1.0 ypos 1080
     transform from_bottom2:
         alpha 0.0 ypos 1080
-        easein 2.5 alpha 1.0 ypos 0
+        easein 1 alpha 1.0 ypos 0
     transform from_left2:
         alpha 0.0 xpos -500
-        pause 2.5
-        linear 2.5 alpha 1.0 xpos 0
+        pause 1.5
+        linear 1 alpha 1.0 xpos 0
     transform from_right2:
         alpha 0.0 xpos 2420
-        pause 2.5
-        linear 2.5 alpha 1.0 xpos 1920
+        pause 1.5
+        linear 1 alpha 1.0 xpos 1920
     transform effect1:
         alpha 0.0
-        pause 2.5
-        linear 2.5 alpha 1.0
+        pause 1.5
+        linear 1 alpha 1.0
     transform from_top2:
         alpha 0.0 ypos -300
-        linear 2.5 alpha 1.0 ypos 0
+        linear 1 alpha 1.0 ypos 0
     transform from_bottom3:
         alpha 0.0 ypos 1300
-        linear 2.5 alpha 1.0 ypos 1080
+        linear 1 alpha 1.0 ypos 1080
     # alpha 0 > 1 is just a fadein, linear & easein are just the time taken for the effect to occur. First line of each transform defines the starting state and then the second is the final state.
 
 ##############################################################################
