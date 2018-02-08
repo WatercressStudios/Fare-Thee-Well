@@ -250,59 +250,62 @@ init python:
     # Step 2. Add buttons and images to the gallery.
     # A button that contains an image that automatically unlocks.
     g.button("bg1")
-    g.unlock_image("bg/bar_filter_day_final.png")
-
+    g.display("bg/bar_filter_day_final.png")
+    g.display("bg/bar_filter_night_final.png")
+    
     # A button that contains an image that automatically unlocks.
     g.button("bg2")
-    g.unlock_image("bg/bar_filter_night_final.png")
+    g.display("bg/bar_filter_night_final.png")
     
     # A button that contains an image that automatically unlocks.
     g.button("bg3")
-    g.unlock_image("bg/mainehighway_1.png")
+    g.display("bg/mainehighway_1.png")
     
     # A button that contains an image that automatically unlocks.
     g.button("bg4")
-    g.unlock_image("bg/snow_bench.png")
+    g.display("bg/snow_bench.png")
     
     # A button that contains an image that automatically unlocks.
     g.button("bg5")
-    g.unlock_image("bg/stage_filter_final.png")
+    g.display("bg/stage_filter_final.png")
     
     # A button that contains an image that automatically unlocks.
     g.button("bg6")
-    g.unlock_image("bg/summer forest.png")
+    g.display("bg/summer forest.png")
     
     # A button that contains an image that automatically unlocks.
     g.button("bg7")
-    g.unlock_image("bg/town_filter_final.png")
+    g.display("bg/town_filter_final.png")
     
     # A button that contains an image that automatically unlocks.
     g.button("bg8")
-    g.unlock_image("bg/wine_closet.png")
+    g.display("bg/wine_closet.png")
     
     # A button that contains an image that automatically unlocks.
     g.button("bg9")
-    g.unlock_image("bg/winter forest night revised.png")
+    g.display("bg/winter forest night revised.png")
     
     # A button that contains an image that automatically unlocks.
     g.button("bg10")
-    g.unlock_image("bg/winter park night.png")
+    g.display("bg/winter park night.png")
     
     # A button that contains an image that automatically unlocks.
     g.button("bg11")
-    g.unlock_image("bg/winter_path_filter_final.png")
+    g.display("bg/winter_path_filter_final.png")
 
     # This button has a condition associated with it, allowing the game
     # to choose which images unlock.
     g.button("art1")
-    g.condition("persistent.gallery_unlock_1")
+    # g.condition("persistent.gallery_unlock_1")
     g.image("cg/InstantRiot1.jpg")
+    g.display("cg/InstantRiot1.jpg")
     
     # This button has a condition associated with it, allowing the game
     # to choose which images unlock.
     g.button("art2")
-    g.condition("persistent.gallery_unlock_2")
+    # g.condition("persistent.gallery_unlock_2")
     g.image("cg/mm.jpg")
+    g.display("cg/mm.jpg")
 
     # The transition used when switching images.
     g.transition = dissolve
