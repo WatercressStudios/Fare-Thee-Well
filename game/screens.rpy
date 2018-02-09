@@ -251,7 +251,6 @@ init python:
     # A button that contains an image that automatically unlocks.
     g.button("bg1")
     g.display("bg/bar_filter_day_final.png")
-    g.display("bg/bar_filter_night_final.png")
     
     # A button that contains an image that automatically unlocks.
     g.button("bg2")
@@ -306,6 +305,10 @@ init python:
     # g.condition("persistent.gallery_unlock_2")
     g.image("cg/mm.jpg")
     g.display("cg/mm.jpg")
+    
+    # A button that contains an image that automatically unlocks.
+    g.button("empty")
+    # g.display("cg/grey.jpg")
 
     # The transition used when switching images.
     g.transition = dissolve
@@ -340,9 +343,36 @@ screen gallery_bg1:
             add g.make_button("bg8", im.Scale("bg/wine_closet.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
             add g.make_button("bg9", im.Scale("bg/winter forest night revised.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
             
+    textbutton "Next Page" action ShowMenu("gallery_bg2") xpos 20 ypos 1040
+            
             # The screen is responsible for returning to the main menu. It could also
             # navigate to other gallery screens.
             # textbutton "Return" action Return() xalign 0.5 yalign 0.5
+            
+
+screen gallery_bg2:
+
+    tag menu
+    add "white"
+    use navigation
+
+    frame background None xpos 50 at fade_in:
+        grid gallery_rows gallery_columns:
+
+            # Call make_button to show a particular button.
+            add g.make_button("bg10", im.Scale("bg/winter park night.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
+            add g.make_button("bg11", im.Scale("bg/winter_path_filter_final.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
+            add g.make_button("art1", im.Scale("cg/InstantRiot1.jpg", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
+
+            add g.make_button("art2", im.Scale("cg/mm.jpg", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
+            add g.make_button("empty", im.Scale("cg/grey.jpg", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
+            add g.make_button("empty", im.Scale("cg/grey.jpg", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
+            
+            add g.make_button("empty", im.Scale("cg/grey.jpg", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
+            add g.make_button("empty", im.Scale("cg/grey.jpg", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
+            add g.make_button("empty", im.Scale("cg/grey.jpg", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
+            
+    textbutton "Previous Page" action ShowMenu("gallery_bg1") xpos 20 ypos 1040
         
 #ds-sans code
 #init python:
