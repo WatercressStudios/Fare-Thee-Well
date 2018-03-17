@@ -295,8 +295,8 @@ init python:
     # to choose which images unlock.
     g.button("art1")
     # g.condition("persistent.gallery_unlock_1")
-    g.image("cg/InstantRiot1.jpg")
-    g.display("cg/InstantRiot1.jpg")
+    g.image("cg/InstantRiot1.png")
+    g.display("cg/InstantRiot1.png")
     
     # This button has a condition associated with it, allowing the game
     # to choose which images unlock.
@@ -361,7 +361,7 @@ screen gallery_bg2:
             # Call make_button to show a particular button.
             add g.make_button("bg10", im.Scale("bg/winter park night.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
             add g.make_button("bg11", im.Scale("bg/winter_path_filter_final.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
-            add g.make_button("art1", im.Scale("cg/InstantRiot1.jpg", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
+            add g.make_button("art1", im.Scale("cg/InstantRiot1.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
 
             add g.make_button("art2", im.Scale("cg/mm.jpg", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
             add g.make_button("empty", im.Scale("cg/grey.jpg", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
