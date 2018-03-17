@@ -400,37 +400,30 @@ init python:
 screen music_room:
 
     tag menu
+    add "white"
+    use navigation
 
-    frame:
-        has vbox
+    # The buttons that play each track.
+    imagebutton auto "ui/jukebox/age_%s.png" xpos 20 ypos 150 focus_mask None action jukebox.Play("music/Age of Transition - Intro.ogg")
+    imagebutton auto "ui/jukebox/departure_%s.png" xpos 20 ypos 250 focus_mask None action jukebox.Play("music/Departure.ogg")
+    imagebutton auto "ui/jukebox/emmeline_%s.png" xpos 20 ypos 350 focus_mask None action jukebox.Play("music/Emmeline's Ballad Rework.mp3")
+    imagebutton auto "ui/jukebox/friends_%s.png" xpos 20 ypos 450 focus_mask None action jukebox.Play("music/Friends Old and New Loop.ogg")
+    imagebutton auto "ui/jukebox/lullaby_%s.png" xpos 20 ypos 550 focus_mask None action jukebox.Play("music/Lullaby for Cedar, Maine - Intro.ogg")
+    imagebutton auto "ui/jukebox/snowy_%s.png" xpos 20 ypos 650 focus_mask None action jukebox.Play("music/Snowy Night - Intro.ogg")
+    imagebutton auto "ui/jukebox/theme_%s.png" xpos 20 ypos 750 focus_mask None action jukebox.Play("music/Theme for a Wanderer Rework.mp3")
+    imagebutton auto "ui/jukebox/written_%s.png" xpos 20 ypos 850 focus_mask None action jukebox.Play("music/Written to Memory - Intro.ogg")
 
-        # The buttons that play each track.
-        textbutton "Age of Transition" action jukebox.Play("music/Age of Transition - Intro.ogg")
-        textbutton "Departure" action jukebox.Play("music/Departure.ogg")
-        textbutton "Emmeline's Ballad" action jukebox.Play("music/Emmeline's Ballad Rework.mp3")
-        textbutton "Friends Old and New" action jukebox.Play("music/Friends Old and New Loop.ogg")
-        textbutton "Lullaby for Cedar, Maine" action jukebox.Play("music/Lullaby for Cedar, Maine - Intro.ogg")
-        textbutton "Snowy Night" action jukebox.Play("music/Snowy Night - Intro.ogg")
-        textbutton "Theme for a Wanderer" action jukebox.Play("music/Theme for a Wanderer Rework.mp3")
-        textbutton "Written to Memory" action jukebox.Play("music/Written to Memory - Intro.ogg")
-
-        null height 20
-
-        # Buttons that let us advance tracks.
-        textbutton "Next" action jukebox.Next()
-        textbutton "Previous" action jukebox.Previous()
-        textbutton "Shuffle" action jukebox.RandomPlay()
-
-        null height 20
-
-        # The button that lets the user exit the music room.
-        textbutton "Main Menu" action ShowMenu("main_menu")
+    # Buttons that let us advance tracks.
+    textbutton "Next" action jukebox.Next()
+    textbutton "Previous" action jukebox.Previous()
+    textbutton "Stop" action jukebox.Stop()
+    textbutton "Shuffle" action jukebox.RandomPlay()
 
     # Start the music playing on entry to the music room.
     on "replace" action jukebox.Play()
 
     # Restore the main menu music upon leaving.
-    on "replaced" action Play("music", "track1.ogg")
+    on "replaced" action Play("music", "music/Departure.ogg")
 
 ##############################################################################
 # Navigation
