@@ -145,7 +145,7 @@ init -1 python hide:
 
     ## The default size of text.
 
-    style.default.size = 36
+    style.default.size = 32
 
     ## Note that these only change the size of some of the text. Other
     ## buttons have their own styles.
@@ -275,7 +275,7 @@ init -1 python hide:
 
     ## Should we start in fullscreen mode?
 
-    config.default_fullscreen = True
+    config.default_fullscreen = False
 
     ## The default text speed in characters per second. 0 is infinite.
 
@@ -345,7 +345,7 @@ init python:
 
     # build.classify('game/**.png', 'archive')
     # build.classify('game/**.jpg', 'archive')
-    # Echo4Life <3
+
     ## Files matching documentation patterns are duplicated in a mac app
     ## build, so they appear in both the app and the zip file.
 
