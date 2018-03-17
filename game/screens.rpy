@@ -190,48 +190,189 @@ screen main_menu():
    imagebutton auto "ui/main/prefs_%s.png" xpos 0 ypos 747 focus_mask None action ShowMenu('preferences') at from_left
    imagebutton auto "ui/main/credits_%s.png" xpos 0 ypos 856 focus_mask None action Start("credits") at from_left
    imagebutton auto "ui/main/quit_%s.png" xpos 0 ypos 970 focus_mask None action Quit(confirm=False) at from_left
+   textbutton "Gallery" action ShowMenu("gallery_bg1")
    # Adds the image as the final thing on the screen.
    add "ui/main/overlay.png"
 
 init -2:
     # Defines transform properties to make images move.
+    transform fade_in:
+        alpha 0.0
+        linear 1 alpha 1.0
     transform from_left:
         alpha 0.0 xpos -500
-        linear 2.5 alpha 1.0 xpos 0
+        linear 1 alpha 1.0 xpos 0
     transform from_right:
         alpha 0.0 xpos 2420
-        linear 2.5 alpha 1.0 xpos 1920
+        linear 1 alpha 1.0 xpos 1920
     transform from_top:
         alpha 0.0 ypos -1100
-        pause 2.5
-        linear 2.5 alpha 1.0 ypos 0
+        pause 1.5
+        linear 1 alpha 1.0 ypos 0
     transform from_bottom:
         alpha 0.0 ypos 2200
-        pause 2.5
-        linear 2.5 alpha 1.0 ypos 1080
+        pause 1.5
+        linear 1 alpha 1.0 ypos 1080
     transform from_bottom2:
         alpha 0.0 ypos 1080
-        easein 2.5 alpha 1.0 ypos 0
+        easein 1 alpha 1.0 ypos 0
     transform from_left2:
         alpha 0.0 xpos -500
-        pause 2.5
-        linear 2.5 alpha 1.0 xpos 0
+        pause 1.5
+        linear 1 alpha 1.0 xpos 0
     transform from_right2:
         alpha 0.0 xpos 2420
-        pause 2.5
-        linear 2.5 alpha 1.0 xpos 1920
+        pause 1.5
+        linear 1 alpha 1.0 xpos 1920
     transform effect1:
         alpha 0.0
-        pause 2.5
-        linear 2.5 alpha 1.0
+        linear 1 alpha 1.0
     transform from_top2:
         alpha 0.0 ypos -300
-        linear 2.5 alpha 1.0 ypos 0
+        linear 1 alpha 1.0 ypos 0
     transform from_bottom3:
         alpha 0.0 ypos 1300
-        linear 2.5 alpha 1.0 ypos 1080
+        linear 1 alpha 1.0 ypos 1080
     # alpha 0 > 1 is just a fadein, linear & easein are just the time taken for the effect to occur. First line of each transform defines the starting state and then the second is the final state.
+
+##############################################################################
+# Gallery Menu
+#
+# Screen that's used to display the gallery menu
+# https://www.renpy.org/doc/html/rooms.html
+# Testing organization webhook
+init python:
+
+    # Step 1. Create the gallery object.
+    g = Gallery()
+
+    # Step 2. Add buttons and images to the gallery.
+    # A button that contains an image that automatically unlocks.
+    g.button("bg1")
+    g.display("bg/bar_filter_day_final.png")
     
+    # A button that contains an image that automatically unlocks.
+    g.button("bg2")
+    g.display("bg/bar_filter_night_final.png")
+    
+    # A button that contains an image that automatically unlocks.
+    g.button("bg3")
+    g.display("bg/mainehighway_1.png")
+    
+    # A button that contains an image that automatically unlocks.
+    g.button("bg4")
+    g.display("bg/snow_bench.png")
+    
+    # A button that contains an image that automatically unlocks.
+    g.button("bg5")
+    g.display("bg/stage_filter_final.png")
+    
+    # A button that contains an image that automatically unlocks.
+    g.button("bg6")
+    g.display("bg/summer forest.png")
+    
+    # A button that contains an image that automatically unlocks.
+    g.button("bg7")
+    g.display("bg/town_filter_final.png")
+    
+    # A button that contains an image that automatically unlocks.
+    g.button("bg8")
+    g.display("bg/wine_closet.png")
+    
+    # A button that contains an image that automatically unlocks.
+    g.button("bg9")
+    g.display("bg/winter forest night revised.png")
+    
+    # A button that contains an image that automatically unlocks.
+    g.button("bg10")
+    g.display("bg/winter park night.png")
+    
+    # A button that contains an image that automatically unlocks.
+    g.button("bg11")
+    g.display("bg/winter_path_filter_final.png")
+
+    # This button has a condition associated with it, allowing the game
+    # to choose which images unlock.
+    g.button("art1")
+    # g.condition("persistent.gallery_unlock_1")
+    g.image("cg/InstantRiot1.jpg")
+    g.display("cg/InstantRiot1.jpg")
+    
+    # This button has a condition associated with it, allowing the game
+    # to choose which images unlock.
+    g.button("art2")
+    # g.condition("persistent.gallery_unlock_2")
+    g.image("cg/mm.jpg")
+    g.display("cg/mm.jpg")
+    
+    # A button that contains an image that automatically unlocks.
+    g.button("empty")
+    # g.display("cg/grey.jpg")
+
+    # The transition used when switching images.
+    g.transition = dissolve
+    
+    gallery_rows = 3
+    gallery_columns = 3
+    
+    #Thumbnail size
+    thumbnail_x_size = 540
+    thumbnail_y_size = 302
+
+# Step 3. The gallery screen we use.
+screen gallery_bg1:
+
+    tag menu
+    add "white"
+    use navigation
+
+    frame background None xpos 50 at fade_in:
+        grid gallery_rows gallery_columns:
+
+            # Call make_button to show a particular button.
+            add g.make_button("bg1", im.Scale("bg/bar_filter_day_final.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
+            add g.make_button("bg2", im.Scale("bg/bar_filter_night_final.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
+            add g.make_button("bg3", im.Scale("bg/mainehighway_1.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
+
+            add g.make_button("bg4", im.Scale("bg/snow_bench.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
+            add g.make_button("bg5", im.Scale("bg/stage_filter_final.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
+            add g.make_button("bg6", im.Scale("bg/summer forest.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
+
+            add g.make_button("bg7", im.Scale("bg/town_filter_final.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
+            add g.make_button("bg8", im.Scale("bg/wine_closet.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
+            add g.make_button("bg9", im.Scale("bg/winter forest night revised.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
+            
+    textbutton "Next Page" action ShowMenu("gallery_bg2") xpos 20 ypos 1040
+            
+            # The screen is responsible for returning to the main menu. It could also
+            # navigate to other gallery screens.
+            # textbutton "Return" action Return() xalign 0.5 yalign 0.5
+            
+
+screen gallery_bg2:
+
+    tag menu
+    add "white"
+    use navigation
+
+    frame background None xpos 50 at fade_in:
+        grid gallery_rows gallery_columns:
+
+            # Call make_button to show a particular button.
+            add g.make_button("bg10", im.Scale("bg/winter park night.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
+            add g.make_button("bg11", im.Scale("bg/winter_path_filter_final.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
+            add g.make_button("art1", im.Scale("cg/InstantRiot1.jpg", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
+
+            add g.make_button("art2", im.Scale("cg/mm.jpg", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
+            add g.make_button("empty", im.Scale("cg/grey.jpg", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
+            add g.make_button("empty", im.Scale("cg/grey.jpg", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
+            
+            add g.make_button("empty", im.Scale("cg/grey.jpg", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
+            add g.make_button("empty", im.Scale("cg/grey.jpg", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
+            add g.make_button("empty", im.Scale("cg/grey.jpg", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
+            
+    textbutton "Previous Page" action ShowMenu("gallery_bg1") xpos 20 ypos 1040
+        
 ##############################################################################
 # Navigation
 #
@@ -245,6 +386,7 @@ screen navigation():
     imagebutton auto "ui/navigation/prefs_%s.png" xpos 1152 ypos 972 focus_mask None action ShowMenu('preferences') at effect1
     imagebutton auto "ui/navigation/title_%s.png" xpos 1462 ypos 972 focus_mask None action MainMenu() at effect1
     imagebutton auto "ui/navigation/quit_%s.png" xpos 1652 ypos 972 focus_mask None action Quit() at effect1
+    
 ##############################################################################
 # Save, Load
 #
