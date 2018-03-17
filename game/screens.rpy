@@ -416,10 +416,11 @@ screen music_room:
     add "ui/gallery/divider.png" xpos 0 ypos 945 at effect1
     
     # Buttons that let us advance tracks.
-    # textbutton "Next" action jukebox.Next()
-    # textbutton "Previous" action jukebox.Previous()
-    # textbutton "Stop" action jukebox.Stop()
-    # textbutton "Shuffle" action jukebox.RandomPlay()
+    add "ui/jukebox/options.png" xpos 1449 ypos 20 at effect1
+    imagebutton auto "ui/jukebox/next_%s.png" xpos 1531 ypos 120 focus_mask None action jukebox.Next()
+    imagebutton auto "ui/jukebox/previous_%s.png" xpos 1531 ypos 220 focus_mask None action jukebox.Previous()
+    imagebutton auto "ui/jukebox/stop_%s.png" xpos 1531 ypos 320 focus_mask None action jukebox.Stop()
+    imagebutton auto "ui/jukebox/shuffle_%s.png" xpos 1531 ypos 420 focus_mask None action jukebox.RandomPlay()
 
     # Start the music playing on entry to the music room.
     on "replace" action jukebox.Play()
