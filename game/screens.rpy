@@ -295,14 +295,12 @@ init python:
     # to choose which images unlock.
     g.button("art1")
     # g.condition("persistent.gallery_unlock_1")
-    g.image("cg/InstantRiot1.png")
     g.display("cg/InstantRiot1.png")
     
     # This button has a condition associated with it, allowing the game
     # to choose which images unlock.
     g.button("art2")
     # g.condition("persistent.gallery_unlock_2")
-    g.image("cg/mm.jpg")
     g.display("cg/mm.jpg")
     
     # A button that contains an image that automatically unlocks.
