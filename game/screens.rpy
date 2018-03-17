@@ -191,6 +191,7 @@ screen main_menu():
    imagebutton auto "ui/main/prefs_%s.png" xpos 0 ypos 747 focus_mask None action ShowMenu('preferences') at from_left
    imagebutton auto "ui/main/credits_%s.png" xpos 0 ypos 856 focus_mask None action Start("credits") at from_left
    imagebutton auto "ui/main/quit_%s.png" xpos 0 ypos 970 focus_mask None action Quit(confirm=False) at from_left
+   textbutton "Music Room" action ShowMenu("music_room")
    # Adds the image as the final thing on the screen.
    add "ui/main/overlay.png"
 
@@ -242,9 +243,8 @@ init -2:
 ##############################################################################
 # Gallery Menu
 #
-# Screen that's used to display the gallery menu
+# Screens that are used to display the gallery menu
 # https://www.renpy.org/doc/html/rooms.html
-# Testing organization webhook
 init python:
 
     # Step 1. Create the gallery object.
@@ -375,7 +375,63 @@ screen gallery_bg2:
     add "ui/gallery/grid_divider.png" xpos 1236 ypos 0 at effect1
     add "ui/gallery/divider.png" xpos 0 ypos 945 at effect1
     imagebutton auto "ui/gallery/previous_%s.png" xpos 20 ypos 972 focus_mask None action ShowMenu("gallery_bg1") at effect1
-        
+
+##############################################################################
+# Music Menu
+#
+# Screen that's used to display the music menu
+# https://www.renpy.org/doc/html/rooms.html
+init python:
+
+    # Step 1. Create a MusicRoom instance.
+    jukebox = MusicRoom(channel=u'music', fadeout=1.0)
+
+    # Step 2. Add music files.
+    jukebox.add("music/Age of Transition - Intro.ogg", always_unlocked=True)
+    jukebox.add("music/Departure.ogg", always_unlocked=True)
+    jukebox.add("music/Emmeline's Ballad Rework.mp3", always_unlocked=True)
+    jukebox.add("music/Friends Old and New Loop.ogg", always_unlocked=True)
+    jukebox.add("music/Lullaby for Cedar, Maine - Intro.ogg", always_unlocked=True)
+    jukebox.add("music/Snowy Night - Intro.ogg", always_unlocked=True)
+    jukebox.add("music/Theme for a Wanderer Rework.mp3", always_unlocked=True)
+    jukebox.add("music/Written to Memory - Intro.ogg", always_unlocked=True)
+
+# Step 3. Create the music room screen.
+screen music_room:
+
+    tag menu
+
+    frame:
+        has vbox
+
+        # The buttons that play each track.
+        textbutton "Age of Transition" action jukebox.Play("music/Age of Transition - Intro.ogg")
+        textbutton "Departure" action jukebox.Play("music/Departure.ogg")
+        textbutton "Emmeline's Ballad" action jukebox.Play("music/Emmeline's Ballad Rework.mp3")
+        textbutton "Friends Old and New" action jukebox.Play("music/Friends Old and New Loop.ogg")
+        textbutton "Lullaby for Cedar, Maine" action jukebox.Play("music/Lullaby for Cedar, Maine - Intro.ogg")
+        textbutton "Snowy Night" action jukebox.Play("music/Snowy Night - Intro.ogg")
+        textbutton "Theme for a Wanderer" action jukebox.Play("music/Theme for a Wanderer Rework.mp3")
+        textbutton "Written to Memory" action jukebox.Play("music/Written to Memory - Intro.ogg")
+
+        null height 20
+
+        # Buttons that let us advance tracks.
+        textbutton "Next" action jukebox.Next()
+        textbutton "Previous" action jukebox.Previous()
+        textbutton "Shuffle" action jukebox.RandomPlay()
+
+        null height 20
+
+        # The button that lets the user exit the music room.
+        textbutton "Main Menu" action ShowMenu("main_menu")
+
+    # Start the music playing on entry to the music room.
+    on "replace" action jukebox.Play()
+
+    # Restore the main menu music upon leaving.
+    on "replaced" action Play("music", "track1.ogg")
+
 ##############################################################################
 # Navigation
 #
