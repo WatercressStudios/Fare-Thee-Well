@@ -185,13 +185,13 @@ screen main_menu():
    add "ui/main/lines_left.png" at from_top
    add "ui/main/lines_right.png" xanchor 1.0 yanchor 1.0 xpos 1920 at from_bottom
    # Imagebuttons, 'Auto' tells it to use both idle and hover states. Focus masks is something to do with the alpha properties but IDK off the top of my head.
-   imagebutton auto "ui/main/start_%s.png" xpos 0 ypos 415 focus_mask None action Start() at from_left
-   imagebutton auto "ui/main/load_%s.png" xpos 0 ypos 529 focus_mask None action ShowMenu('load') at from_left
-   imagebutton auto "ui/main/gallery_%s.png" xpos 0 ypos 638 focus_mask None action ShowMenu('gallery_bg1') at from_left
+   imagebutton auto "ui/main/start_%s.png" xpos 0 ypos 306 focus_mask None action Start() at from_left
+   imagebutton auto "ui/main/load_%s.png" xpos 0 ypos 415 focus_mask None action ShowMenu('load') at from_left
+   imagebutton auto "ui/main/gallery_%s.png" xpos 0 ypos 529 focus_mask None action ShowMenu('gallery_bg1') at from_left
+   imagebutton auto "ui/main/jukebox_%s.png" xpos 0 ypos 638 focus_mask None action ShowMenu('music_room') at from_left
    imagebutton auto "ui/main/prefs_%s.png" xpos 0 ypos 747 focus_mask None action ShowMenu('preferences') at from_left
    imagebutton auto "ui/main/credits_%s.png" xpos 0 ypos 856 focus_mask None action Start("credits") at from_left
    imagebutton auto "ui/main/quit_%s.png" xpos 0 ypos 970 focus_mask None action Quit(confirm=False) at from_left
-   textbutton "Music Room" action ShowMenu("music_room")
    # Adds the image as the final thing on the screen.
    add "ui/main/overlay.png"
 
@@ -238,6 +238,9 @@ init -2:
         alpha 0.0 xpos -1920
         pause 1.5
         linear 1 alpha 1.0 ypos 945
+    transform rotate_pic:
+        alpha 0.0 rotate -10.0
+        linear 4 alpha 1.0
     # alpha 0 > 1 is just a fadein, linear & easein are just the time taken for the effect to occur. First line of each transform defines the starting state and then the second is the final state.
 
 ##############################################################################
@@ -404,24 +407,38 @@ screen music_room:
     use navigation
 
     # The buttons that play each track.
-    add "ui/jukebox/tracklist.png" xpos 30 ypos 20 at effect1
-    imagebutton auto "ui/jukebox/age_%s.png" xpos 30 ypos 120 focus_mask None action jukebox.Play("music/Age of Transition - Intro.ogg")
-    imagebutton auto "ui/jukebox/departure_%s.png" xpos 30 ypos 220 focus_mask None action jukebox.Play("music/Departure.ogg")
-    imagebutton auto "ui/jukebox/emmeline_%s.png" xpos 30 ypos 320 focus_mask None action jukebox.Play("music/Emmeline's Ballad Rework.mp3")
-    imagebutton auto "ui/jukebox/friends_%s.png" xpos 30 ypos 420 focus_mask None action jukebox.Play("music/Friends Old and New Loop.ogg")
-    imagebutton auto "ui/jukebox/lullaby_%s.png" xpos 30 ypos 520 focus_mask None action jukebox.Play("music/Lullaby for Cedar, Maine - Intro.ogg")
-    imagebutton auto "ui/jukebox/snowy_%s.png" xpos 30 ypos 620 focus_mask None action jukebox.Play("music/Snowy Night - Intro.ogg")
-    imagebutton auto "ui/jukebox/theme_%s.png" xpos 30 ypos 720 focus_mask None action jukebox.Play("music/Theme for a Wanderer Rework.mp3")
-    imagebutton auto "ui/jukebox/written_%s.png" xpos 30 ypos 820 focus_mask None action jukebox.Play("music/Written to Memory - Intro.ogg")
-    add "ui/gallery/divider.png" xpos 0 ypos 945 at effect1
+    add "ui/jukebox/tracklist.png" xpos 40 ypos 20 at effect1
+    imagebutton auto "ui/jukebox/age_%s.png" xpos 40 ypos 120 focus_mask None action jukebox.Play("music/Age of Transition - Intro.ogg")
+    imagebutton auto "ui/jukebox/departure_%s.png" xpos 40 ypos 220 focus_mask None action jukebox.Play("music/Departure.ogg")
+    imagebutton auto "ui/jukebox/emmeline_%s.png" xpos 40 ypos 320 focus_mask None action jukebox.Play("music/Emmeline's Ballad Rework.mp3")
+    imagebutton auto "ui/jukebox/friends_%s.png" xpos 40 ypos 420 focus_mask None action jukebox.Play("music/Friends Old and New Loop.ogg")
+    imagebutton auto "ui/jukebox/lullaby_%s.png" xpos 40 ypos 520 focus_mask None action jukebox.Play("music/Lullaby for Cedar, Maine - Intro.ogg")
+    imagebutton auto "ui/jukebox/snowy_%s.png" xpos 40 ypos 620 focus_mask None action jukebox.Play("music/Snowy Night - Intro.ogg")
+    imagebutton auto "ui/jukebox/theme_%s.png" xpos 40 ypos 720 focus_mask None action jukebox.Play("music/Theme for a Wanderer Rework.mp3")
+    imagebutton auto "ui/jukebox/written_%s.png" xpos 40 ypos 820 focus_mask None action jukebox.Play("music/Written to Memory - Intro.ogg")
     
     # Buttons that let us advance tracks.
-    add "ui/jukebox/options.png" xpos 1449 ypos 20 at effect1
-    imagebutton auto "ui/jukebox/next_%s.png" xpos 1531 ypos 120 focus_mask None action jukebox.Next()
-    imagebutton auto "ui/jukebox/previous_%s.png" xpos 1531 ypos 220 focus_mask None action jukebox.Previous()
-    imagebutton auto "ui/jukebox/stop_%s.png" xpos 1531 ypos 320 focus_mask None action jukebox.Stop()
-    imagebutton auto "ui/jukebox/shuffle_%s.png" xpos 1531 ypos 420 focus_mask None action jukebox.RandomPlay()
-
+    add "ui/jukebox/options.png" xpos 1459 ypos 20 at effect1
+    imagebutton auto "ui/jukebox/next_%s.png" xpos 1541 ypos 120 focus_mask None action jukebox.Next()
+    imagebutton auto "ui/jukebox/previous_%s.png" xpos 1541 ypos 220 focus_mask None action jukebox.Previous()
+    imagebutton auto "ui/jukebox/stop_%s.png" xpos 1541 ypos 320 focus_mask None action jukebox.Stop()
+    imagebutton auto "ui/jukebox/shuffle_%s.png" xpos 1541 ypos 420 focus_mask None action jukebox.RandomPlay()
+    
+    add "ui/jukebox/volume_header.png" xpos 1400 ypos 740 at effect1
+    frame xpos 1209 ypos 820:
+        style_group "pref"
+        has vbox
+        bar value Preference("music volume")
+        at effect1
+        
+    add "ui/jukebox/left_divider.png" xpos 0 ypos 88 at effect1
+    add "ui/jukebox/right_divider.png" xpos 1170 ypos 88 at effect1
+    add "ui/jukebox/vertical_divider.png" xpos 20 ypos 0 at effect1
+    add "ui/jukebox/vertical_divider.png" xpos 1900 ypos 0 at effect1
+    add "ui/gallery/divider.png" xpos 0 ypos 945 at effect1
+    
+    add "ui/jukebox/pic.png" xpos 545 ypos 0 at rotate_pic
+    
     # Start the music playing on entry to the music room.
     on "replace" action jukebox.Play()
 
