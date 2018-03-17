@@ -185,12 +185,12 @@ screen main_menu():
    add "ui/main/lines_left.png" at from_top
    add "ui/main/lines_right.png" xanchor 1.0 yanchor 1.0 xpos 1920 at from_bottom
    # Imagebuttons, 'Auto' tells it to use both idle and hover states. Focus masks is something to do with the alpha properties but IDK off the top of my head.
-   imagebutton auto "ui/main/start_%s.png" xpos 0 ypos 529 focus_mask None action Start() at from_left
-   imagebutton auto "ui/main/load_%s.png" xpos 0 ypos 638 focus_mask None action ShowMenu('load') at from_left
+   imagebutton auto "ui/main/start_%s.png" xpos 0 ypos 415 focus_mask None action Start() at from_left
+   imagebutton auto "ui/main/load_%s.png" xpos 0 ypos 529 focus_mask None action ShowMenu('load') at from_left
+   imagebutton auto "ui/main/gallery_%s.png" xpos 0 ypos 638 focus_mask None action ShowMenu('gallery_bg1') at from_left
    imagebutton auto "ui/main/prefs_%s.png" xpos 0 ypos 747 focus_mask None action ShowMenu('preferences') at from_left
    imagebutton auto "ui/main/credits_%s.png" xpos 0 ypos 856 focus_mask None action Start("credits") at from_left
    imagebutton auto "ui/main/quit_%s.png" xpos 0 ypos 970 focus_mask None action Quit(confirm=False) at from_left
-   textbutton "Gallery" action ShowMenu("gallery_bg1")
    # Adds the image as the final thing on the screen.
    add "ui/main/overlay.png"
 
@@ -233,6 +233,10 @@ init -2:
     transform from_bottom3:
         alpha 0.0 ypos 1300
         linear 1 alpha 1.0 ypos 1080
+    transform gallery_slide:
+        alpha 0.0 xpos -1920
+        pause 1.5
+        linear 1 alpha 1.0 ypos 945
     # alpha 0 > 1 is just a fadein, linear & easein are just the time taken for the effect to occur. First line of each transform defines the starting state and then the second is the final state.
 
 ##############################################################################
@@ -324,7 +328,7 @@ screen gallery_bg1:
     add "white"
     use navigation
 
-    frame background None xpos 50 at fade_in:
+    frame background None xpos 100 at fade_in:
         grid gallery_rows gallery_columns:
 
             # Call make_button to show a particular button.
@@ -339,21 +343,19 @@ screen gallery_bg1:
             add g.make_button("bg7", im.Scale("bg/town_filter_final.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
             add g.make_button("bg8", im.Scale("bg/wine_closet.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
             add g.make_button("bg9", im.Scale("bg/winter forest night revised.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
+    
+    add "ui/gallery/grid_divider.png" xpos 670 ypos 0 at effect1
+    add "ui/gallery/grid_divider.png" xpos 1236 ypos 0 at effect1
+    add "ui/gallery/divider.png" xpos 0 ypos 945 at effect1
+    imagebutton auto "ui/gallery/next_%s.png" xpos 20 ypos 972 focus_mask None action ShowMenu("gallery_bg2") at effect1
             
-    textbutton "Next Page" action ShowMenu("gallery_bg2") xpos 20 ypos 1040
-            
-            # The screen is responsible for returning to the main menu. It could also
-            # navigate to other gallery screens.
-            # textbutton "Return" action Return() xalign 0.5 yalign 0.5
-            
-
 screen gallery_bg2:
 
     tag menu
     add "white"
     use navigation
 
-    frame background None xpos 50 at fade_in:
+    frame background None xpos 100 at fade_in:
         grid gallery_rows gallery_columns:
 
             # Call make_button to show a particular button.
@@ -369,7 +371,10 @@ screen gallery_bg2:
             add g.make_button("empty", im.Scale("cg/grey.jpg", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
             add g.make_button("empty", im.Scale("cg/grey.jpg", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None)
             
-    textbutton "Previous Page" action ShowMenu("gallery_bg1") xpos 20 ypos 1040
+    add "ui/gallery/grid_divider.png" xpos 670 ypos 0 at effect1
+    add "ui/gallery/grid_divider.png" xpos 1236 ypos 0 at effect1
+    add "ui/gallery/divider.png" xpos 0 ypos 945 at effect1
+    imagebutton auto "ui/gallery/previous_%s.png" xpos 20 ypos 972 focus_mask None action ShowMenu("gallery_bg1") at effect1
         
 ##############################################################################
 # Navigation
