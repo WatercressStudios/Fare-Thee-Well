@@ -404,20 +404,22 @@ screen music_room:
     use navigation
 
     # The buttons that play each track.
-    imagebutton auto "ui/jukebox/age_%s.png" xpos 20 ypos 150 focus_mask None action jukebox.Play("music/Age of Transition - Intro.ogg")
-    imagebutton auto "ui/jukebox/departure_%s.png" xpos 20 ypos 250 focus_mask None action jukebox.Play("music/Departure.ogg")
-    imagebutton auto "ui/jukebox/emmeline_%s.png" xpos 20 ypos 350 focus_mask None action jukebox.Play("music/Emmeline's Ballad Rework.mp3")
-    imagebutton auto "ui/jukebox/friends_%s.png" xpos 20 ypos 450 focus_mask None action jukebox.Play("music/Friends Old and New Loop.ogg")
-    imagebutton auto "ui/jukebox/lullaby_%s.png" xpos 20 ypos 550 focus_mask None action jukebox.Play("music/Lullaby for Cedar, Maine - Intro.ogg")
-    imagebutton auto "ui/jukebox/snowy_%s.png" xpos 20 ypos 650 focus_mask None action jukebox.Play("music/Snowy Night - Intro.ogg")
-    imagebutton auto "ui/jukebox/theme_%s.png" xpos 20 ypos 750 focus_mask None action jukebox.Play("music/Theme for a Wanderer Rework.mp3")
-    imagebutton auto "ui/jukebox/written_%s.png" xpos 20 ypos 850 focus_mask None action jukebox.Play("music/Written to Memory - Intro.ogg")
-
+    add "ui/jukebox/tracklist.png" xpos 30 ypos 20 at effect1
+    imagebutton auto "ui/jukebox/age_%s.png" xpos 30 ypos 120 focus_mask None action jukebox.Play("music/Age of Transition - Intro.ogg")
+    imagebutton auto "ui/jukebox/departure_%s.png" xpos 30 ypos 220 focus_mask None action jukebox.Play("music/Departure.ogg")
+    imagebutton auto "ui/jukebox/emmeline_%s.png" xpos 30 ypos 320 focus_mask None action jukebox.Play("music/Emmeline's Ballad Rework.mp3")
+    imagebutton auto "ui/jukebox/friends_%s.png" xpos 30 ypos 420 focus_mask None action jukebox.Play("music/Friends Old and New Loop.ogg")
+    imagebutton auto "ui/jukebox/lullaby_%s.png" xpos 30 ypos 520 focus_mask None action jukebox.Play("music/Lullaby for Cedar, Maine - Intro.ogg")
+    imagebutton auto "ui/jukebox/snowy_%s.png" xpos 30 ypos 620 focus_mask None action jukebox.Play("music/Snowy Night - Intro.ogg")
+    imagebutton auto "ui/jukebox/theme_%s.png" xpos 30 ypos 720 focus_mask None action jukebox.Play("music/Theme for a Wanderer Rework.mp3")
+    imagebutton auto "ui/jukebox/written_%s.png" xpos 30 ypos 820 focus_mask None action jukebox.Play("music/Written to Memory - Intro.ogg")
+    add "ui/gallery/divider.png" xpos 0 ypos 945 at effect1
+    
     # Buttons that let us advance tracks.
-    textbutton "Next" action jukebox.Next()
-    textbutton "Previous" action jukebox.Previous()
-    textbutton "Stop" action jukebox.Stop()
-    textbutton "Shuffle" action jukebox.RandomPlay()
+    # textbutton "Next" action jukebox.Next()
+    # textbutton "Previous" action jukebox.Previous()
+    # textbutton "Stop" action jukebox.Stop()
+    # textbutton "Shuffle" action jukebox.RandomPlay()
 
     # Start the music playing on entry to the music room.
     on "replace" action jukebox.Play()
