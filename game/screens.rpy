@@ -226,7 +226,6 @@ init -2:
         linear 1 alpha 1.0 xpos 1920
     transform effect1:
         alpha 0.0
-        pause 1.5
         linear 1 alpha 1.0
     transform from_top2:
         alpha 0.0 ypos -300
@@ -374,69 +373,6 @@ screen gallery_bg2:
             
     textbutton "Previous Page" action ShowMenu("gallery_bg1") xpos 20 ypos 1040
         
-#ds-sans code
-#init python:
-#    #List gallery images in the array
-#    gallery_cg_items = ["bg/winter_path_filter_final.png", "bg/town_filter_final.png", "bg/bar_filter_night_final.png", "bg/stage_filter_final.png",]
-#    #Rows and columns of the gallery
-#    gallery_rows = 2
-#    gallery_columns = 2
-#    #Thumbnail size
-#    thumbnail_x_size = 540
-#    thumbnail_y_size = 302
-#    
-#    gallery_cell_count = gallery_rows * gallery_columns
-#    #Gallery instance declaration
-#    g = Gallery()
-#    #Gallery property assignments
-#    for gallery_item in gallery_cg_items:
-#        g.button(gallery_item + " button")
-#        g.image(gallery_item)
-#        g.unlock(gallery_item)
-#        
-#    #For varients
-#    #if gallery_item == "cg4":
-#    #        g_cg.image("cg4b")
-#    #        g_cg.unlock("cg4b")
-#
-#    #Default cg transition
-#    g.transition = fade
-#    cg_page=0
-#
-##init +1 python:
-##    #Initialize thumbnails
-##    for gallery_item in gallery_cg_items:
-##        renpy.image (gallery_item + " button", im.Scale(ImageReference(gallery_item), thumbnail_x_size, thumbnail_y_size))
-##
-#screen gallery:
-#    tag menu
-#    add "white"
-#    use navigation
-#    frame background None xpos 50 at fade_in:
-#        grid gallery_rows gallery_columns:
-#            ypos 265
-#            $ i = 0
-#            $ next_cg_page = cg_page + 1            
-#            if next_cg_page > int(len(gallery_cg_items)/gallery_cell_count):
-#                $ next_cg_page = 0
-#            for gallery_item in gallery_cg_items:
-#                $ i += 1
-#                if i <= (cg_page+1)*gallery_cell_count and i>cg_page*gallery_cell_count:
-#                    add g.make_button(gallery_item + " button", gallery_item + " button", im.Scale("bg/wine_closet.png", thumbnail_x_size, thumbnail_y_size), xalign=0.5, yalign=0.5, idle_border=None, background=None, bottom_margin=80, right_margin=70)
-#            for j in range(i, (cg_page+1)*gallery_cell_count): #we need this to fully fill the grid
-#                null
-#                
-#    #Gallery unlocking persistents
-#    if persistent.cg1_unlocked == True:
-#        imagebutton auto "gui/ex/dm1_%s.png" xpos 352 ypos 580 focus_mask None action ShowMenu("bg/winter_path_filter_final.png") at fade_in
-#    if persistent.cg2_unlocked == True:
-#        imagebutton auto "gui/ex/dm1_%s.png" xpos 988 ypos 580 focus_mask None action ShowMenu("bg/town_filter_final.png") at fade_in
-#    if persistent.cg3_unlocked == True:
-#        imagebutton auto "gui/ex/dm1_%s.png" xpos 352 ypos 967 focus_mask None action ShowMenu("bg/bar_filter_night_final.png") at fade_in
-#    if persistent.cg4_unlocked == True:
-#        imagebutton auto "gui/ex/dm2_%s.png" xpos 977 ypos 962 focus_mask None action ShowMenu("bg/stage_filter_final.png") at fade_in
-#
-#
 ##############################################################################
 # Navigation
 #
