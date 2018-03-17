@@ -257,6 +257,11 @@ init -1 python hide:
 
     ## Used when the image is changed by a say statement with image attributes.
     config.say_attribute_transition = dissolve
+    
+    #########################################
+    ## Key Bindings.
+    config.keymap['hide_windows'].remove('mouseup_2')
+    config.keymap['hide_windows'].remove('h')
 
     #########################################
     ## This is the name of the directory where the game's data is
