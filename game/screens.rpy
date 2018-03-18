@@ -440,10 +440,10 @@ screen music_room:
     add "ui/jukebox/pic.png" xpos 545 ypos 0 at rotate_pic
     
     # Start the music playing on entry to the music room.
-    on "replace" action jukebox.Play()
+    # on "replace" action jukebox.Play()
 
     # Restore the main menu music upon leaving.
-    on "replaced" action Play("music", "music/Departure.ogg")
+    # on "replaced" action Play("music", "music/Departure.ogg")
 
 ##############################################################################
 # Navigation
