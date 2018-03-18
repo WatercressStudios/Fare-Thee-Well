@@ -387,7 +387,7 @@ screen gallery_bg2:
 init python:
 
     # Step 1. Create a MusicRoom instance.
-    jukebox = MusicRoom(channel=u'music', fadeout=1.0)
+    jukebox = MusicRoom(channel=u'music')
 
     # Step 2. Add music files.
     jukebox.add("music/Age of Transition - Intro.ogg", always_unlocked=True)
