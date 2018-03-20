@@ -24,6 +24,7 @@ init -1 python hide:
     # with tracebacks and other debugging logs.
     config.name = "Fare Thee Well"
     config.version = "0.0.3"
+    config.window_icon = "ui/icon.ico"
 
     #########################################
     # Themes
