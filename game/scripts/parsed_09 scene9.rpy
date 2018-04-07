@@ -36,7 +36,7 @@ label scene9:
     
     "She begins softly, her voice barely above a whisper."
     
-    play music "music/Emmeline's Ballad Rework.mp3" fadein 1.0
+    play music "music/BalladOfEmeline.ogg" fadein 1.0
     #queue music "music/Emmeline's Ballad - Loop.ogg"
         
     voice "C-9-1.mp3" #Rosa (Tiana Camacho)

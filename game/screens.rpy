@@ -390,13 +390,13 @@ init python:
     jukebox = MusicRoom(channel=u'music')
 
     # Step 2. Add music files.
-    jukebox.add("music/Age of Transition - Intro.ogg", always_unlocked=True)
+    jukebox.add("music/AgeOfTransition.ogg", always_unlocked=True)
     jukebox.add("music/Departure.ogg", always_unlocked=True)
-    jukebox.add("music/Emmeline's Ballad Rework.mp3", always_unlocked=True)
+    jukebox.add("music/BalladOfEmeline.ogg", always_unlocked=True)
     jukebox.add("music/Friends Old and New Loop.ogg", always_unlocked=True)
     jukebox.add("music/Lullaby for Cedar, Maine - Intro.ogg", always_unlocked=True)
     jukebox.add("music/Snowy Night - Intro.ogg", always_unlocked=True)
-    jukebox.add("music/Theme for a Wanderer Rework.mp3", always_unlocked=True)
+    jukebox.add("music/ThemeForAWanderer.ogg", always_unlocked=True)
     jukebox.add("music/Written to Memory - Intro.ogg", always_unlocked=True)
 
 # Step 3. Create the music room screen.
@@ -408,13 +408,13 @@ screen music_room:
 
     # The buttons that play each track.
     add "ui/jukebox/tracklist.png" xpos 40 ypos 20 at effect1
-    imagebutton auto "ui/jukebox/age_%s.png" xpos 40 ypos 120 focus_mask None action jukebox.Play("music/Age of Transition - Intro.ogg")
+    imagebutton auto "ui/jukebox/age_%s.png" xpos 40 ypos 120 focus_mask None action jukebox.Play("music/AgeOfTransition.ogg")
     imagebutton auto "ui/jukebox/departure_%s.png" xpos 40 ypos 220 focus_mask None action jukebox.Play("music/Departure.ogg")
-    imagebutton auto "ui/jukebox/emmeline_%s.png" xpos 40 ypos 320 focus_mask None action jukebox.Play("music/Emmeline's Ballad Rework.mp3")
+    imagebutton auto "ui/jukebox/emmeline_%s.png" xpos 40 ypos 320 focus_mask None action jukebox.Play("music/BalladOfEmeline.ogg")
     imagebutton auto "ui/jukebox/friends_%s.png" xpos 40 ypos 420 focus_mask None action jukebox.Play("music/Friends Old and New Loop.ogg")
     imagebutton auto "ui/jukebox/lullaby_%s.png" xpos 40 ypos 520 focus_mask None action jukebox.Play("music/Lullaby for Cedar, Maine - Intro.ogg")
     imagebutton auto "ui/jukebox/snowy_%s.png" xpos 40 ypos 620 focus_mask None action jukebox.Play("music/Snowy Night - Intro.ogg")
-    imagebutton auto "ui/jukebox/theme_%s.png" xpos 40 ypos 720 focus_mask None action jukebox.Play("music/Theme for a Wanderer Rework.mp3")
+    imagebutton auto "ui/jukebox/theme_%s.png" xpos 40 ypos 720 focus_mask None action jukebox.Play("music/ThemeForAWanderer.ogg")
     imagebutton auto "ui/jukebox/written_%s.png" xpos 40 ypos 820 focus_mask None action jukebox.Play("music/Written to Memory - Intro.ogg")
     
     # Buttons that let us advance tracks.

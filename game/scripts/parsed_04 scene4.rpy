@@ -27,8 +27,8 @@ label scene4:
     voice "C-4-7.mp3" #Wayfarer (Terrance Drye)
     wan "I figured."
     
-    play music "music/Age of Transition - Intro.ogg" fadein 1.0 loop
-    queue music "music/Age of Transition - Loop.ogg"
+    play music "music/AgeOfTransition.ogg" fadein 1.0 loop
+    #queue music "music/Age of Transition - Loop.ogg"
 
     voice "C-4-8.mp3" #Emmeline (Hayley Nelson)
     emm "They were livid. Engorged with rage. You'd think they were going to eat me, they were so angry."
@@ -258,7 +258,7 @@ label scene4:
     voice "C-4-69.mp3" #Emmeline (Hayley Nelson)
     emm "...If any of that makes sense to you."
 
-    play music "music/Theme for a Wanderer Rework.mp3" fadein 1.0 loop
+    play music "music/ThemeForAWanderer.ogg" fadein 1.0 loop
     #queue music "music/Theme for a Wanderer - Loop.ogg"
 
     "I try to assure her."

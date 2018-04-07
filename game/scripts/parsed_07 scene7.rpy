@@ -8,7 +8,7 @@ label scene7:
 
     scene black with fade
 
-    play music "music/Theme for a Wanderer Rework.mp3" fadein 1.0
+    play music "music/ThemeForAWanderer.ogg" fadein 1.0
     #queue music "music/Theme for a Wanderer - Loop.ogg"
     
     nvl clear
