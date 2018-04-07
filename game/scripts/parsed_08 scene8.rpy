@@ -319,8 +319,8 @@ label scene8:
 
     "The familiar smells of drafts, the atmosphere of the community, made of vagabonds and travelers, friends and families, of those with homes and of those who have yet to find theirs... the familiar sense of loneliness."
     
-    play music "music/Age of Transition - Intro.ogg" fadein 1.0
-    queue music "music/Age of Transition - Loop.ogg"
+    play music "music/AgeOfTransition.ogg" fadein 1.0
+    #queue music "music/Age of Transition - Loop.ogg"
     
     "Have I found my home? Is this my final resting place? Is this where I will eke out the rest of my existence, however long it may take me?"
 
